@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Feb 2024 21:43:05 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 09:13:59 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 21 Feb 2024 21:43:05 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Hello There</description>
+      <title>Hello There</title>
+      <link>http://localhost:1313/posts/hello-there/</link>
+      <pubDate>Thu, 22 Feb 2024 09:13:59 +0200</pubDate>
+      <guid>http://localhost:1313/posts/hello-there/</guid>
+      <description>An introduction</description>
     </item>
   </channel>
 </rss>
