@@ -1,14 +1,14 @@
 +++
 title = 'Hello There'
 date = 2024-02-22T09:13:59+02:00
-draft = true
+draft = false
 showToc = false
 TocOpen = false
 hidemeta = false
 comments = false
 description = "An introduction"
 canonicalURL = "https://canonical.url/to/page"
-disableShare = false
+disableShare = true
 disableHLJS = false
 hideSummary = true
 searchHidden = false
