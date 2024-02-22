@@ -1,6 +1,7 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
+categories = ["Words and stuff"]
 draft = true
 showToc = false
 TocOpen = false

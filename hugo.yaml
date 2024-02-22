@@ -107,9 +107,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Categories
-      name: Categories
-      url: /categories/
+    - identifier: About
+      name: About
+      url: /About/
       weight: 10
     - identifier: Posts
       name: Posts
