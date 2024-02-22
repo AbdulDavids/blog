@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Feb 2024 11:20:27 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Feb 2024 09:13:59 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>First Week</title>
-      <link>http://localhost:1313/posts/first-week/</link>
-      <pubDate>Thu, 22 Feb 2024 11:20:27 +0200</pubDate>
-      <guid>http://localhost:1313/posts/first-week/</guid>
-      <description>Compsci year 2 here we go!</description>
-    </item>
     <item>
       <title>Hello There</title>
       <link>http://localhost:1313/posts/hello-there/</link>
