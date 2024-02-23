@@ -24,6 +24,8 @@ Currently, I'm working as a Junior Software Engineer for [CodeInfinity](https://
 In my spare time I like to pursue silly projects and bad startup ideas. On weekends you'll find me crying, screaming and throwing up as Ferrari loses another chance at a championship. Next year will be our year though haha😅
 
 &nbsp;
+### About this Blog
+
 
 This blog is designed to be an outlet for random thoughts and rants I'll be sharing with the 2-3 people who'll actually stumble upon it (If you're a recruiter, this isnt how I am in real life I swear). I update my blog as much as my free time will alow me, and I treat my blogs as a candid place to express ideas. Basically just a brain dump of what I'm thinking at the time, and occasionally I'll write a high effort post.
 
@@ -38,6 +40,6 @@ All opinions expressed are my own, and no one elses (including, but especially m
 
 &nbsp;
 
-## Get in Touch
+### Get in Touch
 
 If you have any questions, want to correct my silly grammar/speling mistakes, or if you just want to say hi, feel free to email me at [abdulbaaridavids04@gmail.com](mailto:abdulbaaridavids04@gmail.com).
