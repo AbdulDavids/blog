@@ -110,15 +110,15 @@ menu:
     - identifier: About
       name: About
       url: /About/
-      weight: 10
+      weight: 30
     - identifier: Posts
       name: Posts
       url: /posts/
+      weight: 10
+    - identifier: Startup Ideas
+      name: Startup Ideas
+      url: /startup-ideas/
       weight: 20
-    - identifier: Github
-      name: Github
-      url: https://example.org
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
