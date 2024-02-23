@@ -14,11 +14,11 @@
     <lastBuildDate>Thu, 22 Feb 2024 09:13:59 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello There</title>
+      <title>An Introduction</title>
       <link>http://localhost:1313/posts/hello-there/</link>
       <pubDate>Thu, 22 Feb 2024 09:13:59 +0200</pubDate>
       <guid>http://localhost:1313/posts/hello-there/</guid>
-      <description>An introduction</description>
+      <description>An introduction to software engineering</description>
     </item>
     <item>
       <title>About</title>
@@ -26,6 +26,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>Some information about Abdul Baari</description>
+    </item>
+    <item>
+      <title>Start-up ideas</title>
+      <link>http://localhost:1313/startup-ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/startup-ideas/</guid>
+      <description>A collection of (possibly terrible) startup ideas</description>
     </item>
   </channel>
 </rss>
