@@ -43,12 +43,14 @@ After submitting my solutions, I was offered an internship position that include
 
 So my project was to work on an open-source lightweight routing and templating (not a) framework called [Tina4Python](https://github.com/tina4stack/tina4-python), which was based on a PHP framework called [Tina4](https://github.com/tina4stack/tina4-php). The basis for the system had been already completed by Andre and my task was to develop and implement new features in order to match the capabilities of the systems PHP equivalent. Sounds easy enough, I thought to myself. So I got to work on the first task which was to implement parameterized routing, which looks a bit like this: 
 
-    @get("/hello/{name}")
-    async def greet(**params):
+```python {lineos=true}
+@get("/hello/{name}")
+async def greet(**params):
    
-        name = params['name']
+    name = params['name']
    
-        return Response(f"Hello, {name}!")
+    return Response(f"Hello, {name}!")
+```
 
 So for example this code creates a route for a GET request to `/hello/{name}`, where `name` is a parameter in the URL. The function `greet` accepts this parameter and responds with a personalized greeting.
 
