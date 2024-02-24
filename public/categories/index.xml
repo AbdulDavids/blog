@@ -4,11 +4,6 @@
     <title>Categories on Abdul Baari Davids</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Abdul Baari Davids</description>
-    <image>
-      <title>Abdul Baari Davids</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />

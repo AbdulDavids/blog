@@ -2,6 +2,8 @@
 title: "About"
 Description: "Some information about Abdul Baari"
 layout: "about"
+ShowPostNavLinks: true
+disableHLJS: false
 
 ---
 

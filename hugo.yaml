@@ -22,7 +22,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: [""]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
@@ -41,14 +41,13 @@ params:
   showtoc: false
   tocopen: false
 
+params:
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
     text: "Abdul Davids"
@@ -57,18 +56,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Abdul Baari Davids
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    subtitle: "Software Engineer"
+    imageUrl: "https://abduldavids.github.io/static/media/abduldavids.23ed26aa0216f3fb54f1.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: About
+        url: about
 
   # home-info mode
   homeInfoParams:
@@ -86,8 +85,8 @@ params:
 
   cover:
     hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
@@ -119,12 +118,16 @@ menu:
       name: Startup Ideas
       url: /startup-ideas/
       weight: 20
+    - identifier: Resume
+      name: Resume
+      url: https://docs.google.com/document/d/1yi6HG69-CCjXuHrV0Z_pAkan2BQBMHIL/edit
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
+    anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
     # lineNos: true

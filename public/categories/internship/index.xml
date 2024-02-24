@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Abdul Baari Davids</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Abdul Baari Davids</description>
+    <title>Internship on Abdul Baari Davids</title>
+    <link>http://localhost:1313/categories/internship/</link>
+    <description>Recent content in Internship on Abdul Baari Davids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Feb 2024 12:53:45 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/internship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Codeinfinity</title>
       <link>http://localhost:1313/posts/codeinfinity/</link>
       <pubDate>Sat, 24 Feb 2024 12:53:45 +0200</pubDate>
       <guid>http://localhost:1313/posts/codeinfinity/</guid>
       <description>Desc Text.</description>
-    </item>
-    <item>
-      <title>An Introduction</title>
-      <link>http://localhost:1313/posts/hello-there/</link>
-      <pubDate>Thu, 22 Feb 2024 09:13:59 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-there/</guid>
-      <description>An introduction to software engineering</description>
     </item>
   </channel>
 </rss>
