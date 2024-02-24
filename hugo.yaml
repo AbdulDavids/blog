@@ -50,7 +50,7 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: "Abdul Davids"
+    text: " "
     icon: /apple-touch-icon.png
     iconHeight: 35
 
