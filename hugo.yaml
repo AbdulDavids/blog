@@ -4,7 +4,7 @@ paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 
@@ -129,6 +129,6 @@ markup:
     noClasses: false
     anchorLineNos: true
     # codeFences: true
-    # guessSyntax: true
+    guessSyntax: true
     # lineNos: true
     # style: monokai
