@@ -31,11 +31,13 @@ cover:
 
 _Disclaimer:_
 
-> I did have to sign a [NDA](https://en.wikipedia.org/wiki/Non-disclosure_agreement), so I can't go too in depth on certain things. But I'll do my best to capture the essence of it and my feelings.
+> I did have to sign an [NDA](https://en.wikipedia.org/wiki/Non-disclosure_agreement), so I can't go too in depth on certain things. But I'll do my best to capture the essence of it and my feelings.
 
 After my first year at university and countless personal projects under my belt, I was eager to secure a software development internship to "get my foot in the door" of the industry. However, the reality in South Africa is that student internships are less common compared to other countries, and even experienced graduates face challenges finding jobs. Regardless of these obstacles, I persevered in my search for an opportunity to gain valuable experience. I started by applying to the few companies that advertised student internships and after a couple of rejected interviews and a fail on the AWS OA, I felt discouraged. 
 
-It was at this point that I stumbled upon the South African Slack community [ZATech](https://zatech.co.za/) and I decided as a last ditch attempt to post my CV on the #jobseekers channel. To my surprise, I was reached out to by CodeInfinity's CTO, Andre. After a chat on the phone he gave me a take-home proficiency test which I was to finish by the following week. This test consisted of two tasks designed to assess my problem-solving skills and knowledge of databases. Crucially, the test required using PHP and MongoDB, two technologies I had never used before. After struggling with installing PHP and getting XAMPP to work, I finally began coding.  Within four days, I finished the first task, and the second one was completed by the end of the week.
+It was at this point that I stumbled upon the South African Slack community [ZATech](https://zatech.co.za/) and I decided as a last ditch attempt to post my CV on the #jobseekers channel. To my surprise, I was reached out to by CodeInfinity's CTO, Andre. After a chat on the phone he gave me a take-home proficiency test which I was to finish by the following week. This test consisted of two tasks designed to assess my problem-solving skills and knowledge of databases.
+
+Crucially, the test required using PHP and MongoDB, two technologies I had never used before. After struggling with installing PHP and getting XAMPP to work, I finally began coding.  Within four days, I finished the first task, and the second one was completed by the end of the week.
 
 After submitting my solutions, I was offered an internship position that included weekly mentorship and an open-source project to work on. The internship was scheduled to start in mid-November after I completed my finals. After reviewing the contract, I accepted the offer.
 
@@ -60,6 +62,31 @@ So:
     
 I was pretty chuffed with this as a week before concepts like routing and GET and POST requests were completely alien to me. So I opened my first pull request and after a quick code review, Andre was happy and merged my changes. I then went on to implement several other features such as serving files, localization, and handling templates, all of which were brand new concepts to me and I'm grateful for having been able to learn these. A huge thanks to Andre for mentoring me and helping me through all my silly mistakes as well as the training sessions which were incredibly informative.
 
-### Other Projects
+### Technical Research
 
-Under Construction haha
+My next project involved technical research on several substantial new features for a client. My primary goal was to determine the feasibility of creating a Google Chrome extension to streamline the user experience while integrating with Gmail. Additionally, I had to develop a sample application and write detailed technical specifications (engineering specs) to guide other developers in implementing the extension.
+
+
+![Original plan](/OGPlanGmail.png#center)
+
+My initial proposal was to simply allow the user to access the Gmail API from the extension itself, however this plan fell through as it turned out that OAuth, for unspecified reasons, didnt provide access scope to Gmail from within Google App Scripting. 
+
+Undeterred, I revisited the Gmail API documentation and spent several hours exploring resources on Stack Overflow, eventually settling on a viable alternative. My revised plan involved constructing a backend endpoint that would authorize individual user extensions and manage all user Gmail settings adjustments within the backend, rather than directly from the extension.  I wrote a basic example app which would showcase this and presented it to the client, which was seen as satisfactory. I then completed the rest of the implementation documentation and created the cards in Basecamp. 
+
+This was a good learning experience in dealing with clients and took me quite a bit out of my comfort zone as I had to develop systems analysis and design skills. It also gave me an opportunity to be experiment in finding different ways to solve problems, and I had to learn new technologies quite quickly in order to meet my deadlines.
+
+Overall my main takeaway was that being a software engineer is not only about the coding side of things, it demands the ability to continuously learn, think creatively when encountering challenges, and persevere when solutions don't unfold exactly as planned.
+
+
+### Langchain
+
+My experience using Langchain
+
+### PHP 
+
+My experience and thoughts on PHP
+
+### Conclusion
+
+To end things off
+
