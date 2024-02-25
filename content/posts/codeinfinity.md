@@ -67,7 +67,7 @@ I was pretty chuffed with this as a week before concepts like routing and GET an
 My next project involved technical research on several substantial new features for a client. My primary goal was to determine the feasibility of creating a Google Chrome extension to streamline the user experience while integrating with Gmail. Additionally, I had to develop a sample application and write detailed technical specifications (engineering specs) to guide other developers in implementing the extension.
 
 
-![Original plan](/OGPlanGmail.png#center)
+![Original plan](/OGPlanGmail.png#center "My initial (failed) plan")
 
 My initial proposal was to simply allow the user to access the Gmail API from the extension itself, however this plan fell through as it turned out that OAuth, for unspecified reasons, didnt provide access scope to Gmail from within Google App Scripting. 
 
@@ -84,7 +84,17 @@ My experience using Langchain
 
 ### PHP 
 
-My experience and thoughts on PHP
+After a month, I was tasked with overhauling a fullstack webapp written in the Tina4PHP framework. Having previously worked with Python's ORM, I initially felt confident due to my familiarity with the concept. However, I quickly realized I had no prior experience with Tina4PHP's specific implementation. Thankfully, with my mentor Justin's guidance, I navigated the codebase, got things running, and started developing features and refactoring old code.
+
+ One of the coolest features about [Tina4PHP](https://github.com/tina4stack/tina4-php) is its ORM functionality. 
+
+![ORM Example](/ORM.png#center "Basically this but in PHP")
+
+An ORM ([Object Relational Mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)) is a programming technique that allows you to work with a database using the concepts of object-oriented programming (OOP). This means you interact with your database using objects and classes, rather than writing raw SQL queries, which significantly improves readability and maintainability.
+
+Pretty cool not gonna lie.
+
+So I refactored the frontend and added new backend routes to implement additional features. I also learnt about using [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) in order to refresh parts of the page without fully reloading, sort of like a React DOM, which significantly improved performance. I was also thrown head first into working with databases and while I was initially out of my depth, after some Youtube videos I learnt how to utilize relational databases. Overall the overhaul really tested me and the learning curve was quite steep, however nothing beats the feeling of something finally working after 16 iterations. 
 
 ### Conclusion
 
