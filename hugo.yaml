@@ -7,6 +7,7 @@ enableRobotsTXT: true
 buildDrafts: true
 buildFuture: false
 buildExpired: false
+description: "Abdul Baari Davids personal blog and portfolio."
 
 
 minify:
@@ -14,6 +15,7 @@ minify:
   minifyOutput: true
 
 params:
+  keywords: "Blog, Portfolio, Developer"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Abdul Baari Davids
   description: "Abdul Baari Davids personal blog and portfolio."
