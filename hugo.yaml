@@ -17,7 +17,7 @@ params:
   keywords: "Blog, Portfolio, Developer"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Abdul Baari Davids
-  description: Abdul Baari Davids personal blog and portfolio.
+  description: "Abdul Baari Davids personal blog and portfolio."
   keywords: [Blog, Portfolio, Developer]
   author: Abdul Baari Davids
   # author: ["Me", "You"] # multiple authors
