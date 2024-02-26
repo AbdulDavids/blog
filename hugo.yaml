@@ -127,7 +127,7 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    anchorLineNos: true
+    anchorLineNos: false
     # codeFences: true
     guessSyntax: true
     lineNos: true
