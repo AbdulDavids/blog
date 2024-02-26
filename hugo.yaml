@@ -59,7 +59,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Abdul Baari Davids
     subtitle: "Software Engineer"
-    imageUrl: "https://abduldavids.github.io/static/media/abduldavids.23ed26aa0216f3fb54f1.jpeg"
+    imageUrl: "/ProfilePic.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -130,5 +130,5 @@ markup:
     anchorLineNos: true
     # codeFences: true
     guessSyntax: true
-    # lineNos: true
+    lineNos: true
     # style: monokai
