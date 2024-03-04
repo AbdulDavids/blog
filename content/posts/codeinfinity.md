@@ -1,9 +1,9 @@
 ---
 title: 'My Experience as a SDE Intern at Codeinfinity'
-date: 2024-02-24T12:53:45+02:00
+date: 2024-03-03T12:53:45+02:00
 tags: ["Internship"]
 
-draft: true
+draft: false
 showToc: false
 TocOpen: false
 hidemeta: false
@@ -73,14 +73,10 @@ My initial proposal was to simply allow the user to access the Gmail API from th
 
 Undeterred, I revisited the Gmail API documentation and spent several hours exploring resources on Stack Overflow, eventually settling on a viable alternative. My revised plan involved constructing a backend endpoint that would authorize individual user extensions and manage all user Gmail settings adjustments within the backend, rather than directly from the extension.  I wrote a basic example app which would showcase this and presented it to the client, which was seen as satisfactory. I then completed the rest of the implementation documentation and created the cards in Basecamp. 
 
-This was a good learning experience in dealing with clients and took me quite a bit out of my comfort zone as I had to develop systems analysis and design skills. It also gave me an opportunity to be experiment in finding different ways to solve problems, and I had to learn new technologies quite quickly in order to meet my deadlines.
+This was a good learning experience in dealing with clients and took me quite a bit out of my comfort zone as I had to develop systems analysis and design skills. It also gave me an opportunity to experiment with finding different ways to solve problems, and I had to learn new technologies quite quickly in order to meet my deadlines.
 
 Overall my main takeaway was that being a software engineer is not only about the coding side of things, it demands the ability to continuously learn, think creatively when encountering challenges, and persevere when solutions don't unfold exactly as planned.
 
-
-### Langchain
-
-My experience using Langchain
 
 ### PHP 
 
@@ -92,11 +88,15 @@ After a month, I was tasked with overhauling a fullstack webapp written in the T
 
 An ORM ([Object Relational Mapping](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)) is a programming technique that allows you to work with a database using the concepts of object-oriented programming (OOP). This means you interact with your database using objects and classes, rather than writing raw SQL queries, which significantly improves readability and maintainability.
 
-Pretty cool not gonna lie.
+Pretty cool
 
 So I refactored the frontend and added new backend routes to implement additional features. I also learnt about using [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) in order to refresh parts of the page without fully reloading, sort of like a React DOM, which significantly improved performance. I was also thrown head first into working with databases and while I was initially out of my depth, after some Youtube videos I learnt how to utilize relational databases. Overall the overhaul really tested me and the learning curve was quite steep, however nothing beats the feeling of something finally working after 16 iterations. 
 
 ### Conclusion
 
-To end things off
+In the beginning I contracted the classic case of (imposter syndrome)[https://en.wikipedia.org/wiki/Impostor_syndrome], however as I acclimated to the projects I worked on, and with thorough mentorship and the extremely helpful training sessions, my confidence rose tremendously. 
 
+Overall, I had an amazing time. I got to meet some unique and remarkable individuals that were incredibly helpful. I learned so much not only about tech and the industry but also about collaboration, garnering a positive team environment, and how to grow as a person.
+
+
+A special thanks to Andre for the opportunity and for his unwavering guidance and support throughout this endeavor.
