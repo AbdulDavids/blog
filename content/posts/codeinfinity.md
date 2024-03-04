@@ -94,7 +94,7 @@ So I refactored the frontend and added new backend routes to implement additiona
 
 ### Conclusion
 
-In the beginning I contracted the classic case of (imposter syndrome)[https://en.wikipedia.org/wiki/Impostor_syndrome], however as I acclimated to the projects I worked on, and with thorough mentorship and the extremely helpful training sessions, my confidence rose tremendously. 
+In the beginning I contracted the classic case of [imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome), however as I acclimated to the projects I worked on, and with thorough mentorship and the extremely helpful training sessions, my confidence rose tremendously. 
 
 Overall, I had an amazing time. I got to meet some unique and remarkable individuals that were incredibly helpful. I learned so much not only about tech and the industry but also about collaboration, garnering a positive team environment, and how to grow as a person.
 
