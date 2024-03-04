@@ -19,7 +19,7 @@ I was born and raised in Cape Town, South Africa and I’m a software engineer c
 
 I've been working in the industry since I was 18, during my final year of Matric I worked as a freelancer on an ecommerce site. I've also started my own web development startup called [Cascade](https://www.instagram.com/cascadeweb/) which I have developed along with some friends from high school. 
 
-Currently, I'm working as a Junior Software Engineer for [CodeInfinity](https://codeinfinity.co.za/), as part of the AI research team. During my time there I have also learnt tons of new skills and recieved mentorship from senior engineers.
+I've also worked as a Software Engineer intern for [CodeInfinity](https://codeinfinity.co.za/). During my time there I learnt tons of new skills and recieved mentorship from senior engineers.
 
 &nbsp;
 

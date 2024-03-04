@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/tags/internship/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Programming Thoughts</title>
+      <link>http://localhost:1313/tags/programming-thoughts/</link>
+      <pubDate>Fri, 16 Feb 2024 18:23:55 +0200</pubDate>
+      <guid>http://localhost:1313/tags/programming-thoughts/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
