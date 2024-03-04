@@ -10,7 +10,7 @@ comments: false
 description: "A comprehensive list of all of Scuderia Ferraris mistakes for 2024"
 disableShare: false
 disableHLJS: false
-hideSummary: true
+hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -29,6 +29,7 @@ cover:
 ---
 
 > "We are checking"
+
 
 ### Pre Season
 
