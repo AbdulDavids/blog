@@ -8,7 +8,7 @@ TocOpen: false
 hidemeta: false
 comments: false
 summary: "We are checking"
-description: "A comprehensive list of all of Scuderia Ferraris mistakes for 2024"
+description: "A comprehensive list of all of Scuderia Ferrari's mistakes for 2024"
 disableShare: false
 disableHLJS: false
 hideSummary: true
