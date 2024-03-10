@@ -50,11 +50,9 @@ cover:
 
 ### Jeddah
 
-1. 
+1. Sainz catches appendicitis 
 
-2. 
-
-3. 
+2. Leclerc has bad pitstop and loses P2 as a result
 
 ### Australia
 
