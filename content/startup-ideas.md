@@ -12,7 +12,7 @@ A bunch of (mostly bad) startup ideas.
 
 2. **Car Proximity Chat**: A video game style proxmity chat for cars, with push to talk on the steering wheel. Great for expressing road rage when you get cut off by a taxi.
 
-3. 
+3. **Curry Gari**: A food delivery service that delivers only curry and rice. The catch? You have to eat it with your hands. __*Curry Gari*__ is a play on the Indian word for car, *gari*.
 
 4. 
 
