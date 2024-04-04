@@ -54,13 +54,9 @@ cover:
 
 2. Leclerc has bad pitstop and loses P2 as a result
 
-### Australia
+### Australia 
 
-1. 
-
-2. 
-
-3. 
+1. We are checking (Actually a pretty good race, Ferrari 1-2)
 
 ### Suzuka 
 

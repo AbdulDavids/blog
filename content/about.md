@@ -17,9 +17,12 @@ I was born and raised in Cape Town, South Africa and I’m a software engineer c
 
 &nbsp;
 
-I've been working in the industry since I was 18, during my final year of Matric I worked as a freelancer on an ecommerce site. I've also started my own web development startup called [Cascade](https://www.instagram.com/cascadeweb/) which I have developed along with some friends from high school. 
+### Experience
+I've been working in the industry since I was 17, during my final year of Matric I worked as a freelancer on an ecommerce site. I've also started my own web development startup called __[Cascade](https://www.instagram.com/cascadeweb/)__ which I have developed along with some friends from high school. In my second year of computer science I interned for __[CodeInfinity](/posts/codeinfinity)__. During my time there I learnt tons of new skills and recieved mentorship from senior engineers. 
 
-I've also worked as a Software Engineer intern for [CodeInfinity](https://codeinfinity.co.za/). During my time there I learnt tons of new skills and recieved mentorship from senior engineers.
+&nbsp;
+
+Currently I'm working as a technical writer for __[Ritza](https://ritza.co/)__, where I write technical documentation for clients. 
 
 &nbsp;
 
@@ -44,4 +47,4 @@ All opinions expressed are my own, and no one elses (including, but especially m
 
 ### Get in Touch
 
-If you have any questions, want to correct my silly grammar/speling mistakes, or if you just want to say hi, feel free to email me at [abdulbaaridavids04@gmail.com](mailto:abdulbaaridavids04@gmail.com).
+If you have any questions, want to correct my silly grammar/speling mistakes, or if you just want to say hi, feel free to email me at ***[abdulbaaridavids04@gmail.com](mailto:abdulbaaridavids04@gmail.com)***.

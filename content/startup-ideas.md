@@ -14,5 +14,5 @@ A bunch of (mostly bad) startup ideas.
 
 3. **Curry Gari**: A food delivery service that delivers only curry and rice. The catch? You have to eat it with your hands. __*Curry Gari*__ is a play on the Indian word for car, *gari*.
 
-4. 
+
 
