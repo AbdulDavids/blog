@@ -23,7 +23,7 @@ params:
   # author: ["Me", "You"] # multiple authors
   images: [""]
   DateFormat: "January 2, 2006"
-  defaultTheme: dark # dark, light
+  defaultTheme: light # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
