@@ -61,7 +61,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Abdul Baari Davids
-    subtitle: "Software Engineer"
+    subtitle: "Software Engineer | Technical Writer"
     imageUrl: "/ProfilePic.jpeg"
     imageWidth: 120
     imageHeight: 120
