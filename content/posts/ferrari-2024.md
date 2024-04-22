@@ -60,8 +60,15 @@ cover:
 
 ### Suzuka 
 
-1. 
+1. Leclerc has terrible setup in Qualifying. Still has an amazing run from P8 to P3 with a one stop. Absolute masterclass despite the team's best efforts to sabotage him.
 
-2. 
+2. Leclerc forced to give up P3 for Sainz for seemingly no reason.
 
-3. 
+![Leclerc Suzuka](/leclerc/suzuka.jpg)
+
+### China
+
+1. Ferrari 1v1 during sprint and race, almost bottled it.
+
+### Next Race: Miami
+
