@@ -8,7 +8,7 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-03-04T09:31:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/charles-leclerc/</loc>
+    <loc>http://localhost:1313/posts/ferrari-2024/</loc>
     <lastmod>2024-03-04T09:31:13+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/formula-one/</loc>
@@ -17,10 +17,16 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-03-04T09:31:13+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/artificial-intelligence/</loc>
+    <lastmod>2024-03-03T12:53:45+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/internship/</loc>
     <lastmod>2024-03-03T12:53:45+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/codeinfinity/</loc>
+    <lastmod>2024-03-03T12:53:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/opinion/</loc>
     <lastmod>2024-03-03T12:53:45+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
