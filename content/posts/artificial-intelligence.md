@@ -36,7 +36,7 @@ cover:
 
 Where do I begin? Perhaps by asking if it'll steal my job? Or will it overthrow the government? Or maybe have it simply write this blog for me?
 
-> Disclaimer: Yes this post is 100% made by a human, source: trust me bro
+> Disclaimer: Yes this post is 100% made by a human, *source: trust me bro*
 
 Well I think the best way to look at artificial intelligence is through the lens of an immense force. I'm talking about hype.
 
@@ -53,7 +53,7 @@ So this begs the question, is the hype valid and is the technology truly revolut
 
 ![](/openai/carriges.png)
 
-#### The Tech 
+### The Tech 
 
 Behind all the buzzwords, at it's core Artificial itelligence is really just a bunch of math. [A lot of math. ](https://youtu.be/wjZofJX0v4M?si=frlYJgxagQ-W3Vrx)
 
