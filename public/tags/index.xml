@@ -15,12 +15,5 @@
       <guid>http://localhost:1313/tags/internship/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Opinion</title>
-      <link>http://localhost:1313/tags/opinion/</link>
-      <pubDate>Sun, 03 Mar 2024 12:53:45 +0200</pubDate>
-      <guid>http://localhost:1313/tags/opinion/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
