@@ -1,6 +1,6 @@
 ---
 title: 'All aboard the AI hype train!'
-date: 2024-03-03T12:53:45+02:00
+date: 2024-04-29T20:53:45+02:00
 tags: ["Opinion"]
 
 draft: false
@@ -44,7 +44,7 @@ Well I think the best way to look at artificial intelligence is through the lens
 
 Oxford Dictionary describes hype as the act of "promoting or publicizing a product and exaggerating its benefits (paraphasing but you can see the source above).
 
-When when it comes to AI, boy has there been hype. 
+When it comes to AI, boy has there been hype. 
 The sheer amount of noise surrounding AI has translated into a whole lot of funding for tons of AI startups. Just look at Hugging Face, an AI startup that's currently valued at $4 Billion. Or Mistral, a French startup that raised the largest seed round in European history last year (2023). Despite being 4 weeks old.
 
 Or even CharacterAI, a $1 Billion startup that creates.... AI digital characters for you to talk to? What the-
