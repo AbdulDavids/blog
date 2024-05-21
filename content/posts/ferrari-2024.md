@@ -76,7 +76,9 @@ cover:
 
 2. Usual Leclerc bottlings
 
-### Emilia Romagna (officially known as the Formula 1 MSC Cruises Gran Premio del Made in Italy e dell'Emilia-Romagna 2024)
+### Emilia Romagna 
+
+(officially known as the Formula 1 MSC Cruises Gran Premio del Made in Italy e dell'Emilia-Romagna 2024)
 
 1. Not a bad race, usual ferrari shenanigans during quali (looking promising through Q1 and Q2 but bottling it in Q3).
 
