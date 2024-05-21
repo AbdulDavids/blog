@@ -70,5 +70,15 @@ cover:
 
 1. Ferrari 1v1 during sprint and race, almost bottled it.
 
-### Next Race: Miami
+### Miami
+
+1. Sainz turned into a terrorist (ruined Piastris race)
+
+2. Usual Leclerc bottlings
+
+### Emilia Romagna (officially known as the Formula 1 MSC Cruises Gran Premio del Made in Italy e dell'Emilia-Romagna 2024)
+
+1. Not a bad race, usual ferrari shenanigans during quali (looking promising through Q1 and Q2 but bottling it in Q3).
+
+
 
