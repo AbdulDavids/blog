@@ -29,23 +29,25 @@ cover:
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-## I'm still working here so in the meantime, here's a list of things I've worked on and contributed to:
+## Things I've worked on
+
+I'm still working here so in the meantime, here's a list of things I've worked on and contributed to:
 
 #### [Release](https://www.release.com/)
 
-- Updated and wrote new documentation: [Link](https://docs.release.com/)
+- [Updated and wrote new documentation](https://docs.release.com/)
 
 #### [Enterprise Bot](https://enterprisebot.org/)
-- Worked on a framework for evaluating LLMs: [Link](https://github.com/ritza-co/BASIC-enterprise-ai-benchmark)
+- [Worked on a framework for evaluating LLMs](https://github.com/ritza-co/BASIC-enterprise-ai-benchmark)
 
-- Also wrote a couple articles: [Link](https://enterprisebot.org/blog/)
+- [Also wrote a couple articles](https://enterprisebot.org/blog/)
 
 - Andd benchmarked different AI Agent providers.
 
 #### [Sentry](https://sentry.io/)
-- Wrote some help guides: [Link](https://sentry.io/answers/)
+- [Wrote some help guides](https://sentry.io/answers/)
 
 
-###### Also here is a pic of a cat:
+##### And here is a pic of a cat:
 
 ![Melvin](https://i.imgur.com/h7MnjJY.jpeg)
