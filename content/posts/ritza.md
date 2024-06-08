@@ -46,6 +46,6 @@ I'm still working here so in the meantime, here's a list of things I've worked o
 - [Wrote some help guides](https://sentry.io/answers/)
 
 
-##### And here is a pic of a cat:
+#### And here is a pic of a cat:
 
 ![Melvin](https://i.imgur.com/h7MnjJY.jpeg)
