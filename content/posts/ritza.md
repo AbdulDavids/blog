@@ -29,8 +29,6 @@ cover:
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-## Things I've worked on
-
 I'm still working here so in the meantime, here's a list of things I've worked on and contributed to:
 
 #### [Release](https://www.release.com/)
