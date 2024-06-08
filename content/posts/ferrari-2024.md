@@ -82,5 +82,14 @@ cover:
 
 1. Not a bad race, usual ferrari shenanigans during quali (looking promising through Q1 and Q2 but bottling it in Q3).
 
+### Monaco
+
+1. No words, absolute masterclass from Charles Marc Herve Percerval Leclerc 
+
+![](https://media.formula1.com/image/upload/f_auto,c_limit,w_1440,q_auto/t_16by9North/f_auto/q_auto/trackside-images/2024/F1_Grand_Prix_of_Monaco/2154745792)
+
+2. Sainz had puncture on lap 1 but otherwise a strategic masterclass from Ferrari (ignore the fact there were zero pitstops).
+
+3. ["We are not interested"](https://www.youtube.com/watch?v=ZcA60raRB54&ab_channel=Javalinsta)
 
 
