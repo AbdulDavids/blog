@@ -29,8 +29,6 @@ cover:
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Standups
-
 Have you ever been stuck in a standup where you dont know what to say or how to say it? 
 
 Or you're just not in the mood to talk about what you did yesterday and what you're going to do today?
@@ -43,15 +41,19 @@ This is a standup script generator that tells you what to say in your morning ca
 
 # How to use
 
-1. Go to the [Ugh Standup](https://standup.abduldavids.co.za/) website
+1. Go to the [Ugh Standup](https://standup.abduldavids.co.za/) website.
 
-2. Sign in with your Google account
+2. Sign in with your Google account.
     - This is so that I can enforce rate limits so [I dont go broke](https://x.com/zemotion/status/1798558292681343039).
 3. Enter your Wins and Blockers.
-4. Hit Generate
+4. Hit Generate.
 5. Boom! You no longer have to go "uhmm" and "hmm" when its your turn to speak.
     - You can also view old scripts by going to the "History" page.
 
 # How it works
 
-I built this thing using [React](https://react.dev/) and [Supabase](https://supabase.com/). The frontend is hosted on Cloudflare Pages and the backend is just a couple of Google Cloud functions. For the database, I'm using Postgres and for the actual standup script generation, I'm using a GCP Cloud Function to access the [Gemini API](https://ai.google.dev/pricing).
+I built this thing using [React](https://react.dev/) hosted on [Cloudflare Pages](https://pages.cloudflare.com/) and the backend is just a couple of [Google Cloud functions](https://cloud.google.com/functions). 
+
+For the database and OAuth, I'm using [Supabase](https://supabase.com/) and for the actual standup script generation, I'm using a Cloud Function to access the [Gemini API](https://ai.google.dev/pricing).
+
+Check out the github repo [here](https://github.com/AbdulDavids/standup).
