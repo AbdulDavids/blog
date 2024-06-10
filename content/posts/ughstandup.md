@@ -57,3 +57,7 @@ I built this thing using [React](https://react.dev/) hosted on [Cloudflare Pages
 For the database and OAuth, I'm using [Supabase](https://supabase.com/) and for the actual standup script generation, I'm using a Cloud Function to access the [Gemini API](https://ai.google.dev/pricing).
 
 Check out the github repo [here](https://github.com/AbdulDavids/standup).
+
+# Why do I need to sign in?
+
+I'm enforcing rate limits.
