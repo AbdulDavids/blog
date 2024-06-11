@@ -124,7 +124,7 @@ menu:
       weight: 20
     - identifier: Resume
       name: Resume
-      url: https://docs.google.com/document/d/1yi6HG69-CCjXuHrV0Z_pAkan2BQBMHIL/edit
+      url: https://docs.google.com/document/d/19UK7K5UlrhqD3JFsvAFf6Hc8tTJZOgvVmnj0lzyC7Zo/edit?usp=sharing
       weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
