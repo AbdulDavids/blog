@@ -40,10 +40,18 @@ I'm still working here so in the meantime, here's a list of things I've worked o
 
 - [Also wrote a couple articles](https://enterprisebot.org/blog/)
 
-- Andd benchmarked different AI Agent providers.
+- And [benchmarked different AI Agent providers.](https://www.enterprisebot.ai/blog/enterprise-bot-vs.-copilot-studio-vs.-cognigy-vs.-kore.ai_)
 
 #### [Sentry](https://sentry.io/)
 - [Wrote some help guides](https://sentry.io/answers/)
+
+#### [Coherence](https://withcoherence.com/)
+
+![Learnt how to Dockerize full stack applications!](/public/django-coherence.png)
+
+- Made this cool [example app using Django and Postgres](https://github.com/AbdulDavids/django_postgres_employee_app) and then wrote guides on setting it up using Coherence.
+
+- Learnt a ton about Docker and using GCP and AWS to run kubernetes clusters.
 
 
 #### And here is a pic of a cat:
