@@ -93,3 +93,36 @@ cover:
 3. ["We are not interested"](https://www.youtube.com/watch?v=ZcA60raRB54&ab_channel=Javalinsta)
 
 
+### Canada
+
+Breaking the Monaco Curse came at a cost, in Canada Ferrari had an absolute Disasterclass™.
+
+1. Leclerc "Box Box shananigans came back, with Ferrari bringing him in for Inters while the track was still dry, throwing him to the back of the grid, getting lapped by even the Haas cars.
+
+2. Ferrari then brought him in a second time to "reboot" the car due to expected engine issues. The issues were resolved, however Charles was now two entire laps behind the front of the pack. Eventually Leclerc decided to retire the car.
+
+3. Sainz span into his future teammate Albono. 
+
+### Spain
+
+1. Uneventful race.
+
+### Austria
+
+1. Leclerc suffers wing damage on lap 1, has to pit and is now last. 
+
+2. Ferrari's upgrades somehow send them backwards in performance.
+
+### British
+
+1. 
+
+### Hungary
+
+1. Largely uneventful for Ferrari as the car is a shitbox, but Leclerc still manages to get P4.
+
+2. Mclaren drama was elite however.
+
+### Belgium
+
+1. Leclerc gets the worst upgrade package in the history of F1, and has the lowest top speed through Eau Rouge. This loses him P1 on lap 3.
