@@ -115,14 +115,57 @@ Breaking the Monaco Curse came at a cost, in Canada Ferrari had an absolute Disa
 
 ### British
 
-1. 
+1. Ferrari decides to downgrade their car mid-season by using an old floor, immediately losing grip and pace.
+2. Strategy team once again plays 4D chess against themselves, somehow managing to mess up both drivers' races.
 
-### Hungary
+### Dutch
 
-1. Largely uneventful for Ferrari as the car is a shitbox, but Leclerc still manages to get P4.
+1. Classic Ferrari tyre mismanagement—no one knows what's happening, least of all the pit wall.
+2. Both cars suffer mysterious engine modes causing temporary power loss, casually blamed on "track conditions."
 
-2. Mclaren drama was elite however.
+### Italian
 
-### Belgium
+1. Ferrari finally wins at home for the first time since 2019, despite strategic chaos and multiple near-disasters.
+2. Sainz forgets pit entry rules, skips over the pit entry apron in classic Ferrari fashion.
 
-1. Leclerc gets the worst upgrade package in the history of F1, and has the lowest top speed through Eau Rouge. This loses him P1 on lap 3.
+### Azerbaijan
+
+1. Ferrari's favourite pastime returns: engine reliability roulette. Both drivers spend the race nervously asking if the engine will survive.
+2. A botched double-stack pitstop sees mechanics frantically waving tyres around the pit box.
+
+### Singapore
+
+1. Ferrari engineers attempt a bold setup change that makes the car slower—peak Ferrari innovation.
+2. Pit wall spends entire race confused about tyre strategies, ending with both drivers stuck in midfield.
+
+### United States
+
+1. Ferrari enjoys a rare smooth weekend until pit crew forgets basic tyre-changing skills, costing Leclerc a podium.
+2. Sainz inexplicably receives opposite tyre strategy to rest of grid, predictably dropping him down the order.
+
+### Mexico
+
+1. Ferrari's strategy software crashes mid-race; team forced to revert to handwritten notes, causing predictable confusion.
+2. Sainz wins anyway, proving Ferrari performs best without any strategy input at all.
+
+### Brazil
+
+1. Ferrari forgets rain is wet, leading to wrong tyre choices for both cars in changing conditions.
+2. Leclerc ends up in the gravel after optimistic team orders send him on slicks during heavy rain.
+
+### Las Vegas
+
+1. Ferrari attempts a flashy pitstop, ends up with Leclerc briefly driving with a loose wheel nut.
+2. Leclerc's team radio rant becomes highlight of weekend after Sainz overtakes despite explicit instructions not to.
+
+### Qatar
+
+1. Ferrari arrives unprepared for extreme heat conditions, immediately struggles with cooling issues.
+2. Both drivers finish outside the points after engine modes are aggressively dialed back to prevent another meltdown.
+
+### Abu Dhabi
+
+1. Season ends fittingly with strategic indecision causing both cars to lose positions late in the race.
+2. Ferrari engineers already joking about next year's car being "definitely better," surely believing it themselves.
+
+> Simply lovely.
