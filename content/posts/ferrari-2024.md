@@ -125,7 +125,7 @@ Breaking the Monaco Curse came at a cost, in Canada Ferrari had an absolute Disa
 
 ### Italian
 
-1. Ferrari finally wins at home for the first time since 2019, despite strategic chaos and multiple near-disasters.
+1. Leclerc MASTERCLASS.
 2. Sainz forgets pit entry rules, skips over the pit entry apron in classic Ferrari fashion.
 
 ### Azerbaijan
@@ -140,8 +140,7 @@ Breaking the Monaco Curse came at a cost, in Canada Ferrari had an absolute Disa
 
 ### United States
 
-1. Ferrari enjoys a rare smooth weekend until pit crew forgets basic tyre-changing skills, costing Leclerc a podium.
-2. Sainz inexplicably receives opposite tyre strategy to rest of grid, predictably dropping him down the order.
+1. Charles Leclerc masterclass.
 
 ### Mexico
 
@@ -155,8 +154,7 @@ Breaking the Monaco Curse came at a cost, in Canada Ferrari had an absolute Disa
 
 ### Las Vegas
 
-1. Ferrari attempts a flashy pitstop, ends up with Leclerc briefly driving with a loose wheel nut.
-2. Leclerc's team radio rant becomes highlight of weekend after Sainz overtakes despite explicit instructions not to.
+1. Meh.
 
 ### Qatar
 
@@ -165,7 +163,7 @@ Breaking the Monaco Curse came at a cost, in Canada Ferrari had an absolute Disa
 
 ### Abu Dhabi
 
-1. Season ends fittingly with strategic indecision causing both cars to lose positions late in the race.
-2. Ferrari engineers already joking about next year's car being "definitely better," surely believing it themselves.
+1. Leclerc masterclass again, almost winning the championship.
+2. Sainz is nowhere to be found.
 
 > Simply lovely.
