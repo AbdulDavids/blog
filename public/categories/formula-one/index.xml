@@ -4,6 +4,11 @@
     <title>Formula One on Abdul Baari Davids</title>
     <link>http://localhost:1313/categories/formula-one/</link>
     <description>Recent content in Formula One on Abdul Baari Davids</description>
+    <image>
+      <title>Abdul Baari Davids</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 09:31:13 +0200</lastBuildDate>

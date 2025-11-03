@@ -4,6 +4,11 @@
     <title>Abdul Baari Davids</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Abdul Baari Davids</description>
+    <image>
+      <title>Abdul Baari Davids</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Jun 2024 15:00:00 +0200</lastBuildDate>
@@ -13,31 +18,60 @@
       <link>http://localhost:1313/posts/ughstandup/</link>
       <pubDate>Mon, 10 Jun 2024 15:00:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/ughstandup/</guid>
-      <description>Have you ever been stuck in a standup where you dont know what to say or how to say it?
-Or you&amp;rsquo;re just not in the mood to talk about what you did yesterday and what you&amp;rsquo;re going to do today?
-Well I have a solution for you!
-Check out Ugh Standup
-This is a standup script generator that tells you what to say in your morning catchups. Just enter your Wins and Blockers and Gemini will generate a standup script for you.</description>
+      <description>&lt;p&gt;Have you ever been stuck in a standup where you dont know what to say or how to say it?&lt;/p&gt;
+&lt;p&gt;Or you&amp;rsquo;re just not in the mood to talk about what you did yesterday and what you&amp;rsquo;re going to do today?&lt;/p&gt;
+&lt;p&gt;Well I have a solution for you!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://standup.abduldavids.co.za/&#34;&gt;Check out Ugh Standup&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This is a standup script generator that tells you what to say in your morning catchups. Just enter your Wins and Blockers and Gemini will generate a standup script for you.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My experience as a Technical Writing Intern at Ritza</title>
       <link>http://localhost:1313/posts/ritza/</link>
       <pubDate>Sat, 08 Jun 2024 16:00:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/ritza/</guid>
-      <description>I&amp;rsquo;m still working here so in the meantime, here&amp;rsquo;s a list of things I&amp;rsquo;ve worked on and contributed to:
-Release Updated and wrote new documentation Enterprise Bot Worked on a framework for evaluating LLMs
-Also wrote a couple articles
-And benchmarked different AI Agent providers.
-Sentry Wrote some help guides Coherence Made this cool example app using Django and Postgres and then wrote guides on setting it up using Coherence.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m still working here so in the meantime, here&amp;rsquo;s a list of things I&amp;rsquo;ve worked on and contributed to:&lt;/p&gt;
+&lt;h2 id=&#34;release&#34;&gt;&lt;a href=&#34;https://www.release.com/&#34;&gt;Release&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.release.com/&#34;&gt;Updated and wrote new documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;enterprise-bot&#34;&gt;&lt;a href=&#34;https://enterprisebot.org/&#34;&gt;Enterprise Bot&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ritza-co/BASIC-enterprise-ai-benchmark&#34;&gt;Worked on a framework for evaluating LLMs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://enterprisebot.org/blog/&#34;&gt;Also wrote a couple articles&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And &lt;a href=&#34;https://www.enterprisebot.ai/blog/enterprise-bot-vs.-copilot-studio-vs.-cognigy-vs.-kore.ai_&#34;&gt;benchmarked different AI Agent providers.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;sentry&#34;&gt;&lt;a href=&#34;https://sentry.io/&#34;&gt;Sentry&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sentry.io/answers/&#34;&gt;Wrote some help guides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coherence&#34;&gt;&lt;a href=&#34;https://withcoherence.com/&#34;&gt;Coherence&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;
+&lt;img src=&#34;http://localhost:1313/django-coherence.png&#34; alt=&#34;Learnt how to Dockerize full stack applications!&#34; /&gt;
+
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Made this cool &lt;a href=&#34;https://github.com/AbdulDavids/django_postgres_employee_app&#34;&gt;example app using Django and Postgres&lt;/a&gt; and then wrote guides on setting it up using Coherence.&lt;/p&gt;</description>
     </item>
     <item>
       <title>All aboard the AI hype train!</title>
       <link>http://localhost:1313/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
       <guid>http://localhost:1313/posts/artificial-intelligence/</guid>
-      <description>&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo; -Arthur Clarke, a man who would be out of a job had Claude been a thing in his day
-Artificial Intelligence. Where do I begin? Perhaps by asking if it&amp;rsquo;ll steal my job? Or will it overthrow the government? Or maybe have it simply write this blog for me?
-Disclaimer: Yes this post is 100% made by a human, source: trust me bro</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo;
+-Arthur Clarke, a man who would be out of a job had Claude been a thing in his day&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;artificial-intelligence&#34;&gt;Artificial Intelligence.&lt;/h3&gt;
+&lt;p&gt;Where do I begin? Perhaps by asking if it&amp;rsquo;ll steal my job? Or will it overthrow the government? Or maybe have it simply write this blog for me?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Disclaimer: Yes this post is 100% made by a human, &lt;em&gt;source: trust me bro&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ferrari mess-ups 2024</title>
@@ -51,9 +85,10 @@ Disclaimer: Yes this post is 100% made by a human, source: trust me bro</descrip
       <link>http://localhost:1313/posts/codeinfinity/</link>
       <pubDate>Sun, 03 Mar 2024 12:53:45 +0200</pubDate>
       <guid>http://localhost:1313/posts/codeinfinity/</guid>
-      <description>Disclaimer:
-I did have to sign an NDA, so I can&amp;rsquo;t go too in depth on certain things. But I&amp;rsquo;ll do my best to capture the essence of it and my feelings.
-After my first year at university and countless personal projects under my belt, I was eager to secure a software development internship to &amp;ldquo;get my foot in the door&amp;rdquo; of the industry. However, the reality in South Africa is that student internships are less common compared to other countries, and even experienced graduates face challenges finding jobs.</description>
+      <description>&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I did have to sign an &lt;a href=&#34;https://en.wikipedia.org/wiki/Non-disclosure_agreement&#34;&gt;NDA&lt;/a&gt;, so I can&amp;rsquo;t go too in depth on certain things. But I&amp;rsquo;ll do my best to capture the essence of it and my feelings.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;After my first year at university and countless personal projects under my belt, I was eager to secure a software development internship to &amp;ldquo;get my foot in the door&amp;rdquo; of the industry. However, the reality in South Africa is that student internships are less common compared to other countries, and even experienced graduates face challenges finding jobs. Regardless of these obstacles, I persevered in my search for an opportunity to gain valuable experience. I started by applying to the few companies that advertised student internships and after a couple of rejected interviews and a fail on the AWS OA, I felt discouraged.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An Introduction</title>

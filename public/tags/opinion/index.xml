@@ -4,6 +4,11 @@
     <title>Opinion on Abdul Baari Davids</title>
     <link>http://localhost:1313/tags/opinion/</link>
     <description>Recent content in Opinion on Abdul Baari Davids</description>
+    <image>
+      <title>Abdul Baari Davids</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 29 Apr 2024 20:45:45 +0200</lastBuildDate>
@@ -13,9 +18,13 @@
       <link>http://localhost:1313/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
       <guid>http://localhost:1313/posts/artificial-intelligence/</guid>
-      <description>&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo; -Arthur Clarke, a man who would be out of a job had Claude been a thing in his day
-Artificial Intelligence. Where do I begin? Perhaps by asking if it&amp;rsquo;ll steal my job? Or will it overthrow the government? Or maybe have it simply write this blog for me?
-Disclaimer: Yes this post is 100% made by a human, source: trust me bro</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo;
+-Arthur Clarke, a man who would be out of a job had Claude been a thing in his day&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;artificial-intelligence&#34;&gt;Artificial Intelligence.&lt;/h3&gt;
+&lt;p&gt;Where do I begin? Perhaps by asking if it&amp;rsquo;ll steal my job? Or will it overthrow the government? Or maybe have it simply write this blog for me?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Disclaimer: Yes this post is 100% made by a human, &lt;em&gt;source: trust me bro&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -28,7 +28,14 @@ To get started with this blog locally, follow these steps:
 
    Make sure you have [Hugo](https://gohugo.io/getting-started/quick-start/) installed. If you haven't installed Hugo yet, you can do so by following the instructions in their documentation.
 
-3. **Start the Hugo server**:
+3. **Initialize and update theme submodule**:
+
+    ```bash
+    git submodule init
+    git submodule update
+    ```
+
+4. **Start the Hugo server**:
 
     ```bash
     hugo server

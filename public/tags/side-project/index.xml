@@ -4,6 +4,11 @@
     <title>Side Project on Abdul Baari Davids</title>
     <link>http://localhost:1313/tags/side-project/</link>
     <description>Recent content in Side Project on Abdul Baari Davids</description>
+    <image>
+      <title>Abdul Baari Davids</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Jun 2024 15:00:00 +0200</lastBuildDate>
@@ -13,11 +18,12 @@
       <link>http://localhost:1313/posts/ughstandup/</link>
       <pubDate>Mon, 10 Jun 2024 15:00:00 +0200</pubDate>
       <guid>http://localhost:1313/posts/ughstandup/</guid>
-      <description>Have you ever been stuck in a standup where you dont know what to say or how to say it?
-Or you&amp;rsquo;re just not in the mood to talk about what you did yesterday and what you&amp;rsquo;re going to do today?
-Well I have a solution for you!
-Check out Ugh Standup
-This is a standup script generator that tells you what to say in your morning catchups. Just enter your Wins and Blockers and Gemini will generate a standup script for you.</description>
+      <description>&lt;p&gt;Have you ever been stuck in a standup where you dont know what to say or how to say it?&lt;/p&gt;
+&lt;p&gt;Or you&amp;rsquo;re just not in the mood to talk about what you did yesterday and what you&amp;rsquo;re going to do today?&lt;/p&gt;
+&lt;p&gt;Well I have a solution for you!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://standup.abduldavids.co.za/&#34;&gt;Check out Ugh Standup&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This is a standup script generator that tells you what to say in your morning catchups. Just enter your Wins and Blockers and Gemini will generate a standup script for you.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 baseURL: "https://abduldavids.co.za/"
 title: Abdul Baari Davids
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -14,7 +15,6 @@ minify:
   minifyOutput: true
 
 params:
-  keywords: "Blog, Portfolio, Developer"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Abdul Baari Davids
   description: "Abdul Baari Davids personal blog and portfolio."
@@ -42,9 +42,6 @@ params:
   showtoc: false
   tocopen: false
 
-params:
-  description: "Abdul Baari Davids personal blog and portfolio."
-  keywords: [Blog, Portfolio, Developer]
   assets:
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
@@ -85,15 +82,13 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/abduldavids/"
 
-
-
   cover:
     hidden: true # hide everywhere but not in structured data
-    hiddenInList: false # hide on list pages and home
+    hiddenInList: true # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/AbdulDavids/blog.git"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
