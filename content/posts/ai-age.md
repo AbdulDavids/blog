@@ -6,7 +6,7 @@ tags: ["opinion"]
 description: "universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds."
 ---
 
-> wrote this on a plane [using freewrite I built for ipad}(https://github.com/AbdulDavids/freewrite-ipad). cleaned it up with claude. [original outline here](https://gist.github.com/AbdulDavids/23bb8ddaecbbb16a563d848268ff77c8).
+> wrote this on a plane [using freewrite I built for ipad](https://github.com/AbdulDavids/freewrite-ipad). cleaned it up with claude. [original outline here](https://gist.github.com/AbdulDavids/23bb8ddaecbbb16a563d848268ff77c8).
 
 i'm finishing my final year of cs while working part-time as a software engineer.
 
