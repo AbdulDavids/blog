@@ -8,7 +8,7 @@ description: "universities are still teaching recall. they should be teaching ho
 
 > wrote this on a plane [using freewrite I built for ipad](https://github.com/AbdulDavids/freewrite-ipad). cleaned it up with claude. [original outline here](https://gist.github.com/AbdulDavids/23bb8ddaecbbb16a563d848268ff77c8).
 
-i'm finishing my final year of cs while working part-time as a software engineer.
+i'm finishing my final year of cs while working part-time as a software engineer slash technical writer.
 
 i write python professionally. ship features to production. debug production issues. integrate apis. architect new systems. real stuff people actually use.
 
@@ -18,7 +18,7 @@ no ide. no documentation. no ai. just me and a pen trying to remember syntax i h
 
 the disconnect is insane.
 
-last week i was optimizing database queries for a Slack used by thousands of users. this week i'm being tested on whether i memorized the exact implementation of quicksort.
+last week i was optimizing database queries for a Slack bot used by thousands of users. this week i'm being tested on whether i memorized the exact implementation of quicksort.
 
 nobody in industry does this. nobody.
 
