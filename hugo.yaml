@@ -58,7 +58,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Abdul Baari Davids
     subtitle: "Software Engineer | Technical Writer"
-    imageUrl: "/ProfilePic.jpeg"
+    imageUrl: "/newProfilePic.jpeg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
