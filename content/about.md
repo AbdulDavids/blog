@@ -21,11 +21,23 @@ I was born and raised in Cape Town, South Africa and I’m a software engineer c
 
 I’ve been working in tech since I was 17. During my final year of high school, I worked as a freelancer on an ecommerce site, which gave me an early taste of building things for real users instead of just for assignments.
 
+&nbsp;
+
+
 I've also started my own web development startup called [Cascade](https://www.instagram.com/cascadeweb/), with some friends from high school. It taught me a lot about shipping, clients, design decisions, and the fun little chaos of trying to turn ideas into actual products.
+
+&nbsp;
+
 
 In my second year of computer science I interned at [CodeInfinity](/posts/codeinfinity), where I learned from senior engineers, worked on real projects, and picked up a lot of practical software development experience.
 
+&nbsp;
+
+
 After that, I worked as a technical writer at [Ritza](https://ritza.co), writing technical documentation and developer-focused content for clients. That experience helped me get much better at explaining complex systems clearly, which is still very useful in engineering.
+
+&nbsp;
+
 
 I now work at [Entelect](https://entelect.co.za/), where I'm involved in AI-focused software engineering work. This fits very neatly into the kind of things I already enjoy: building useful systems, experimenting with LLMs, and figuring out how new technology can be applied without making everything worse. Important detail.
 
