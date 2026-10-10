@@ -1,0 +1,40 @@
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+<div class="projects">
+  {{- range site.Data.projects }}
+  <section class="project-group">
+    <h2>{{ .group }}</h2>
+    <ul>
+      {{- range .items }}
+      <li class="project">
+        <div class="project-head">
+          <h3>
+            {{- with (or .url .code) }}<a href="{{ . }}">{{ end }}{{ .name }}{{ if (or .url .code) }}</a>{{ end -}}
+          </h3>
+          {{- with .year }}<span class="project-year">{{ . }}</span>{{ end }}
+        </div>
+        <p>{{ .description | markdownify }}</p>
+        <div class="project-links">
+          {{- with .tech }}<span class="project-tech">{{ . }}</span>{{ end }}
+          {{- with .url }}<a href="{{ . }}">Site</a>{{ end }}
+          {{- with .code }}<a href="{{ . }}">Code</a>{{ end }}
+          {{- with .post }}<a href="{{ . | relURL }}">Write-up</a>{{ end }}
+        </div>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with site.GetPage "/startup-ideas" }}
+  <p class="projects-ideas">Plus a list of <a href="{{ .RelPermalink }}">startup ideas</a> I probably shouldn't build.</p>
+  {{- end }}
+</div>
+{{- end }}

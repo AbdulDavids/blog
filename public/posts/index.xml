@@ -2,29 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Abdul Baari Davids</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://abduldavids.co.za/posts/</link>
     <description>Recent content in Posts on Abdul Baari Davids</description>
     <image>
       <title>Abdul Baari Davids</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://abduldavids.co.za/</url>
+      <link>https://abduldavids.co.za/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abduldavids.co.za/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taking a look back at 2025</title>
+      <link>https://abduldavids.co.za/posts/2025-retrospective/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://abduldavids.co.za/posts/2025-retrospective/</guid>
+      <description>Taking a look back at 2025 as well as the last 3 years.</description>
+    </item>
     <item>
       <title>computer science in the intelligence age</title>
-      <link>http://localhost:1313/posts/ai-age/</link>
+      <link>https://abduldavids.co.za/posts/ai-age/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ai-age/</guid>
+      <guid>https://abduldavids.co.za/posts/ai-age/</guid>
       <description>universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds.</description>
     </item>
     <item>
       <title>About Ugh Standup</title>
-      <link>http://localhost:1313/posts/ughstandup/</link>
+      <link>https://abduldavids.co.za/posts/ughstandup/</link>
       <pubDate>Mon, 10 Jun 2024 15:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ughstandup/</guid>
+      <guid>https://abduldavids.co.za/posts/ughstandup/</guid>
       <description>&lt;p&gt;Have you ever been stuck in a standup where you dont know what to say or how to say it?&lt;/p&gt;
 &lt;p&gt;Or you&amp;rsquo;re just not in the mood to talk about what you did yesterday and what you&amp;rsquo;re going to do today?&lt;/p&gt;
 &lt;p&gt;Well I have a solution for you!&lt;/p&gt;
@@ -34,9 +41,9 @@
     </item>
     <item>
       <title>My experience as a Technical Writing Intern at Ritza</title>
-      <link>http://localhost:1313/posts/ritza/</link>
+      <link>https://abduldavids.co.za/posts/ritza/</link>
       <pubDate>Sat, 08 Jun 2024 16:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ritza/</guid>
+      <guid>https://abduldavids.co.za/posts/ritza/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m still working here so in the meantime, here&amp;rsquo;s a list of things I&amp;rsquo;ve worked on and contributed to:&lt;/p&gt;
 &lt;h2 id=&#34;release&#34;&gt;&lt;a href=&#34;https://www.release.com/&#34;&gt;Release&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -60,7 +67,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;coherence&#34;&gt;&lt;a href=&#34;https://withcoherence.com/&#34;&gt;Coherence&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;
-&lt;img src=&#34;http://localhost:1313/django-coherence.png&#34; alt=&#34;Learnt how to Dockerize full stack applications!&#34; /&gt;
+&lt;img src=&#34;https://abduldavids.co.za/django-coherence.png&#34; alt=&#34;Learnt how to Dockerize full stack applications!&#34; /&gt;
 
 &lt;/p&gt;
 &lt;ul&gt;
@@ -69,9 +76,9 @@
     </item>
     <item>
       <title>All aboard the AI hype train!</title>
-      <link>http://localhost:1313/posts/artificial-intelligence/</link>
+      <link>https://abduldavids.co.za/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/artificial-intelligence/</guid>
+      <guid>https://abduldavids.co.za/posts/artificial-intelligence/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo;
 -Arthur Clarke, a man who would be out of a job had Claude been a thing in his day&lt;/p&gt;&lt;/blockquote&gt;
@@ -82,16 +89,16 @@
     </item>
     <item>
       <title>Ferrari mess-ups 2024</title>
-      <link>http://localhost:1313/posts/ferrari-2024/</link>
+      <link>https://abduldavids.co.za/posts/ferrari-2024/</link>
       <pubDate>Mon, 04 Mar 2024 09:31:13 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ferrari-2024/</guid>
+      <guid>https://abduldavids.co.za/posts/ferrari-2024/</guid>
       <description>A comprehensive list of all of Scuderia Ferrari&amp;#39;s mistakes for 2024</description>
     </item>
     <item>
       <title>My Experience as a SDE Intern at Codeinfinity</title>
-      <link>http://localhost:1313/posts/codeinfinity/</link>
+      <link>https://abduldavids.co.za/posts/codeinfinity/</link>
       <pubDate>Sun, 03 Mar 2024 12:53:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/codeinfinity/</guid>
+      <guid>https://abduldavids.co.za/posts/codeinfinity/</guid>
       <description>&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I did have to sign an &lt;a href=&#34;https://en.wikipedia.org/wiki/Non-disclosure_agreement&#34;&gt;NDA&lt;/a&gt;, so I can&amp;rsquo;t go too in depth on certain things. But I&amp;rsquo;ll do my best to capture the essence of it and my feelings.&lt;/p&gt;&lt;/blockquote&gt;
@@ -99,9 +106,9 @@
     </item>
     <item>
       <title>An Introduction</title>
-      <link>http://localhost:1313/posts/hello-there/</link>
+      <link>https://abduldavids.co.za/posts/hello-there/</link>
       <pubDate>Fri, 02 Feb 2024 09:13:59 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-there/</guid>
+      <guid>https://abduldavids.co.za/posts/hello-there/</guid>
       <description>An introduction to software engineering</description>
     </item>
   </channel>

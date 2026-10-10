@@ -1,0 +1,35 @@
+{{- /* Overrides PaperMod's profile mode: intro on the left, latest posts underneath */ -}}
+<div class="home">
+    {{- with site.Params.profileMode }}
+    <header class="home-intro">
+        {{- with .imageUrl }}
+        <img class="home-photo" draggable="false" src="{{ . | absURL }}" alt="{{ $.Site.Params.profileMode.imageTitle | default "Profile photo" }}"
+            height="{{ $.Site.Params.profileMode.imageHeight | default 96 }}" width="{{ $.Site.Params.profileMode.imageWidth | default 96 }}" />
+        {{- end }}
+        <div class="home-intro-text">
+            <h1>{{ .title | default site.Title | markdownify }}</h1>
+            <p class="home-subtitle">{{ .subtitle | markdownify }}</p>
+            {{- partial "social_icons.html" -}}
+        </div>
+    </header>
+    {{- end }}
+
+    {{- $posts := where site.RegularPages "Section" "posts" }}
+    {{- with $posts }}
+    <section class="home-latest" aria-labelledby="latest-heading">
+        <h2 id="latest-heading">Latest</h2>
+        <ul>
+            {{- range first 5 . }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <span class="home-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (default "January 2, 2006" site.Params.DateFormat) }}</time>
+                    <span>{{ .ReadingTime }} min read</span>
+                </span>
+            </li>
+            {{- end }}
+        </ul>
+        <a class="home-all" href="{{ "posts/" | absLangURL }}">All posts</a>
+    </section>
+    {{- end }}
+</div>

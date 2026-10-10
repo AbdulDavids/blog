@@ -1,7 +1,6 @@
 ---
 title: "Start-up ideas"
 description: "A collection of (possibly terrible) startup ideas"
-layout: "ideas-list"
 ---
 
 # Startup Ideas

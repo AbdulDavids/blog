@@ -2,29 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Opinion on Abdul Baari Davids</title>
-    <link>http://localhost:1313/tags/opinion/</link>
+    <link>https://abduldavids.co.za/tags/opinion/</link>
     <description>Recent content in Opinion on Abdul Baari Davids</description>
     <image>
       <title>Abdul Baari Davids</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://abduldavids.co.za/</url>
+      <link>https://abduldavids.co.za/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://abduldavids.co.za/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taking a look back at 2025</title>
+      <link>https://abduldavids.co.za/posts/2025-retrospective/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://abduldavids.co.za/posts/2025-retrospective/</guid>
+      <description>Taking a look back at 2025 as well as the last 3 years.</description>
+    </item>
     <item>
       <title>computer science in the intelligence age</title>
-      <link>http://localhost:1313/posts/ai-age/</link>
+      <link>https://abduldavids.co.za/posts/ai-age/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ai-age/</guid>
+      <guid>https://abduldavids.co.za/posts/ai-age/</guid>
       <description>universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds.</description>
     </item>
     <item>
       <title>All aboard the AI hype train!</title>
-      <link>http://localhost:1313/posts/artificial-intelligence/</link>
+      <link>https://abduldavids.co.za/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/artificial-intelligence/</guid>
+      <guid>https://abduldavids.co.za/posts/artificial-intelligence/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo;
 -Arthur Clarke, a man who would be out of a job had Claude been a thing in his day&lt;/p&gt;&lt;/blockquote&gt;

@@ -49,9 +49,7 @@ params:
     safari_pinned_tab: "/safari-pinned-tab.svg"
 
   label:
-    text: " "
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "Abdul Davids"
 
   # profile-mode
   profileMode:
@@ -59,14 +57,9 @@ params:
     title: Abdul Baari Davids
     subtitle: "Applied AI Engineer | Technical Writer"
     imageUrl: "/ProfilePic.jpg"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: About
-        url: about
+    imageWidth: 96
+    imageHeight: 96
+    imageTitle: Abdul Baari Davids
 
   # home-info mode
   homeInfoParams:
@@ -112,9 +105,9 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: Startup Ideas
-      name: Startup Ideas
-      url: /startup-ideas/
+    - identifier: Projects
+      name: Projects
+      url: /projects/
       weight: 20
     - identifier: Resume
       name: Resume

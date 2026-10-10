@@ -1,0 +1,81 @@
+# Projects shown on /projects/. Newest first within each group.
+# Fields: name, description, year, tech, url (live site), code (repo)
+- group: Apps
+  items:
+    - name: DriveOps
+      description: A race engineer in your pocket. Plugs into your car's OBD2 port and explains live sensor data and trouble codes in plain English.
+      year: 2026
+      tech: Swift
+      url: https://driveops.abduldavids.co.za/
+      code: https://github.com/AbdulDavids/DriveOps
+    - name: GymBuddy
+      description: An honest workout buddy for iOS.
+      year: 2026
+      tech: Swift
+      code: https://github.com/AbdulDavids/GymBuddy
+    - name: thoughtcomplete
+      description: A writing app for the Mac.
+      year: 2026
+      tech: Swift
+      url: https://abduldavids.github.io/thoughtcomplete/
+      code: https://github.com/AbdulDavids/thoughtcomplete
+    - name: HNMenu
+      description: A simple Hacker News client for your Mac's menu bar.
+      year: 2025
+      tech: Swift
+      url: https://hnmenu.abduldavids.co.za/
+      code: https://github.com/AbdulDavids/HNMenu
+    - name: Stonks
+      description: AI-powered stock tracking and analysis with real-time market data, on Android and the web.
+      year: 2025
+      tech: Kotlin, TypeScript
+      url: https://stonks.abduldavids.co.za/
+      code: https://github.com/AbdulDavids/Stonks-public
+    - name: Rand
+      description: A budgeting app for sane people.
+      year: 2025
+      tech: Kotlin
+      code: https://github.com/AbdulDavids/Rand
+    - name: Freewrite for iPad
+      description: Freewrite, on the iPad. I wrote a whole blog post with it on a plane.
+      year: 2025
+      tech: Swift
+      code: https://github.com/AbdulDavids/freewrite-ipad
+
+- group: Web
+  items:
+    - name: Renovo Cape
+      description: Website for a bath resurfacing company in Cape Town.
+      year: 2025
+      tech: TypeScript
+      url: https://renovo.co.za/
+      code: https://github.com/AbdulDavids/renovo-site
+    - name: ZATech website
+      description: A refreshed website for ZATech, South Africa's largest tech community.
+      year: 2025
+      tech: React
+      url: https://zatech.co.za/
+      code: https://github.com/AbdulDavids/zatech-website
+    - name: lifetimer
+      description: A small reminder that life is fleeting.
+      year: 2025
+      tech: CSS
+      url: https://abduldavids.github.io/lifetimer/
+      code: https://github.com/AbdulDavids/lifetimer
+    - name: Ugh Standup
+      description: Enter your wins and blockers, and Gemini writes your standup script for you.
+      year: 2024
+      url: https://standup.abduldavids.co.za/
+      post: /posts/ughstandup/
+    - name: Bulletin
+      description: A social platform where your notes delete themselves after 30 days.
+      year: 2024
+      tech: JavaScript
+      url: https://bulletinboard.pages.dev/
+      code: https://github.com/AbdulDavids/bulletin
+
+- group: Ventures
+  items:
+    - name: Cascade
+      description: A web development startup I started with friends from high school.
+      url: https://www.instagram.com/cascadeweb/
