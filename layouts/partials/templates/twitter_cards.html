@@ -1,0 +1,18 @@
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ with .Params.images }}{{ index . 0 | absURL }}{{ else }}{{ partialCached "og_image.html" . .RelPermalink }}{{ end }}"/>
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+{{- $twitterSite := "" }}
+{{- with site.Params.social }}
+  {{- if reflect.IsMap . }}
+    {{- $twitterSite = .twitter }}
+  {{- end }}
+{{- end }}
+
+{{- with $twitterSite }}
+  {{- $content := . }}
+  {{- if not (strings.HasPrefix . "@") }}
+    {{- $content = printf "@%v" $twitterSite }}
+  {{- end }}
+<meta name="twitter:site" content="{{ $content }}"/>
+{{- end }}

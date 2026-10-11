@@ -1,0 +1,49 @@
+{{- /*
+  Renders a 1200x630 social preview card for the page at build time and returns its absolute URL.
+  The home page gets a profile card; every other page gets title + description + byline.
+  Text is drawn on a 1140px canvas and padded to 1200px, because Hugo's text filter
+  wraps lines 20px from the right edge and we want a wider margin.
+*/ -}}
+{{- $bg := "#fffdf7" }}
+{{- $primary := "#1c1b19" }}
+{{- $secondary := "#6e6c66" }}
+{{- $accent := "#c96442" }}
+
+{{- $serif := resources.Get "og/SourceSerif4-Semibold.ttf" }}
+{{- $sans := resources.Get "og/InstrumentSans.ttf" }}
+{{- $canvas := resources.Get "og/canvas.png" }}
+{{- $mask := resources.Get "og/mask.png" }}
+{{- $bar := resources.Get "og/accent.png" }}
+{{- $round := slice (images.Mask $mask) (images.Process "png") }}
+{{- $avatar := (resources.Get "og/avatar.jpg") | images.Filter $round }}
+
+{{- $name := site.Params.author | default site.Title }}
+{{- $domain := strings.TrimSuffix "/" (replaceRE `^https?://` "" site.BaseURL) }}
+
+{{- $filters := slice }}
+{{- if .IsHome }}
+  {{- $role := site.Params.profileMode.subtitle | default site.Params.description }}
+  {{- $filters = slice
+      (images.Overlay ($avatar.Resize "220x220") 80 205)
+      (images.Text $name (dict "font" $serif "color" $primary "size" 76 "x" 350 "y" 300 "aligny" "bottom"))
+      (images.Text $role (dict "font" $sans "color" $secondary "size" 34 "x" 352 "y" 330))
+      (images.Overlay $bar 352 400)
+      (images.Text $domain (dict "font" $sans "color" $accent "size" 26 "x" 352 "y" 424))
+  }}
+{{- else }}
+  {{- $title := .Title | plainify | htmlUnescape | truncate 90 | string }}
+  {{- $desc := (.Description | default (cond .IsPage .Summary site.Params.description)) | plainify | htmlUnescape | truncate 120 | string }}
+  {{- $filters = slice
+      (images.Overlay $bar 80 80)
+      (images.Text $title (dict "font" $serif "color" $primary "size" 64 "linespacing" 10 "x" 80 "y" 350 "aligny" "bottom"))
+      (images.Text $desc (dict "font" $sans "color" $secondary "size" 30 "linespacing" 10 "x" 80 "y" 380))
+      (images.Overlay ($avatar.Resize "60x60") 80 520)
+      (images.Text $name (dict "font" $sans "color" $primary "size" 26 "x" 160 "y" 522))
+      (images.Text $domain (dict "font" $sans "color" $secondary "size" 22 "x" 160 "y" 555))
+  }}
+{{- end }}
+{{- $filters = $filters | append (images.Padding 0 60 0 0 $bg) }}
+
+{{- $img := $canvas | images.Filter $filters }}
+{{- $img = $img.Process "jpg q90" }}
+{{- return $img.Permalink }}

@@ -6,11 +6,9 @@ disableHLJS: false
 
 ---
 
-# About Me
+I was born and raised in Cape Town, South Africa and I’m a software engineer. After working in startups for a bit while studying, I now work at [Entelect](https://entelect.co.za/), where I get to build cool stuff for South Africa. I'm passionate about learning new things and trying out stuff that almost certainly wont work (which you'll find a lot of on this blog).
 
-I was born and raised in Cape Town, South Africa and I’m a software engineer currently studying towards my BSc in Computer Science. I'm passionate about learning new things and trying out stuff that almost certainly wont work (which you'll find a lot of on this blog).
-
- I'm particularly interested in LLMs as well as cloud computing and my long term dream is to create a real life [JARVIS](https://en.wikipedia.org/wiki/J.A.R.V.I.S.) from Iron Man, which happens to be the movie that inspired me to pursue software engineering
+ I'm particularly interested in AI/ML as well as cloud computing and my long term dream is to create a real life [JARVIS](https://en.wikipedia.org/wiki/J.A.R.V.I.S.) from Iron Man, which happens to be the movie that inspired me to pursue software engineering.
 
 ### Experience
 
@@ -18,13 +16,13 @@ I’ve been working in tech since I was 17. During my final year of high school,
 
 I've also started my own web development startup called [Cascade](https://www.instagram.com/cascadeweb/), with some friends from high school. It taught me a lot about shipping, clients, design decisions, and the fun little chaos of trying to turn ideas into actual products.
 
-In my second year of computer science I interned at [CodeInfinity](/posts/codeinfinity), where I learned from senior engineers, worked on real projects, and picked up a lot of practical software development experience.
+In my first year of computer science I interned at [CodeInfinity](/posts/codeinfinity), where I learned from senior engineers, worked on real projects, and picked up a lot of practical software development experience.
 
-After that, I worked as a technical writer at [Ritza](https://ritza.co), writing technical documentation and developer-focused content for clients. That experience helped me get much better at explaining complex systems clearly, which is still very useful in engineering.
+After that, I worked as a technical writer at [Ritza](https://ritza.co), writing technical documentation and developer-focused content for DevEx clients. That experience helped me get much better at explaining complex systems clearly, which is still very useful in engineering.
 
-I now work at [Entelect](https://entelect.co.za/), where I'm involved in AI-focused software engineering work. This fits very neatly into the kind of things I already enjoy: building useful systems, experimenting with LLMs, and figuring out how new technology can be applied without making everything worse. Important detail.
+At [Entelect](https://entelect.co.za/), a lot of my work is AI-focused, which fits very neatly into the kind of things I already enjoy: building useful systems, experimenting with LLMs, and figuring out how new technology can be applied without making everything worse.
 
-In my spare time I like to pursue silly projects and bad startup ideas. On weekends you'll find me crying, screaming and throwing up as Ferrari loses another chance at a championship. Next year will be our year though haha😅
+In my spare time I like to pursue silly projects and bad startup ideas. On weekends you'll find me crying, screaming and throwing up as Ferrari loses another chance at a championship. Next year will be our year though haha 😅
 
 ### About this Blog
 
@@ -34,4 +32,4 @@ All opinions expressed are my own, and no one elses (including, but especially m
 
 ### Get in Touch
 
-If you have any questions, want to correct my silly grammar/speling mistakes, or if you just want to say hi, feel free to email me at ***[abdulbaaridavids04@gmail.com](mailto:abdulbaaridavids04@gmail.com)***.
+If you have any questions, want to correct my silly grammar/speling mistakes, or if you just want to say hi, feel free to email me at ***[abdulbaaridavids04-at-gmail-dot-com](mailto:abdulbaaridavids04@gmail.com)***.

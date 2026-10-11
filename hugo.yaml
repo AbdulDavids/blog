@@ -20,7 +20,8 @@ params:
   keywords: [Blog, Portfolio, Developer]
   author: Abdul Baari Davids
   # author: ["Me", "You"] # multiple authors
-  images: [""]
+  social:
+    twitter: abdulbdavids # twitter:site handle on social cards
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
   disableThemeToggle: false

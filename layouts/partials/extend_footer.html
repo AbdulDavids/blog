@@ -43,16 +43,25 @@
       sup.addEventListener('mouseenter', place);
       ref.addEventListener('focus', place);
 
-      ref.addEventListener('click', function (e) {
-        if (!noHover.matches) return;
-        e.preventDefault();
+      sup.togglePreview = function () {
         if (openSup === sup) return close();
         close();
         sup.classList.add('is-open');
         openSup = sup;
         place();
-      });
+      };
     });
+
+    // Capture phase on document so this runs before PaperMod's smooth-scroll handler
+    // on a[href^="#"], which would otherwise still scroll to the footnotes
+    document.addEventListener('click', function (e) {
+      if (!noHover.matches) return;
+      var ref = e.target.closest && e.target.closest('a.footnote-ref');
+      if (!ref || !ref.parentElement.togglePreview) return;
+      e.preventDefault();
+      e.stopPropagation();
+      ref.parentElement.togglePreview();
+    }, true);
 
     // Tap anywhere else (or press Escape) to dismiss
     document.addEventListener('click', function (e) {
