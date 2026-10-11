@@ -8,7 +8,7 @@ showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: ""
+description: "My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension for a client, and getting my first real pull request merged."
 disableShare: false
 disableHLJS: false
 hideSummary: false

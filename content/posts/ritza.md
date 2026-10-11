@@ -8,7 +8,7 @@ showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: ""
+description: "The things I worked on and wrote during my technical writing internship at Ritza, from documentation and LLM evaluation frameworks to Docker and Kubernetes guides."
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -29,7 +29,7 @@ cover:
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-I'm still working here so in the meantime, here's a list of things I've worked on and contributed to:
+~~I'm still working here so in the meantime, here's a list of things I've worked on and contributed to:~~
 
 ## [Release](https://www.release.com/)
 

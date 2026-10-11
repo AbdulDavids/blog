@@ -8,7 +8,7 @@ showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: ""
+description: "Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be."
 disableShare: false
 disableHLJS: false
 hideSummary: false

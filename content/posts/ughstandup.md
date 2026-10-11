@@ -8,7 +8,7 @@ showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: ""
+description: "Ugh Standup is a standup script generator: enter your wins and blockers and Gemini writes what to say in your morning catch-up."
 disableShare: false
 disableHLJS: false
 hideSummary: false

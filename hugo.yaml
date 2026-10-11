@@ -1,7 +1,7 @@
 baseURL: "https://abduldavids.co.za/"
 title: Abdul Baari Davids
 pagination:
-  pagerSize: 5
+  pagerSize: 50
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -25,12 +25,12 @@ params:
   defaultTheme: light # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false

@@ -1,9 +1,9 @@
 ---
-title: "computer science in the intelligence age"
+title: "Computer science in the intelligence age"
 date: 2025-11-03
 draft: false
 tags: ["opinion"]
-description: "universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds."
+description: "Universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds."
 ---
 
 > wrote this on a plane [using freewrite I built for ipad](https://github.com/AbdulDavids/freewrite-ipad). cleaned it up with claude. [original outline here](https://gist.github.com/AbdulDavids/23bb8ddaecbbb16a563d848268ff77c8).

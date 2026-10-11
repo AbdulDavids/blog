@@ -11,34 +11,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://abduldavids.co.za/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Taking a look back at 2025</title>
-      <link>https://abduldavids.co.za/posts/2025-retrospective/</link>
-      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://abduldavids.co.za/posts/2025-retrospective/</guid>
-      <description>Taking a look back at 2025 as well as the last 3 years.</description>
+      <title>Treat your prompts like code</title>
+      <link>https://abduldavids.co.za/posts/on-prompting/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://abduldavids.co.za/posts/on-prompting/</guid>
+      <description>Prompt engineering is testing, not magic phrases. How to compare prompts against a test dataset, measure the results, and improve them with evidence.</description>
     </item>
     <item>
-      <title>computer science in the intelligence age</title>
+      <title>Computer science in the intelligence age</title>
       <link>https://abduldavids.co.za/posts/ai-age/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://abduldavids.co.za/posts/ai-age/</guid>
-      <description>universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds.</description>
+      <description>Universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds.</description>
     </item>
     <item>
       <title>All aboard the AI hype train!</title>
       <link>https://abduldavids.co.za/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
       <guid>https://abduldavids.co.za/posts/artificial-intelligence/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Any sufficiently advanced technology is indistinguishable from magic&amp;rdquo;
--Arthur Clarke, a man who would be out of a job had Claude been a thing in his day&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;artificial-intelligence&#34;&gt;Artificial Intelligence.&lt;/h3&gt;
-&lt;p&gt;Where do I begin? Perhaps by asking if it&amp;rsquo;ll steal my job? Or will it overthrow the government? Or maybe have it simply write this blog for me?&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Disclaimer: Yes this post is 100% made by a human, &lt;em&gt;source: trust me bro&lt;/em&gt;&lt;/p&gt;</description>
+      <description>Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be.</description>
     </item>
   </channel>
 </rss>

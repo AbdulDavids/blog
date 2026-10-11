@@ -8,10 +8,10 @@ TocOpen: false
 hidemeta: false
 comments: false
 summary: "We are checking"
-description: "A comprehensive list of all of Scuderia Ferrari's mistakes for 2024"
+description: "Ferrari's 2024 season, race by race: a promo video with a slow pitstop, Box Box shenanigans, and enough 'we are checking' to fill Maranello's car park."
 disableShare: false
 disableHLJS: false
-hideSummary: true
+hideSummary: false
 searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true

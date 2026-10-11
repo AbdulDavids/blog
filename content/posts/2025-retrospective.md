@@ -1,7 +1,7 @@
 ---
 title: "Taking a look back at 2025"
 date: 2026-01-04
-draft: false
+draft: true
 tags: ["opinion"]
 description: "Taking a look back at 2025 as well as the last 3 years."
 ---

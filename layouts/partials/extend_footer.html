@@ -1,0 +1,32 @@
+<script>
+  // Footnote previews: show the footnote text when hovering or focusing a reference
+  document.querySelectorAll('a.footnote-ref').forEach(function (ref) {
+    var note = document.getElementById(decodeURIComponent(ref.hash.slice(1)));
+    if (!note) return;
+
+    var content = note.cloneNode(true);
+    content.querySelectorAll('.footnote-backref').forEach(function (el) { el.remove(); });
+
+    var tip = document.createElement('span');
+    tip.className = 'footnote-tip';
+    tip.setAttribute('role', 'tooltip');
+    tip.innerHTML = content.innerHTML;
+
+    var sup = ref.parentElement;
+    sup.classList.add('has-footnote-tip');
+    sup.appendChild(tip);
+
+    // Keep the preview inside the viewport
+    function place() {
+      tip.style.setProperty('--shift', '0px');
+      var r = tip.getBoundingClientRect();
+      var gutter = 12;
+      var shift = 0;
+      if (r.left < gutter) shift = gutter - r.left;
+      else if (r.right > window.innerWidth - gutter) shift = window.innerWidth - gutter - r.right;
+      tip.style.setProperty('--shift', shift + 'px');
+    }
+    sup.addEventListener('mouseenter', place);
+    ref.addEventListener('focus', place);
+  });
+</script>
