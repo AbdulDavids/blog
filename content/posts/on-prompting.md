@@ -3,7 +3,7 @@ title: "Treat your prompts like code"
 date: 2026-10-11
 draft: false
 tags: ["opinion"]
-description: "Prompt engineering is testing, not magic phrases. How to compare prompts against a test dataset, measure the results, and improve them with evidence."
+description: "Prompt engineering is testing, not magic phrases. "
 ---
 
 For a long time, my approach to prompting was basically vibes.[^vibes] I'd write some

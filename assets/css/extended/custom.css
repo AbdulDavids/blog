@@ -390,8 +390,66 @@ a:focus-visible {
     margin: 0;
 }
 
-.has-footnote-tip:hover .footnote-tip,
-.has-footnote-tip:focus-within .footnote-tip {
+/* Below the reference when there's no room above it */
+.has-footnote-tip.tip-below .footnote-tip {
+    bottom: auto;
+    top: calc(100% + 8px);
+}
+
+/* Hover/focus only on devices that can hover; touch devices toggle .is-open on tap */
+@media (hover: hover) {
+    .has-footnote-tip:hover .footnote-tip,
+    .has-footnote-tip:focus-within .footnote-tip {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.has-footnote-tip.is-open .footnote-tip {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
+}
+
+/* Mobile reading: smaller body text with a bit more air */
+@media (max-width: 600px) {
+    .post-title {
+        font-size: 1.75rem;
+        line-height: 1.2;
+    }
+
+    .post-description {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .post-content {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+    .post-content p,
+    .post-content ul,
+    .post-content ol,
+    .post-content blockquote {
+        margin-bottom: 1.25em;
+    }
+
+    .post-content h2 {
+        font-size: 1.4rem;
+        margin-top: 1.8em;
+    }
+
+    .post-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .post-content h4 {
+        font-size: 1.05rem;
+    }
+
+    .footnote-tip {
+        font-size: 15px;
+        max-width: calc(100vw - 32px);
+    }
 }

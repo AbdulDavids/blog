@@ -1,32 +1,65 @@
 <script>
-  // Footnote previews: show the footnote text when hovering or focusing a reference
-  document.querySelectorAll('a.footnote-ref').forEach(function (ref) {
-    var note = document.getElementById(decodeURIComponent(ref.hash.slice(1)));
-    if (!note) return;
+  // Footnote previews: show the footnote text when hovering or focusing a reference.
+  // On touch devices (no hover), tapping the reference toggles the preview instead of
+  // jumping to the footnotes at the bottom of the page.
+  (function () {
+    var noHover = window.matchMedia('(hover: none)');
+    var openSup = null;
 
-    var content = note.cloneNode(true);
-    content.querySelectorAll('.footnote-backref').forEach(function (el) { el.remove(); });
-
-    var tip = document.createElement('span');
-    tip.className = 'footnote-tip';
-    tip.setAttribute('role', 'tooltip');
-    tip.innerHTML = content.innerHTML;
-
-    var sup = ref.parentElement;
-    sup.classList.add('has-footnote-tip');
-    sup.appendChild(tip);
-
-    // Keep the preview inside the viewport
-    function place() {
-      tip.style.setProperty('--shift', '0px');
-      var r = tip.getBoundingClientRect();
-      var gutter = 12;
-      var shift = 0;
-      if (r.left < gutter) shift = gutter - r.left;
-      else if (r.right > window.innerWidth - gutter) shift = window.innerWidth - gutter - r.right;
-      tip.style.setProperty('--shift', shift + 'px');
+    function close() {
+      if (!openSup) return;
+      openSup.classList.remove('is-open');
+      openSup = null;
     }
-    sup.addEventListener('mouseenter', place);
-    ref.addEventListener('focus', place);
-  });
+
+    document.querySelectorAll('a.footnote-ref').forEach(function (ref) {
+      var note = document.getElementById(decodeURIComponent(ref.hash.slice(1)));
+      if (!note) return;
+
+      var content = note.cloneNode(true);
+      content.querySelectorAll('.footnote-backref').forEach(function (el) { el.remove(); });
+
+      var tip = document.createElement('span');
+      tip.className = 'footnote-tip';
+      tip.setAttribute('role', 'tooltip');
+      tip.innerHTML = content.innerHTML;
+
+      var sup = ref.parentElement;
+      sup.classList.add('has-footnote-tip');
+      sup.appendChild(tip);
+
+      // Keep the preview inside the viewport: shift sideways, flip below if no room above
+      function place() {
+        var gutter = 12;
+        sup.classList.remove('tip-below');
+        tip.style.setProperty('--shift', '0px');
+        var r = tip.getBoundingClientRect();
+        var shift = 0;
+        if (r.left < gutter) shift = gutter - r.left;
+        else if (r.right > window.innerWidth - gutter) shift = window.innerWidth - gutter - r.right;
+        tip.style.setProperty('--shift', shift + 'px');
+        if (r.top < gutter) sup.classList.add('tip-below');
+      }
+      sup.addEventListener('mouseenter', place);
+      ref.addEventListener('focus', place);
+
+      ref.addEventListener('click', function (e) {
+        if (!noHover.matches) return;
+        e.preventDefault();
+        if (openSup === sup) return close();
+        close();
+        sup.classList.add('is-open');
+        openSup = sup;
+        place();
+      });
+    });
+
+    // Tap anywhere else (or press Escape) to dismiss
+    document.addEventListener('click', function (e) {
+      if (openSup && !openSup.contains(e.target)) close();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') close();
+    });
+  })();
 </script>
