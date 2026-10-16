@@ -383,7 +383,24 @@ a:focus-visible {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.15s ease, visibility 0.15s ease;
+    /* Linger briefly on the way out so the mouse can travel from the number into the preview */
+    transition: opacity 0.15s ease 0.2s, visibility 0s linear 0.35s;
+}
+
+/* Invisible bridge over the gap between the reference and the preview, so moving the
+   mouse across it doesn't end the hover */
+.footnote-tip::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 10px;
+}
+
+.has-footnote-tip.tip-below .footnote-tip::before {
+    top: auto;
+    bottom: 100%;
 }
 
 .footnote-tip p {
@@ -402,6 +419,8 @@ a:focus-visible {
     .has-footnote-tip:focus-within .footnote-tip {
         opacity: 1;
         visibility: visible;
+        pointer-events: auto;
+        transition: opacity 0.15s ease, visibility 0s;
     }
 }
 
@@ -409,6 +428,7 @@ a:focus-visible {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    transition: opacity 0.15s ease, visibility 0s;
 }
 
 /* Mobile reading: smaller body text with a bit more air */
@@ -452,4 +472,97 @@ a:focus-visible {
         font-size: 15px;
         max-width: calc(100vw - 32px);
     }
+}
+
+/* Diagrams (see layouts/shortcodes/diagram.html) */
+.post-content .diagram {
+    margin: 2.4em 0;
+}
+
+.diagram svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: var(--sans);
+}
+
+.post-content .diagram figcaption {
+    margin-top: 10px;
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--secondary);
+    text-align: center;
+}
+
+.diagram .heading {
+    fill: var(--primary);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.diagram .box {
+    fill: color-mix(in srgb, var(--secondary) 6%, var(--theme));
+    stroke: color-mix(in srgb, var(--secondary) 45%, var(--theme));
+    stroke-width: 1;
+}
+
+.diagram .box-accent {
+    fill: color-mix(in srgb, var(--accent) 12%, var(--theme));
+    stroke: color-mix(in srgb, var(--accent) 75%, var(--theme));
+    stroke-width: 1;
+}
+
+.diagram .box-text {
+    fill: var(--accent);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.diagram .label {
+    fill: var(--content);
+    font-size: 15px;
+}
+
+.diagram .sub {
+    fill: var(--secondary);
+    font-size: 13px;
+}
+
+.diagram .sub-accent {
+    fill: var(--accent);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.diagram .rule {
+    stroke: var(--border);
+    stroke-width: 1;
+}
+
+.diagram .divider {
+    stroke: var(--tertiary);
+    stroke-width: 1;
+    stroke-dasharray: 4 4;
+}
+
+.diagram .line {
+    fill: none;
+    stroke: color-mix(in srgb, var(--secondary) 70%, var(--theme));
+    stroke-width: 1.25;
+}
+
+.diagram .line-accent {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.25;
+}
+
+.diagram .head {
+    fill: color-mix(in srgb, var(--secondary) 70%, var(--theme));
+}
+
+.diagram .head-accent {
+    fill: var(--accent);
 }

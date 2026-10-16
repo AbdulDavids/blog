@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="where-ai-sits-title">
+  <title id="where-ai-sits-title">In the SDLC, the engineer uses AI to build ordinary software for the user. In the solution, the engineer builds software that contains AI, and the user talks to it directly.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="160" y="24">AI in the SDLC</text>
+    <text class="heading" x="480" y="24">AI in the solution</text>
+    <line class="divider" x1="320" y1="44" x2="320" y2="196"/>
+    <line class="rule" x1="16" y1="132" x2="624" y2="132"/>
+
+    <rect class="box-accent" x="26" y="64" width="68" height="68" rx="4"/>
+    <text class="box-text" x="60" y="103">AI</text>
+    <rect class="box" x="126" y="64" width="68" height="68" rx="4"/>
+    <rect class="box" x="226" y="64" width="68" height="68" rx="4"/>
+    <line class="line" x1="98" y1="98" x2="117" y2="98"/>
+    <polygon class="head" points="122,98 115,94 115,102"/>
+    <line class="line" x1="198" y1="98" x2="217" y2="98"/>
+    <polygon class="head" points="222,98 215,94 215,102"/>
+    <text class="label" x="60" y="158">Engineer</text>
+    <text class="sub" x="60" y="178">uses AI</text>
+    <text class="label" x="160" y="158">Software</text>
+    <text class="sub" x="160" y="178">the usual kind</text>
+    <text class="label" x="260" y="158">User</text>
+    <text class="sub" x="260" y="178">gets it sooner</text>
+
+    <rect class="box" x="346" y="64" width="68" height="68" rx="4"/>
+    <rect class="box-accent" x="446" y="64" width="68" height="68" rx="4"/>
+    <text class="box-text" x="480" y="103">AI</text>
+    <rect class="box" x="546" y="64" width="68" height="68" rx="4"/>
+    <line class="line" x1="418" y1="98" x2="437" y2="98"/>
+    <polygon class="head" points="442,98 435,94 435,102"/>
+    <line class="line-accent" x1="524" y1="98" x2="536" y2="98"/>
+    <polygon class="head-accent" points="542,98 535,94 535,102"/>
+    <polygon class="head-accent" points="518,98 525,94 525,102"/>
+    <text class="label" x="380" y="158">Engineer</text>
+    <text class="sub" x="380" y="178">builds it</text>
+    <text class="label" x="480" y="158">Software</text>
+    <text class="sub" x="480" y="178">has AI inside</text>
+    <text class="label" x="580" y="158">User</text>
+    <text class="sub-accent" x="580" y="178">talks to the AI</text>
+  </g>
+</svg>

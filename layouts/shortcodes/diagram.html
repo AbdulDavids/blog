@@ -1,0 +1,13 @@
+{{- /* Inlines an SVG from assets/diagrams so it picks up the site's theme colours.
+     Usage: {{< diagram src="name.svg" caption="Optional caption" >}} */ -}}
+{{- $src := .Get "src" -}}
+{{- with resources.Get (printf "diagrams/%s" $src) -}}
+<figure class="diagram">
+  {{ .Content | safeHTML }}
+  {{- with $.Get "caption" }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- else -}}
+{{- errorf "diagram: assets/diagrams/%s not found" $src -}}
+{{- end -}}

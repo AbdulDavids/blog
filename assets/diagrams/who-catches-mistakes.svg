@@ -1,0 +1,39 @@
+<svg viewBox="0 0 640 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="who-catches-mistakes-title">
+  <title id="who-catches-mistakes-title">In the SDLC, an engineer reviews the model's output before it reaches the user. In the solution, the model answers the user live, so the user is the one who finds the mistakes.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="160" y="24">AI in the SDLC</text>
+    <text class="heading" x="480" y="24">AI in the solution</text>
+    <line class="divider" x1="320" y1="44" x2="320" y2="196"/>
+    <line class="rule" x1="16" y1="132" x2="624" y2="132"/>
+
+    <rect class="box" x="26" y="64" width="68" height="68" rx="4"/>
+    <rect class="box-accent" x="126" y="64" width="68" height="68" rx="4"/>
+    <text class="box-text" x="160" y="105">!</text>
+    <rect class="box" x="226" y="64" width="68" height="68" rx="4"/>
+    <line class="line" x1="98" y1="98" x2="117" y2="98"/>
+    <polygon class="head" points="122,98 115,94 115,102"/>
+    <line class="line" x1="198" y1="98" x2="217" y2="98"/>
+    <polygon class="head" points="222,98 215,94 215,102"/>
+    <text class="label" x="60" y="158">Model</text>
+    <text class="sub" x="60" y="178">writes code</text>
+    <text class="label" x="160" y="158">Engineer</text>
+    <text class="sub-accent" x="160" y="178">catches it</text>
+    <text class="label" x="260" y="158">User</text>
+    <text class="sub" x="260" y="178">gets the fix</text>
+
+    <rect class="box" x="346" y="64" width="68" height="68" rx="4"/>
+    <rect class="box" x="446" y="64" width="68" height="68" rx="4"/>
+    <rect class="box-accent" x="546" y="64" width="68" height="68" rx="4"/>
+    <text class="box-text" x="580" y="105">!</text>
+    <line class="line" x1="418" y1="98" x2="437" y2="98"/>
+    <polygon class="head" points="442,98 435,94 435,102"/>
+    <line class="line" x1="518" y1="98" x2="537" y2="98"/>
+    <polygon class="head" points="542,98 535,94 535,102"/>
+    <text class="label" x="380" y="158">Input</text>
+    <text class="sub" x="380" y="178">from a user</text>
+    <text class="label" x="480" y="158">Model</text>
+    <text class="sub" x="480" y="178">answers live</text>
+    <text class="label" x="580" y="158">User</text>
+    <text class="sub-accent" x="580" y="178">catches it</text>
+  </g>
+</svg>

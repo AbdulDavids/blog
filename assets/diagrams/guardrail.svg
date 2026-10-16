@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="guardrail-title">
+  <title id="guardrail-title">A user's input goes to the model, and the model's answer goes through a check. If the check passes, the user sees the answer. If it fails, the system falls back by retrying or flagging it for a human.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="160" y="24">Every request</text>
+    <text class="heading" x="480" y="24">What the user sees</text>
+    <line class="divider" x1="320" y1="44" x2="320" y2="216"/>
+    <line class="rule" x1="16" y1="152" x2="624" y2="152"/>
+
+    <rect class="box" x="26" y="84" width="68" height="68" rx="4"/>
+    <rect class="box" x="126" y="84" width="68" height="68" rx="4"/>
+    <rect class="box-accent" x="226" y="84" width="68" height="68" rx="4"/>
+    <text class="box-text" x="260" y="125">?</text>
+    <line class="line" x1="98" y1="118" x2="117" y2="118"/>
+    <polygon class="head" points="122,118 115,114 115,122"/>
+    <line class="line" x1="198" y1="118" x2="217" y2="118"/>
+    <polygon class="head" points="222,118 215,114 215,122"/>
+    <text class="label" x="60" y="178">Input</text>
+    <text class="sub" x="60" y="198">from a user</text>
+    <text class="label" x="160" y="178">Model</text>
+    <text class="sub" x="160" y="198">answers</text>
+    <text class="label" x="260" y="178">Check</text>
+    <text class="sub-accent" x="260" y="198">is this right?</text>
+
+    <line class="line" x1="298" y1="118" x2="407" y2="118"/>
+    <polygon class="head" points="412,118 405,114 405,122"/>
+    <text class="sub" x="352" y="110">pass</text>
+    <path class="line-accent" d="M 260 80 V 60 H 540 V 75"/>
+    <polygon class="head-accent" points="540,80 536,73 544,73"/>
+    <text class="sub-accent" x="400" y="54">fail</text>
+
+    <rect class="box" x="416" y="84" width="68" height="68" rx="4"/>
+    <rect class="box" x="506" y="84" width="68" height="68" rx="4"/>
+    <text class="label" x="450" y="178">The answer</text>
+    <text class="sub" x="450" y="198">checked</text>
+    <text class="label" x="540" y="178">A fallback</text>
+    <text class="sub" x="540" y="198">retry or flag it</text>
+  </g>
+</svg>

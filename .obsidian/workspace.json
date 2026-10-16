@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "83c4058adc286f6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "11d01762b7293dfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e95147cb9288779f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/ai-solution-vs-sdlc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ai-solution-vs-sdlc"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1e936e7f9a6bdca",
+    "type": "split",
+    "children": [
+      {
+        "id": "5326d1e429065e8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07e437be722c6b70",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ed6980eb501ac298",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f6039374f98267de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c09d34a9f0c663fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6550d35a419aeae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f842295d5dd6c3e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/ai-solution-vs-sdlc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7588d1ac99e7d8b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/ai-solution-vs-sdlc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "b0dc5186c815cb66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aa399da0d3af9a25",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6d0cd614d2414208",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/ai-solution-vs-sdlc.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e95147cb9288779f",
+  "lastOpenFiles": [
+    "public/assets/css/stylesheet.ceb097d4998dcecd39a730835e7de23835df0317fa3970763f567284c2614ba3.css",
+    "public/google-glue-pizza.webp",
+    "static/google-glue-pizza.webp",
+    "content/posts/google-glue-pizza.webp",
+    "public/og/canvas_hu_cfdc5c9ece17b331.jpg",
+    "public/posts/ai-solution-vs-sdlc/index.html",
+    "public/posts/ai-solution-vs-sdlc",
+    "public/og/canvas_hu_e704327bfc456138.jpg",
+    "resources/_gen/images/og/canvas_hu_e704327bfc456138.jpg",
+    "resources/_gen/images/og/canvas_hu_10565075649c7b6e.png",
+    "public/og/canvas_hu_2e8a52e4ad3e873f.jpg",
+    "public/og/canvas_hu_1f26e7ab1591761f.jpg",
+    "public/og/canvas_hu_893481b39cc5286d.jpg",
+    "public/og",
+    "public/assets/css/stylesheet.b6731daafd76b647161d2aed75a45edbd61701c50404aa1348f64a09c701c162.css",
+    "assets/diagrams",
+    "layouts/shortcodes/diagram.html",
+    "layouts/shortcodes",
+    "content/posts/2025-retrospective.md"
+  ]
+}

@@ -4,15 +4,17 @@
     <title>Abdul Baari Davids</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Abdul Baari Davids</description>
-    <image>
-      <title>Abdul Baari Davids</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI in the solution, not just the SDLC</title>
+      <link>http://localhost:1313/posts/ai-solution-vs-sdlc/</link>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-solution-vs-sdlc/</guid>
+      <description>Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live.</description>
+    </item>
     <item>
       <title>Treat your prompts like code</title>
       <link>http://localhost:1313/posts/on-prompting/</link>
