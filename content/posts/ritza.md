@@ -3,7 +3,7 @@ title: 'My experience as a Technical Writing Intern at Ritza'
 date: 2024-06-08T16:00:00+02:00
 tags: ["Internship"]
 
-draft: false
+draft: true
 showToc: false
 TocOpen: false
 hidemeta: false
