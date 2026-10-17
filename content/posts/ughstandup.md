@@ -3,7 +3,7 @@ title: 'About Ugh Standup'
 date: 2024-06-10T15:00:00+02:00
 tags: ["Side Project"]
 
-draft: false
+draft: true 
 showToc: false
 TocOpen: false
 hidemeta: false
