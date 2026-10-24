@@ -23,7 +23,7 @@ params:
   social:
     twitter: abdulbdavids # twitter:site handle on social cards
   DateFormat: "January 2, 2006"
-  defaultTheme: light # dark, light
+  defaultTheme: auto # auto follows device, or dark, light
   disableThemeToggle: false
 
   ShowReadingTime: false
