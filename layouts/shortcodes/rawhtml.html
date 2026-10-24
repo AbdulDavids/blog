@@ -1,0 +1,3 @@
+{{- /* Emits the inner content as-is, for posts that hand-write HTML and inline SVG.
+     Usage: {{< rawhtml >}}<div>...</div>{{< /rawhtml >}} */ -}}
+{{- .Inner | safeHTML -}}

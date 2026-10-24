@@ -2,61 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:51826/posts/ten-ai-rules/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51826/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51826/tags/opinion/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51826/posts/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51826/tags/</loc>
+    <lastmod>2026-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51826/posts/ai-solution-vs-sdlc/</loc>
     <lastmod>2026-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-solution-vs-sdlc/</loc>
-    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/opinion/</loc>
-    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/on-prompting/</loc>
+    <loc>http://localhost:51826/posts/on-prompting/</loc>
     <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ai-age/</loc>
+    <loc>http://localhost:51826/posts/ai-age/</loc>
     <lastmod>2025-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ughstandup/</loc>
-    <lastmod>2024-06-10T15:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/side-project/</loc>
-    <lastmod>2024-06-10T15:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/internship/</loc>
-    <lastmod>2024-06-08T16:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/ritza/</loc>
-    <lastmod>2024-06-08T16:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/artificial-intelligence/</loc>
+    <loc>http://localhost:51826/posts/artificial-intelligence/</loc>
     <lastmod>2024-04-29T20:45:45+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:51826/categories/</loc>
     <lastmod>2024-03-04T09:31:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ferrari-2024/</loc>
+    <loc>http://localhost:51826/posts/ferrari-2024/</loc>
     <lastmod>2024-03-04T09:31:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/formula-one/</loc>
+    <loc>http://localhost:51826/categories/formula-one/</loc>
     <lastmod>2024-03-04T09:31:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/codeinfinity/</loc>
+    <loc>http://localhost:51826/tags/internship/</loc>
     <lastmod>2024-03-03T12:53:45+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/hello-there/</loc>
+    <loc>http://localhost:51826/posts/codeinfinity/</loc>
+    <lastmod>2024-03-03T12:53:45+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:51826/posts/hello-there/</loc>
     <lastmod>2024-02-02T09:13:59+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:51826/posts/10-rules-of-ai-augmented-engineering/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:51826/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/startup-ideas/</loc>
+    <loc>http://localhost:51826/projects/</loc>
+  </url><url>
+    <loc>http://localhost:51826/startup-ideas/</loc>
   </url>
 </urlset>

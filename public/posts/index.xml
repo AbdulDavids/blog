@@ -2,74 +2,372 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Abdul Baari Davids</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:51826/posts/</link>
     <description>Recent content in Posts on Abdul Baari Davids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:51826/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Rules of AI-Augmented Engineering</title>
+      <link>http://localhost:51826/posts/ten-ai-rules/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51826/posts/ten-ai-rules/</guid>
+      <description>How the Dumbledore team builds with AI: ten rules across planning, building, verifying and sustaining, each with a diagram.</description>
+    </item>
     <item>
       <title>AI in the solution, not just the SDLC</title>
-      <link>http://localhost:1313/posts/ai-solution-vs-sdlc/</link>
+      <link>http://localhost:51826/posts/ai-solution-vs-sdlc/</link>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ai-solution-vs-sdlc/</guid>
+      <guid>http://localhost:51826/posts/ai-solution-vs-sdlc/</guid>
       <description>Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live.</description>
     </item>
     <item>
       <title>Treat your prompts like code</title>
-      <link>http://localhost:1313/posts/on-prompting/</link>
+      <link>http://localhost:51826/posts/on-prompting/</link>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/on-prompting/</guid>
+      <guid>http://localhost:51826/posts/on-prompting/</guid>
       <description>Prompt engineering is testing, not magic phrases. </description>
     </item>
     <item>
       <title>Computer science in the intelligence age</title>
-      <link>http://localhost:1313/posts/ai-age/</link>
+      <link>http://localhost:51826/posts/ai-age/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ai-age/</guid>
+      <guid>http://localhost:51826/posts/ai-age/</guid>
       <description>Universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds.</description>
     </item>
     <item>
-      <title>About Ugh Standup</title>
-      <link>http://localhost:1313/posts/ughstandup/</link>
-      <pubDate>Mon, 10 Jun 2024 15:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ughstandup/</guid>
-      <description>Ugh Standup is a standup script generator: enter your wins and blockers and Gemini writes what to say in your morning catch-up.</description>
-    </item>
-    <item>
-      <title>My experience as a Technical Writing Intern at Ritza</title>
-      <link>http://localhost:1313/posts/ritza/</link>
-      <pubDate>Sat, 08 Jun 2024 16:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ritza/</guid>
-      <description>The things I worked on and wrote during my technical writing internship at Ritza, from documentation and LLM evaluation frameworks to Docker and Kubernetes guides.</description>
-    </item>
-    <item>
       <title>All aboard the AI hype train!</title>
-      <link>http://localhost:1313/posts/artificial-intelligence/</link>
+      <link>http://localhost:51826/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/artificial-intelligence/</guid>
+      <guid>http://localhost:51826/posts/artificial-intelligence/</guid>
       <description>Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be.</description>
     </item>
     <item>
       <title>Ferrari mess-ups 2024</title>
-      <link>http://localhost:1313/posts/ferrari-2024/</link>
+      <link>http://localhost:51826/posts/ferrari-2024/</link>
       <pubDate>Mon, 04 Mar 2024 09:31:13 +0200</pubDate>
-      <guid>http://localhost:1313/posts/ferrari-2024/</guid>
+      <guid>http://localhost:51826/posts/ferrari-2024/</guid>
       <description>Ferrari&amp;#39;s 2024 season, race by race: a promo video with a slow pitstop, Box Box shenanigans, and enough &amp;#39;we are checking&amp;#39; to fill Maranello&amp;#39;s car park.</description>
     </item>
     <item>
       <title>My Experience as a SDE Intern at Codeinfinity</title>
-      <link>http://localhost:1313/posts/codeinfinity/</link>
+      <link>http://localhost:51826/posts/codeinfinity/</link>
       <pubDate>Sun, 03 Mar 2024 12:53:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/codeinfinity/</guid>
+      <guid>http://localhost:51826/posts/codeinfinity/</guid>
       <description>My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension for a client, and getting my first real pull request merged.</description>
     </item>
     <item>
       <title>An Introduction</title>
-      <link>http://localhost:1313/posts/hello-there/</link>
+      <link>http://localhost:51826/posts/hello-there/</link>
       <pubDate>Fri, 02 Feb 2024 09:13:59 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-there/</guid>
+      <guid>http://localhost:51826/posts/hello-there/</guid>
       <description>An introduction to software engineering</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:51826/posts/10-rules-of-ai-augmented-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:51826/posts/10-rules-of-ai-augmented-engineering/</guid>
+      <description>&lt;!doctype html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset=utf8&gt;&lt;meta name=viewport content=&#34;width=device-width,initial-scale=1,viewport-fit=cover&#34;&gt;&lt;style&gt;:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;title&gt;10 Rules of AI-Augmented Engineering&lt;/title&gt;
+&lt;meta name=&#34;claude:viewport-fit-sides&#34; content=&#34;cover&#34;&gt;
+&lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.googleapis.com&#34;&gt;
+&lt;link rel=&#34;preconnect&#34; href=&#34;https://fonts.gstatic.com&#34; crossorigin&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;display=swap&#34;&gt;
+&lt;style&gt;
+/* Layout: one grouped list on a soft page, Apple-style. Colour encodes the lifecycle stage a rule belongs to (Plan, Build, Verify, Sustain). Each rule carries one diagram that draws its mechanism. */
+:root {
+  --bg: #fbfbfd;
+  --surface: #ffffff;
+  --node: #f5f5f7;
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --line: #e5e5ea;
+  --stroke: #c9c9ce;
+  --focus: #0071e3;
+
+  --always-fg: #1d1d1f;
+  --always-bg: #efeff4;
+  --plan-fg: #0062cc;
+  --plan-bg: #e6f0fc;
+  --build-fg: #b25700;
+  --build-bg: #fff0dc;
+  --verify-fg: #17753a;
+  --verify-bg: #e3f4e8;
+  --sustain-fg: #7134bd;
+  --sustain-bg: #f0e8fa;
+
+  --sans: -apple-system, BlinkMacSystemFont, &#34;SF Pro Display&#34;, &#34;DM Sans&#34;, &#34;Helvetica Neue&#34;, Arial, sans-serif;
+  --mono: ui-monospace, &#34;SF Mono&#34;, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme=&#34;light&#34;]) {
+    --bg: #0b0b0d;
+    --surface: #1c1c1e;
+    --node: #2a2a2d;
+    --ink: #f5f5f7;
+    --muted: #a1a1a6;
+    --line: #2c2c2e;
+    --stroke: #48484c;
+    --focus: #4da3ff;
+
+    --always-fg: #f5f5f7;
+    --always-bg: #2c2c2e;
+    --plan-fg: #6cb0ff;
+    --plan-bg: #14263d;
+    --build-fg: #ffb257;
+    --build-bg: #3a2610;
+    --verify-fg: #5fd380;
+    --verify-bg: #12301b;
+    --sustain-fg: #c79cff;
+    --sustain-bg: #2a1b40;
+    color-scheme: dark;
+  }
+}
+:root[data-theme=&#34;dark&#34;] {
+  --bg: #0b0b0d;
+  --surface: #1c1c1e;
+  --node: #2a2a2d;
+  --ink: #f5f5f7;
+  --muted: #a1a1a6;
+  --line: #2c2c2e;
+  --stroke: #48484c;
+  --focus: #4da3ff;
+
+  --always-fg: #f5f5f7;
+  --always-bg: #2c2c2e;
+  --plan-fg: #6cb0ff;
+  --plan-bg: #14263d;
+  --build-fg: #ffb257;
+  --build-bg: #3a2610;
+  --verify-fg: #5fd380;
+  --verify-bg: #12301b;
+  --sustain-fg: #c79cff;
+  --sustain-bg: #2a1b40;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.5;
+  padding-block: 56px 80px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 780px; margin: 0 auto; }
+
+/* Header */
+.eyebrow {
+  margin: 0 0 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+h1 {
+  margin: 0;
+  font-size: clamp(32px, 6.4vw, 54px);
+  line-height: 1.06;
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  text-wrap: balance;
+}
+.lede {
+  margin: 18px 0 0;
+  max-width: 52ch;
+  font-size: 19px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* Phase filter */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 32px 0 20px;
+}
+.filters button {
+  --c: var(--ink);
+  --t: var(--always-bg);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+.filters button:hover { border-color: var(--c); }
+.filters button[aria-pressed=&#34;true&#34;] {
+  background: var(--t);
+  border-color: var(--c);
+  color: var(--c);
+}
+.filters button .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c);
+}
+.filters button .count {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.7;
+}
+.filters button[data-filter=&#34;plan&#34;]    { --c: var(--plan-fg);    --t: var(--plan-bg); }
+.filters button[data-filter=&#34;build&#34;]   { --c: var(--build-fg);   --t: var(--build-bg); }
+.filters button[data-filter=&#34;verify&#34;]  { --c: var(--verify-fg);  --t: var(--verify-bg); }
+.filters button[data-filter=&#34;sustain&#34;] { --c: var(--sustain-fg); --t: var(--sustain-bg); }
+.filters button[data-filter=&#34;always&#34;]  { --c: var(--always-fg);  --t: var(--always-bg); }
+
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* Rules */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  overflow: hidden;
+}
+.rule {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  column-gap: 16px;
+  padding: 28px 30px 30px;
+  border-top: 1px solid var(--line);
+  transition: opacity 0.2s ease;
+}
+.rule:first-child { border-top: 0; }
+.rule.dim { opacity: 0.26; }
+.rule[data-phase=&#34;always&#34;]  { --c: var(--always-fg);  --t: var(--always-bg); }
+.rule[data-phase=&#34;plan&#34;]    { --c: var(--plan-fg);    --t: var(--plan-bg); }
+.rule[data-phase=&#34;build&#34;]   { --c: var(--build-fg);   --t: var(--build-bg); }
+.rule[data-phase=&#34;verify&#34;]  { --c: var(--verify-fg);  --t: var(--verify-bg); }
+.rule[data-phase=&#34;sustain&#34;] { --c: var(--sustain-fg); --t: var(--sustain-bg); }
+
+.num {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  color: var(--c);
+  padding-top: 4px;
+}
+.body { min-width: 0; }
+.tag {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c);
+  background: var(--t);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+h2 {
+  margin: 10px 0 6px;
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+.rule p { margin: 0; }
+.what { font-size: 17px; line-height: 1.5; }
+.how {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.how b {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 8px;
+}
+
+/* Diagrams */
+.dg { margin: 24px 0 0; text-align: center; }
+.dg svg {
+  display: block;
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  margin: 0 auto;
+  color: var(--ink);
+}
+.dg figcaption {
+  margin: 12px auto 0;
+  max-width: 48ch;
+  text-wrap: balance;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+.dg text { font-family: var(--sans); font-size: 12px; fill: currentColor; }
+.dg .t-m { fill: var(--muted); font-size: 11px; }
+.dg .t-s { font-size: 11px; }
+.dg .t-a { fill: var(--c); font-weight: 600; }
+.dg .t-b { font-weight: 600; }
+.dg .mono { font-family: var(--mono); font-size: 12px; }
+.dg .nd   { fill: var(--node); stroke: var(--stroke); stroke-width: 1.25; }
+.dg .nd-a { fill: var(--t); stroke: var(--c); stroke-width: 1.5; }
+.dg .nd-d { fill: none; stroke: var(--muted); stroke-width: 1.25; stroke-dasharray: 4 3; }
+.dg .ln   { fill: none; stroke: currentColor; stroke-width: 1.4; }
+.dg .ln-m { fill: none; stroke: var(--muted); stroke-width: 1.25; }
+.dg .ln-a { fill: none; stroke: var(--c); stroke-width: 1.6; }
+.dg .ln-d { stroke-dasharray: 4 3; }
+.dg .dash { stroke-width: 2.5; stroke-dasharray: 9 5; }
+.dg .mk   { fill: currentColor; }
+.dg .mk-a { fill: var(--c); }
+.dg .mk-m { fill: var(--muted); }
+
+.note {
+  margin: 28px 4px 0;
+  max-width: 60ch;
+  font-size: 15px;
+  color: var(--muted);
+}
+.note strong { color: var(--ink); font-weight: 600; }
+
+@media (max-width: 520px) {
+  body { padding-block: 36px 56px; font-size: 16px; }
+  .rule { grid-template-columns: minmax(0, 1fr); padding: 22px 16px 24px; }
+  .num { font-size: 24px; padding-top: 0; margin-bottom: 8px; }
+  h2 { font-size: 20px; }
+  .lede { font-size: 17px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rule, .filters button { transition: none; }
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;wrap&#34;&gt;
+  &lt;header&gt;
+    &lt;p class=&#34;eyebrow&#34;&gt;Dumbledore team&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
