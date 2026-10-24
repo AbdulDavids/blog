@@ -251,7 +251,7 @@
 
 @media (max-width: 520px) {
     .ai-rules .rule {
-        grid-template-columns: auto minmax(0, 1fr) auto;
+        grid-template-columns: auto minmax(0, 1fr);
         column-gap: 10px;
         align-items: baseline;
         padding: 26px 0 30px;
@@ -273,9 +273,9 @@
         margin: 0 0 14px;
     }
 
-    .ai-rules .tag {
-        grid-column: 3;
-        grid-row: 1;
+    .ai-rules .tag,
+    .ai-rules .filters {
+        display: none;
     }
 
     .ai-rules .rule h2 {
