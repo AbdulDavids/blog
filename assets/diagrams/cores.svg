@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cores-title">
+  <title id="cores-title">One core: a single agent whose one context window fills up with the task, the plan, search results, files and notes. Several cores: a lead agent keeps only the task, the plan and short results, while three subagents each work in their own clean context window and send back a summary.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="16" y="24" text-anchor="start">One core</text>
+    <text class="heading" x="236" y="24" text-anchor="start">Several cores</text>
+    <line class="divider" x1="212" y1="40" x2="212" y2="320"/>
+
+    <rect class="box" x="24" y="44" width="168" height="36" rx="4"/>
+    <text class="label" x="108" y="67">Agent</text>
+    <rect class="box-accent" x="24" y="88" width="168" height="186" rx="6"/>
+    <rect class="box" x="30" y="94" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="107">Task</text>
+    <rect class="box" x="30" y="116" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="129">Plan</text>
+    <rect class="box" x="30" y="138" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="151">Search results</text>
+    <rect class="box" x="30" y="160" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="173">File A</text>
+    <rect class="box" x="30" y="182" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="195">File B</text>
+    <rect class="box" x="30" y="204" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="217">More search results</text>
+    <rect class="box" x="30" y="226" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="239">File C</text>
+    <rect class="box" x="30" y="248" width="156" height="18" rx="2"/>
+    <text class="tiny" x="108" y="261">Notes</text>
+    <text class="label" x="108" y="300">One context</text>
+    <text class="sub" x="108" y="318">everything piles up</text>
+
+    <rect class="box" x="376" y="44" width="112" height="36" rx="4"/>
+    <text class="label" x="432" y="67">Lead agent</text>
+    <rect class="box-accent" x="356" y="88" width="152" height="36" rx="4"/>
+    <rect class="box" x="362" y="94" width="40" height="24" rx="2"/>
+    <rect class="box" x="406" y="94" width="40" height="24" rx="2"/>
+    <rect class="box" x="450" y="94" width="52" height="24" rx="2"/>
+    <text class="tiny" x="382" y="110">Task</text>
+    <text class="tiny" x="426" y="110">Plan</text>
+    <text class="tiny" x="476" y="110">Results</text>
+
+    <line class="line" x1="432" y1="124" x2="292" y2="170"/>
+    <line class="line" x1="432" y1="124" x2="432" y2="170"/>
+    <line class="line" x1="432" y1="124" x2="572" y2="170"/>
+    <text class="sub-accent" x="520" y="146" text-anchor="start">summaries back</text>
+
+    <rect class="box" x="236" y="170" width="112" height="36" rx="4"/>
+    <text class="label" x="292" y="193">Subagent 1</text>
+    <rect class="box" x="376" y="170" width="112" height="36" rx="4"/>
+    <text class="label" x="432" y="193">Subagent 2</text>
+    <rect class="box" x="516" y="170" width="112" height="36" rx="4"/>
+    <text class="label" x="572" y="193">Subagent 3</text>
+
+    <rect class="box-accent" x="236" y="214" width="112" height="60" rx="4"/>
+    <rect class="box" x="242" y="220" width="100" height="22" rx="2"/>
+    <text class="tiny" x="292" y="235">Search</text>
+    <rect class="box" x="242" y="246" width="100" height="22" rx="2"/>
+    <text class="tiny" x="292" y="261">Files</text>
+    <rect class="box-accent" x="376" y="214" width="112" height="60" rx="4"/>
+    <rect class="box" x="382" y="220" width="100" height="22" rx="2"/>
+    <text class="tiny" x="432" y="235">Search</text>
+    <rect class="box" x="382" y="246" width="100" height="22" rx="2"/>
+    <text class="tiny" x="432" y="261">Files</text>
+    <rect class="box-accent" x="516" y="214" width="112" height="60" rx="4"/>
+    <rect class="box" x="522" y="220" width="100" height="22" rx="2"/>
+    <text class="tiny" x="572" y="235">Search</text>
+    <rect class="box" x="522" y="246" width="100" height="22" rx="2"/>
+    <text class="tiny" x="572" y="261">Files</text>
+
+    <text class="label" x="432" y="300">Several contexts</text>
+    <text class="sub" x="432" y="318">each core gets its own clean RAM</text>
+  </g>
+</svg>

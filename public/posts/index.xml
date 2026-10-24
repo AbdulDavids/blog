@@ -2,66 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Abdul Baari Davids</title>
-    <link>http://localhost:52524/posts/</link>
+    <link>http://localhost:53601/posts/</link>
     <description>Recent content in Posts on Abdul Baari Davids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52524/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53601/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context is the disk, not the RAM</title>
+      <link>http://localhost:53601/posts/context-engineering/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:53601/posts/context-engineering/</guid>
+      <description>Context engineering is a better name for the skill than prompt engineering. Thinking of an LLM as a computer explains why, and why knowledge bases should be explored, not loaded.</description>
+    </item>
     <item>
       <title>Ten Laws of AI-Augmented Engineering</title>
-      <link>http://localhost:52524/posts/ten-ai-rules/</link>
+      <link>http://localhost:53601/posts/ten-ai-rules/</link>
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52524/posts/ten-ai-rules/</guid>
+      <guid>http://localhost:53601/posts/ten-ai-rules/</guid>
       <description>Ten rules I follow when building with AI, covering planning, building, verifying and keeping a codebase healthy.</description>
     </item>
     <item>
       <title>AI in the solution, not just the SDLC</title>
-      <link>http://localhost:52524/posts/ai-solution-vs-sdlc/</link>
+      <link>http://localhost:53601/posts/ai-solution-vs-sdlc/</link>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52524/posts/ai-solution-vs-sdlc/</guid>
+      <guid>http://localhost:53601/posts/ai-solution-vs-sdlc/</guid>
       <description>Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live.</description>
     </item>
     <item>
       <title>Treat your prompts like code</title>
-      <link>http://localhost:52524/posts/on-prompting/</link>
+      <link>http://localhost:53601/posts/on-prompting/</link>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52524/posts/on-prompting/</guid>
+      <guid>http://localhost:53601/posts/on-prompting/</guid>
       <description>Prompt engineering is testing, not magic phrases. </description>
     </item>
     <item>
       <title>Computer science in the intelligence age</title>
-      <link>http://localhost:52524/posts/ai-age/</link>
+      <link>http://localhost:53601/posts/ai-age/</link>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52524/posts/ai-age/</guid>
+      <guid>http://localhost:53601/posts/ai-age/</guid>
       <description>Universities are still teaching recall. they should be teaching how to build. thoughts from someone stuck in both worlds.</description>
     </item>
     <item>
       <title>All aboard the AI hype train!</title>
-      <link>http://localhost:52524/posts/artificial-intelligence/</link>
+      <link>http://localhost:53601/posts/artificial-intelligence/</link>
       <pubDate>Mon, 29 Apr 2024 20:45:45 +0200</pubDate>
-      <guid>http://localhost:52524/posts/artificial-intelligence/</guid>
+      <guid>http://localhost:53601/posts/artificial-intelligence/</guid>
       <description>Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be.</description>
     </item>
     <item>
       <title>Ferrari mess-ups 2024</title>
-      <link>http://localhost:52524/posts/ferrari-2024/</link>
+      <link>http://localhost:53601/posts/ferrari-2024/</link>
       <pubDate>Mon, 04 Mar 2024 09:31:13 +0200</pubDate>
-      <guid>http://localhost:52524/posts/ferrari-2024/</guid>
+      <guid>http://localhost:53601/posts/ferrari-2024/</guid>
       <description>Ferrari&amp;#39;s 2024 season, race by race: a promo video with a slow pitstop, Box Box shenanigans, and enough &amp;#39;we are checking&amp;#39; to fill Maranello&amp;#39;s car park.</description>
     </item>
     <item>
       <title>My Experience as a SDE Intern at Codeinfinity</title>
-      <link>http://localhost:52524/posts/codeinfinity/</link>
+      <link>http://localhost:53601/posts/codeinfinity/</link>
       <pubDate>Sun, 03 Mar 2024 12:53:45 +0200</pubDate>
-      <guid>http://localhost:52524/posts/codeinfinity/</guid>
+      <guid>http://localhost:53601/posts/codeinfinity/</guid>
       <description>My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension for a client, and getting my first real pull request merged.</description>
     </item>
     <item>
       <title>An Introduction</title>
-      <link>http://localhost:52524/posts/hello-there/</link>
+      <link>http://localhost:53601/posts/hello-there/</link>
       <pubDate>Fri, 02 Feb 2024 09:13:59 +0200</pubDate>
-      <guid>http://localhost:52524/posts/hello-there/</guid>
+      <guid>http://localhost:53601/posts/hello-there/</guid>
       <description>An introduction to software engineering</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Abdul Baari Davids</title>
-    <link>http://localhost:52524/tags/</link>
+    <link>http://localhost:53601/tags/</link>
     <description>Recent content in Tags on Abdul Baari Davids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52524/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53601/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opinion</title>
-      <link>http://localhost:52524/tags/opinion/</link>
+      <link>http://localhost:53601/tags/opinion/</link>
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52524/tags/opinion/</guid>
+      <guid>http://localhost:53601/tags/opinion/</guid>
       <description></description>
     </item>
     <item>
       <title>Internship</title>
-      <link>http://localhost:52524/tags/internship/</link>
+      <link>http://localhost:53601/tags/internship/</link>
       <pubDate>Sun, 03 Mar 2024 12:53:45 +0200</pubDate>
-      <guid>http://localhost:52524/tags/internship/</guid>
+      <guid>http://localhost:53601/tags/internship/</guid>
       <description></description>
     </item>
   </channel>

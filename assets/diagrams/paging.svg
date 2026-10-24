@@ -1,0 +1,70 @@
+<svg viewBox="0 0 640 336" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="paging-title">
+  <title id="paging-title">The disk holds every page. The context window is shown at three moments. While working, the agent has read refunds.md and invoices.md in full. After compaction, both bodies are evicted but their paths stay, next to a short summary. When refunds turns out to matter again, the agent follows the path and reads the page back in from disk.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="16" y="24" text-anchor="start">Disk</text>
+    <text class="heading" x="176" y="24" text-anchor="start">Context window over time</text>
+    <line class="divider" x1="152" y1="40" x2="152" y2="320"/>
+
+    <rect class="box" x="16" y="48" width="120" height="30" rx="4"/>
+    <text class="tiny" x="76" y="67">refunds.md</text>
+    <rect class="box" x="16" y="88" width="120" height="30" rx="4"/>
+    <text class="tiny" x="76" y="107">invoices.md</text>
+    <rect class="box" x="16" y="128" width="120" height="30" rx="4"/>
+    <text class="tiny" x="76" y="147">payments.md</text>
+    <rect class="box" x="16" y="168" width="120" height="30" rx="4"/>
+    <text class="tiny" x="76" y="187">pricing.md</text>
+    <rect class="box" x="16" y="208" width="120" height="30" rx="4"/>
+    <text class="tiny" x="76" y="227">sso-setup.md</text>
+    <text class="sub" x="76" y="258">every page, always</text>
+
+    <line class="line-accent" x1="136" y1="63" x2="168" y2="120"/>
+    <polygon class="head-accent" points="171,126 164,121 171,117"/>
+
+    <rect class="box" x="176" y="48" width="130" height="216" rx="6"/>
+    <rect class="box" x="184" y="56" width="114" height="26" rx="3"/>
+    <text class="tiny" x="241" y="73">System</text>
+    <rect class="box" x="184" y="88" width="114" height="26" rx="3"/>
+    <text class="tiny" x="241" y="105">Index</text>
+    <rect class="box-accent" x="184" y="120" width="114" height="58" rx="3"/>
+    <text class="tiny-accent" x="241" y="153">refunds.md</text>
+    <rect class="box-accent" x="184" y="184" width="114" height="58" rx="3"/>
+    <text class="tiny-accent" x="241" y="217">invoices.md</text>
+    <text class="label" x="241" y="292">Working</text>
+    <text class="sub" x="241" y="312">two pages read in</text>
+
+    <line class="line" x1="310" y1="156" x2="322" y2="156"/>
+    <polygon class="head" points="327,156 320,152 320,160"/>
+
+    <rect class="box" x="330" y="48" width="130" height="216" rx="6"/>
+    <rect class="box" x="338" y="56" width="114" height="26" rx="3"/>
+    <text class="tiny" x="395" y="73">System</text>
+    <rect class="box" x="338" y="88" width="114" height="26" rx="3"/>
+    <text class="tiny" x="395" y="105">Index</text>
+    <rect class="box" x="338" y="120" width="114" height="20" rx="10" style="stroke:var(--accent)"/>
+    <text class="tiny-accent" x="395" y="134">→ refunds.md</text>
+    <rect class="box" x="338" y="146" width="114" height="20" rx="10" style="stroke:var(--accent)"/>
+    <text class="tiny-accent" x="395" y="160">→ invoices.md</text>
+    <rect class="box" x="338" y="172" width="114" height="26" rx="3"/>
+    <text class="tiny" x="395" y="189">Summary</text>
+    <text class="sub" x="395" y="238">free</text>
+    <text class="label" x="395" y="292">Compacted</text>
+    <text class="sub-accent" x="395" y="312">bodies out, paths kept</text>
+
+    <line class="line" x1="464" y1="156" x2="476" y2="156"/>
+    <polygon class="head" points="481,156 474,152 474,160"/>
+
+    <rect class="box" x="484" y="48" width="130" height="216" rx="6"/>
+    <rect class="box" x="492" y="56" width="114" height="26" rx="3"/>
+    <text class="tiny" x="549" y="73">System</text>
+    <rect class="box" x="492" y="88" width="114" height="26" rx="3"/>
+    <text class="tiny" x="549" y="105">Index</text>
+    <rect class="box" x="492" y="120" width="114" height="20" rx="10" style="stroke:var(--accent)"/>
+    <text class="tiny-accent" x="549" y="134">→ invoices.md</text>
+    <rect class="box" x="492" y="146" width="114" height="26" rx="3"/>
+    <text class="tiny" x="549" y="163">Summary</text>
+    <rect class="box-accent" x="492" y="178" width="114" height="58" rx="3"/>
+    <text class="tiny-accent" x="549" y="211">refunds.md</text>
+    <text class="label" x="549" y="292">Needed again</text>
+    <text class="sub" x="549" y="312">read back from disk</text>
+  </g>
+</svg>

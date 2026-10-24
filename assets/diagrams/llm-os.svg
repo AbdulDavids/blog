@@ -1,0 +1,108 @@
+<svg viewBox="0 0 640 596" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="llm-os-title">
+  <title id="llm-os-title">An agent drawn as a computer. The harness is the motherboard. On it sit the CPU (the model, with its weights as firmware), a cache (the KV or prompt cache), RAM (the context window, holding the system prompt, tools, index, task and history), a clock (the agent loop) and extra cores (subagents). Above it is input and output: the user's prompts and the replies. On the left are peripherals: a terminal, a code runner, grep and glob, and MCP servers. On the right is the network card: the web, APIs, databases and other models. Below it is storage, which the agent pages in and out of: the knowledge base, the codebase, memory files and rules files.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="180" y="24" text-anchor="start">Input and output</text>
+    <rect class="divider" x="180" y="34" width="280" height="78" rx="8" fill="none"/>
+    <rect class="box" x="196" y="48" width="116" height="50" rx="4"/>
+    <text class="label" x="254" y="69">Keyboard</text>
+    <text class="sub" x="254" y="87">your prompts</text>
+    <rect class="box" x="328" y="48" width="116" height="50" rx="4"/>
+    <text class="label" x="386" y="69">Screen</text>
+    <text class="sub" x="386" y="87">replies, diffs</text>
+
+    <line class="line" x1="254" y1="119" x2="254" y2="143"/>
+    <polygon class="head" points="254,149 250,142 258,142"/>
+    <line class="line" x1="386" y1="125" x2="386" y2="149"/>
+    <polygon class="head" points="386,119 382,126 390,126"/>
+
+    <rect class="divider" x="180" y="150" width="280" height="290" rx="8" fill="none"/>
+    <text class="heading" x="196" y="174" text-anchor="start">Motherboard: the harness</text>
+    <rect class="box" x="196" y="186" width="120" height="74" rx="4"/>
+    <text class="label" x="256" y="210">CPU</text>
+    <text class="sub" x="256" y="228">the model</text>
+    <text class="tiny" x="256" y="248">firmware: weights</text>
+    <rect class="box" x="324" y="186" width="120" height="74" rx="4"/>
+    <text class="label" x="384" y="210">Cache</text>
+    <text class="sub" x="384" y="228">KV / prompt cache</text>
+    <text class="tiny" x="384" y="248">reuses the prefix</text>
+
+    <rect class="box-accent" x="196" y="270" width="248" height="96" rx="6"/>
+    <text class="sub-accent" x="320" y="290">RAM: the context window</text>
+    <rect class="box" x="204" y="300" width="44" height="32" rx="3"/>
+    <rect class="box" x="252" y="300" width="44" height="32" rx="3"/>
+    <rect class="box" x="300" y="300" width="44" height="32" rx="3"/>
+    <rect class="box" x="348" y="300" width="44" height="32" rx="3"/>
+    <rect class="box" x="396" y="300" width="44" height="32" rx="3"/>
+    <text class="tiny" x="226" y="320">System</text>
+    <text class="tiny" x="274" y="320">Tools</text>
+    <text class="tiny" x="322" y="320">Index</text>
+    <text class="tiny" x="370" y="320">Task</text>
+    <text class="tiny" x="418" y="320">History</text>
+    <text class="sub" x="320" y="354">small, worse as it fills</text>
+
+    <rect class="box" x="196" y="376" width="120" height="50" rx="4"/>
+    <text class="label" x="256" y="398">Clock</text>
+    <text class="sub" x="256" y="416">the agent loop</text>
+    <rect class="box" x="324" y="376" width="120" height="50" rx="4"/>
+    <text class="label" x="384" y="398">More cores</text>
+    <text class="sub" x="384" y="416">subagents</text>
+
+    <text class="heading" x="8" y="162" text-anchor="start">Peripherals</text>
+    <rect class="divider" x="8" y="172" width="148" height="268" rx="8" fill="none"/>
+    <rect class="box" x="18" y="186" width="128" height="52" rx="4"/>
+    <text class="label" x="82" y="208">Terminal</text>
+    <text class="sub" x="82" y="226">run commands</text>
+    <rect class="box" x="18" y="250" width="128" height="52" rx="4"/>
+    <text class="label" x="82" y="272">Code runner</text>
+    <text class="sub" x="82" y="290">run and test</text>
+    <rect class="box" x="18" y="314" width="128" height="52" rx="4"/>
+    <text class="label" x="82" y="336">grep and glob</text>
+    <text class="sub" x="82" y="354">search files</text>
+    <rect class="box" x="18" y="378" width="128" height="52" rx="4"/>
+    <text class="label" x="82" y="400">MCP servers</text>
+    <text class="sub" x="82" y="418">plug in anything</text>
+
+    <line class="line" x1="163" y1="306" x2="173" y2="306"/>
+    <polygon class="head" points="157,306 164,302 164,310"/>
+    <polygon class="head" points="179,306 172,302 172,310"/>
+
+    <text class="heading" x="484" y="162" text-anchor="start">Network card</text>
+    <rect class="divider" x="484" y="172" width="148" height="268" rx="8" fill="none"/>
+    <rect class="box" x="494" y="186" width="128" height="52" rx="4"/>
+    <text class="label" x="558" y="208">Web</text>
+    <text class="sub" x="558" y="226">search, fetch</text>
+    <rect class="box" x="494" y="250" width="128" height="52" rx="4"/>
+    <text class="label" x="558" y="272">APIs</text>
+    <text class="sub" x="558" y="290">other services</text>
+    <rect class="box" x="494" y="314" width="128" height="52" rx="4"/>
+    <text class="label" x="558" y="336">Databases</text>
+    <text class="sub" x="558" y="354">query data</text>
+    <rect class="box" x="494" y="378" width="128" height="52" rx="4"/>
+    <text class="label" x="558" y="400">Other models</text>
+    <text class="sub" x="558" y="418">call another LLM</text>
+
+    <line class="line" x1="467" y1="306" x2="477" y2="306"/>
+    <polygon class="head" points="461,306 468,302 468,310"/>
+    <polygon class="head" points="483,306 476,302 476,310"/>
+
+    <line class="line-accent" x1="320" y1="447" x2="320" y2="482"/>
+    <polygon class="head-accent" points="320,441 316,448 324,448"/>
+    <polygon class="head-accent" points="320,489 316,482 324,482"/>
+    <text class="sub-accent" x="330" y="470" text-anchor="start">paging</text>
+
+    <text class="heading" x="40" y="488" text-anchor="start">Storage</text>
+    <rect class="divider" x="40" y="498" width="560" height="84" rx="8" fill="none"/>
+    <rect class="box-accent" x="54" y="514" width="124" height="52" rx="4"/>
+    <text class="label" x="116" y="536">Knowledge base</text>
+    <text class="sub-accent" x="116" y="554">docs, wiki</text>
+    <rect class="box" x="190" y="514" width="124" height="52" rx="4"/>
+    <text class="label" x="252" y="536">Codebase</text>
+    <text class="sub" x="252" y="554">source files</text>
+    <rect class="box" x="326" y="514" width="124" height="52" rx="4"/>
+    <text class="label" x="388" y="536">Memory</text>
+    <text class="sub" x="388" y="554">notes, todo.md</text>
+    <rect class="box" x="462" y="514" width="124" height="52" rx="4"/>
+    <text class="label" x="524" y="536">Rules</text>
+    <text class="sub" x="524" y="554">CLAUDE.md</text>
+  </g>
+</svg>

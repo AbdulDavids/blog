@@ -566,3 +566,21 @@ a:focus-visible {
 .diagram .head-accent {
     fill: var(--accent);
 }
+
+.diagram .line-dash {
+    fill: none;
+    stroke: color-mix(in srgb, var(--secondary) 70%, var(--theme));
+    stroke-width: 1.25;
+    stroke-dasharray: 4 3;
+}
+
+.diagram .tiny {
+    fill: var(--content);
+    font-size: 12px;
+}
+
+.diagram .tiny-accent {
+    fill: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+}

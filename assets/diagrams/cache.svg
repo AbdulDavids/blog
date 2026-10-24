@@ -1,0 +1,77 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cache-title">
+  <title id="cache-title">Four calls in an agent loop. On the first call every token is processed at full price. On the second and third calls, everything before the newest step is an identical prefix, so it comes from the cache and only the new step is processed. On the fourth call, a timestamp at the start of the system prompt has changed, so nothing after it matches and the whole context is processed at full price again.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="16" y="24" text-anchor="start">Append to the end</text>
+
+    <text class="label" x="16" y="62" text-anchor="start">Call 1</text>
+    <text class="sub" x="16" y="80" text-anchor="start">all new</text>
+    <rect class="box" x="150" y="46" width="66" height="36"/>
+    <rect class="box" x="216" y="46" width="66" height="36"/>
+    <rect class="box" x="282" y="46" width="66" height="36"/>
+    <rect class="box" x="348" y="46" width="66" height="36"/>
+    <rect class="box" x="414" y="46" width="66" height="36"/>
+    <text class="tiny" x="183" y="68">System</text>
+    <text class="tiny" x="249" y="68">Tools</text>
+    <text class="tiny" x="315" y="68">Index</text>
+    <text class="tiny" x="381" y="68">Task</text>
+    <text class="tiny" x="447" y="68">Step 1</text>
+
+    <text class="label" x="16" y="110" text-anchor="start">Call 2</text>
+    <text class="sub-accent" x="16" y="128" text-anchor="start">prefix cached</text>
+    <rect class="box-accent" x="150" y="94" width="66" height="36"/>
+    <rect class="box-accent" x="216" y="94" width="66" height="36"/>
+    <rect class="box-accent" x="282" y="94" width="66" height="36"/>
+    <rect class="box-accent" x="348" y="94" width="66" height="36"/>
+    <rect class="box-accent" x="414" y="94" width="66" height="36"/>
+    <rect class="box" x="480" y="94" width="66" height="36"/>
+    <text class="tiny" x="183" y="116">System</text>
+    <text class="tiny" x="249" y="116">Tools</text>
+    <text class="tiny" x="315" y="116">Index</text>
+    <text class="tiny" x="381" y="116">Task</text>
+    <text class="tiny" x="447" y="116">Step 1</text>
+    <text class="tiny" x="513" y="116">Step 2</text>
+
+    <text class="label" x="16" y="158" text-anchor="start">Call 3</text>
+    <text class="sub-accent" x="16" y="176" text-anchor="start">prefix cached</text>
+    <rect class="box-accent" x="150" y="142" width="66" height="36"/>
+    <rect class="box-accent" x="216" y="142" width="66" height="36"/>
+    <rect class="box-accent" x="282" y="142" width="66" height="36"/>
+    <rect class="box-accent" x="348" y="142" width="66" height="36"/>
+    <rect class="box-accent" x="414" y="142" width="66" height="36"/>
+    <rect class="box-accent" x="480" y="142" width="66" height="36"/>
+    <rect class="box" x="546" y="142" width="66" height="36"/>
+    <text class="tiny" x="183" y="164">System</text>
+    <text class="tiny" x="249" y="164">Tools</text>
+    <text class="tiny" x="315" y="164">Index</text>
+    <text class="tiny" x="381" y="164">Task</text>
+    <text class="tiny" x="447" y="164">Step 1</text>
+    <text class="tiny" x="513" y="164">Step 2</text>
+    <text class="tiny" x="579" y="164">Step 3</text>
+
+    <line class="divider" x1="16" y1="202" x2="624" y2="202"/>
+
+    <text class="heading" x="16" y="232" text-anchor="start">Change something at the front</text>
+
+    <text class="label" x="16" y="270" text-anchor="start">Call 4</text>
+    <text class="sub" x="16" y="288" text-anchor="start">new timestamp</text>
+    <rect class="box" x="150" y="254" width="66" height="36" style="stroke:var(--accent)"/>
+    <rect class="box" x="216" y="254" width="66" height="36"/>
+    <rect class="box" x="282" y="254" width="66" height="36"/>
+    <rect class="box" x="348" y="254" width="66" height="36"/>
+    <rect class="box" x="414" y="254" width="66" height="36"/>
+    <rect class="box" x="480" y="254" width="66" height="36"/>
+    <rect class="box" x="546" y="254" width="66" height="36"/>
+    <text class="tiny-accent" x="183" y="276">System</text>
+    <text class="tiny" x="249" y="276">Tools</text>
+    <text class="tiny" x="315" y="276">Index</text>
+    <text class="tiny" x="381" y="276">Task</text>
+    <text class="tiny" x="447" y="276">Step 1</text>
+    <text class="tiny" x="513" y="276">Step 2</text>
+    <text class="tiny" x="579" y="276">Step 3</text>
+
+    <rect class="box-accent" x="150" y="310" width="12" height="12"/>
+    <text class="sub" x="170" y="321" text-anchor="start">read from cache, about a tenth of the price</text>
+    <rect class="box" x="440" y="310" width="12" height="12"/>
+    <text class="sub" x="460" y="321" text-anchor="start">processed at full price</text>
+  </g>
+</svg>

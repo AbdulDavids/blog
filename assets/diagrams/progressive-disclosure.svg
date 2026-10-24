@@ -1,0 +1,89 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="progressive-disclosure-title">
+  <title id="progressive-disclosure-title">A knowledge base laid out as a tree: a top index, five sections (billing, sales, support, onboarding and incidents) and three pages under each. To answer a refund question, the agent reads the index, then the billing index, then the refunds page. Below, what ends up in context: walking the tree loads three small pieces and leaves most of the window free. Loading everything fills the window, with the refunds page buried in the middle.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="16" y="24" text-anchor="start">Walk the tree</text>
+
+    <rect class="box-accent" x="270" y="40" width="100" height="32" rx="4"/>
+    <text class="tiny-accent" x="320" y="60">index</text>
+
+    <line class="line-accent" x1="320" y1="72" x2="72" y2="112"/>
+    <line class="line" x1="320" y1="72" x2="196" y2="112"/>
+    <line class="line" x1="320" y1="72" x2="320" y2="112"/>
+    <line class="line" x1="320" y1="72" x2="444" y2="112"/>
+    <line class="line" x1="320" y1="72" x2="568" y2="112"/>
+
+    <rect class="box-accent" x="24" y="112" width="96" height="30" rx="4"/>
+    <text class="tiny-accent" x="72" y="131">billing</text>
+    <rect class="box" x="148" y="112" width="96" height="30" rx="4"/>
+    <text class="tiny" x="196" y="131">sales</text>
+    <rect class="box" x="272" y="112" width="96" height="30" rx="4"/>
+    <text class="tiny" x="320" y="131">support</text>
+    <rect class="box" x="396" y="112" width="96" height="30" rx="4"/>
+    <text class="tiny" x="444" y="131">onboarding</text>
+    <rect class="box" x="520" y="112" width="96" height="30" rx="4"/>
+    <text class="tiny" x="568" y="131">incidents</text>
+
+    <path class="line" d="M34 142V245M34 167h10M34 205h10M34 243h10"/>
+    <path class="line-accent" d="M34 142V167h10"/>
+    <path class="line" d="M158 142V245M158 167h10M158 205h10M158 243h10"/>
+    <path class="line" d="M282 142V245M282 167h10M282 205h10M282 243h10"/>
+    <path class="line" d="M406 142V245M406 167h10M406 205h10M406 243h10"/>
+    <path class="line" d="M530 142V245M530 167h10M530 205h10M530 243h10"/>
+
+    <rect class="box-accent" x="44" y="154" width="76" height="26" rx="4"/>
+    <text class="tiny-accent" x="82" y="171">refunds</text>
+    <rect class="box" x="44" y="192" width="76" height="26" rx="4"/>
+    <text class="tiny" x="82" y="209">invoices</text>
+    <rect class="box" x="44" y="230" width="76" height="26" rx="4"/>
+    <text class="tiny" x="82" y="247">payments</text>
+
+    <rect class="box" x="168" y="154" width="76" height="26" rx="4"/>
+    <text class="tiny" x="206" y="171">pricing</text>
+    <rect class="box" x="168" y="192" width="76" height="26" rx="4"/>
+    <text class="tiny" x="206" y="209">discounts</text>
+    <rect class="box" x="168" y="230" width="76" height="26" rx="4"/>
+    <text class="tiny" x="206" y="247">contracts</text>
+
+    <rect class="box" x="292" y="154" width="76" height="26" rx="4"/>
+    <text class="tiny" x="330" y="171">escalation</text>
+    <rect class="box" x="292" y="192" width="76" height="26" rx="4"/>
+    <text class="tiny" x="330" y="209">SLAs</text>
+    <rect class="box" x="292" y="230" width="76" height="26" rx="4"/>
+    <text class="tiny" x="330" y="247">macros</text>
+
+    <rect class="box" x="416" y="154" width="76" height="26" rx="4"/>
+    <text class="tiny" x="454" y="171">accounts</text>
+    <rect class="box" x="416" y="192" width="76" height="26" rx="4"/>
+    <text class="tiny" x="454" y="209">SSO setup</text>
+    <rect class="box" x="416" y="230" width="76" height="26" rx="4"/>
+    <text class="tiny" x="454" y="247">imports</text>
+
+    <rect class="box" x="540" y="154" width="76" height="26" rx="4"/>
+    <text class="tiny" x="578" y="171">database</text>
+    <rect class="box" x="540" y="192" width="76" height="26" rx="4"/>
+    <text class="tiny" x="578" y="209">queues</text>
+    <rect class="box" x="540" y="230" width="76" height="26" rx="4"/>
+    <text class="tiny" x="578" y="247">on-call</text>
+
+    <line class="divider" x1="16" y1="284" x2="624" y2="284"/>
+
+    <text class="heading" x="16" y="316" text-anchor="start">What ends up in context</text>
+
+    <text class="label" x="16" y="350" text-anchor="start">Walk the tree</text>
+    <text class="sub-accent" x="16" y="368" text-anchor="start">~2,300 tokens</text>
+    <rect class="box" x="190" y="334" width="430" height="36" rx="3"/>
+    <rect class="box-accent" x="194" y="338" width="54" height="28" rx="2"/>
+    <rect class="box-accent" x="252" y="338" width="54" height="28" rx="2"/>
+    <rect class="box-accent" x="310" y="338" width="80" height="28" rx="2"/>
+    <text class="tiny-accent" x="221" y="356">index</text>
+    <text class="tiny-accent" x="279" y="356">billing</text>
+    <text class="tiny-accent" x="350" y="356">refunds</text>
+    <text class="sub" x="505" y="357">free</text>
+
+    <text class="label" x="16" y="398" text-anchor="start">Load everything</text>
+    <text class="sub" x="16" y="416" text-anchor="start">~300,000 tokens</text>
+    <rect class="box" x="190" y="382" width="430" height="36" rx="3"/>
+    <path class="box" d="M194 386h24v28h-24ZM222 386h24v28h-24ZM250 386h24v28h-24ZM278 386h24v28h-24ZM306 386h24v28h-24ZM334 386h24v28h-24ZM362 386h24v28h-24ZM424 386h24v28h-24ZM452 386h24v28h-24ZM480 386h24v28h-24ZM508 386h24v28h-24ZM536 386h24v28h-24ZM564 386h24v28h-24ZM592 386h24v28h-24Z"/>
+    <rect class="box-accent" x="390" y="386" width="30" height="28" rx="2"/>
+  </g>
+</svg>
