@@ -1,6 +1,6 @@
 ---
 title: "Ten Laws of AI-Augmented Engineering"
-date: 2026-10-24
+date: 2026-10-18
 draft: false
 tags: ["opinion"]
 showToc: false

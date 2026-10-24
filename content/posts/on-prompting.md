@@ -1,6 +1,6 @@
 ---
 title: "Treat your prompts like code"
-date: 2026-10-11
+date: 2026-10-04
 draft: false
 tags: ["opinion"]
 description: "Prompt engineering is testing, not magic phrases. "

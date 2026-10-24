@@ -1,6 +1,6 @@
 ---
 title: "Context engineering is memory management"
-date: 2026-10-24
+date: 2026-10-25
 draft: false
 tags: ["opinion"]
 description: "Your agent had the right page and still got the answer wrong. That's a memory problem, not a prompt problem."

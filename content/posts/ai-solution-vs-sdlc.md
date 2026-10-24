@@ -1,6 +1,6 @@
 ---
 title: "AI in the solution, not just the SDLC"
-date: 2026-10-16
+date: 2026-10-12
 draft: false
 tags: ["opinion"]
 description: "Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live."

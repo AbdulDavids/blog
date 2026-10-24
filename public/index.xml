@@ -6,33 +6,26 @@
     <description>Recent content on Abdul Baari Davids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:54948/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Context engineering is memory management</title>
-      <link>http://localhost:54948/posts/context-engineering/</link>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54948/posts/context-engineering/</guid>
-      <description>Your agent had the right page and still got the answer wrong. That&amp;#39;s a memory problem, not a prompt problem.</description>
-    </item>
     <item>
       <title>Ten Laws of AI-Augmented Engineering</title>
       <link>http://localhost:54948/posts/ten-ai-rules/</link>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:54948/posts/ten-ai-rules/</guid>
       <description>Ten rules I follow when building with AI, covering planning, building, verifying and keeping a codebase healthy.</description>
     </item>
     <item>
       <title>AI in the solution, not just the SDLC</title>
       <link>http://localhost:54948/posts/ai-solution-vs-sdlc/</link>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:54948/posts/ai-solution-vs-sdlc/</guid>
       <description>Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live.</description>
     </item>
     <item>
       <title>Treat your prompts like code</title>
       <link>http://localhost:54948/posts/on-prompting/</link>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:54948/posts/on-prompting/</guid>
       <description>Prompt engineering is testing, not magic phrases. </description>
     </item>
