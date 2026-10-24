@@ -157,11 +157,18 @@ similar when it compacts a long conversation.
 A better version is **restorable compression**: drop a web page's content but
 keep its URL, drop a document's contents but keep its path.[^manus]
 
+{{< diagram src="restorable.svg" >}}
+
 That's a page table. The content is evicted, but its address stays, so the
 model can load it back if it turns out to matter. A summary loses detail and
 can't be reversed. A path costs a few tokens and loses nothing. So before you
 drop anything from context, check that you're keeping its address. A file path
 is a pointer: ten tokens that stand in for ten thousand.
+
+A good path is also a summary. An agent can probably guess what
+`src/billing/refunds.js` does from the name alone, so it can decide whether to
+read the file at all without opening it. A file called `utils2.js` tells it
+nothing, so it has to read the whole thing to find out.
 
 ## Storage: how to lay out a knowledge base
 

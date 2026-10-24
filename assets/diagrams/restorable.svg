@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 236" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="restorable-title">
+  <title id="restorable-title">Two ways to hold the same three items in context. Storing the content keeps a full web page, a full document and a 2,000-line log, about 31,000 tokens. Storing links keeps a URL, a file path and a log path instead, about 40 tokens, and any of them can be read back in later.</title>
+  <g>
+    <text class="heading" x="16" y="24">Store the content</text>
+    <text class="heading" x="336" y="24">Store the address</text>
+    <line class="divider" x1="320" y1="40" x2="320" y2="220"/>
+
+    <text class="sub" x="26" y="56">Item</text>
+    <text class="sub" x="106" y="56">In context</text>
+    <text class="sub" x="294" y="56" text-anchor="end">Tokens</text>
+
+    <rect class="box" x="16" y="66" width="288" height="34" rx="4"/>
+    <text class="tiny" x="26" y="87">Web page</text>
+    <text class="tiny" x="106" y="87">full page text</text>
+    <text class="tiny" x="294" y="87" text-anchor="end">~8,000</text>
+
+    <rect class="box" x="16" y="108" width="288" height="34" rx="4"/>
+    <text class="tiny" x="26" y="129">Document</text>
+    <text class="tiny" x="106" y="129">full document</text>
+    <text class="tiny" x="294" y="129" text-anchor="end">~3,000</text>
+
+    <rect class="box" x="16" y="150" width="288" height="34" rx="4"/>
+    <text class="tiny" x="26" y="171">Tool output</text>
+    <text class="tiny" x="106" y="171">2,000-line log</text>
+    <text class="tiny" x="294" y="171" text-anchor="end">~20,000</text>
+
+    <text class="sub" x="160" y="212" text-anchor="middle">~31,000 tokens</text>
+
+    <text class="sub" x="346" y="56">Item</text>
+    <text class="sub" x="426" y="56">In context</text>
+    <text class="sub" x="614" y="56" text-anchor="end">Tokens</text>
+
+    <rect class="box-accent" x="336" y="66" width="288" height="34" rx="4"/>
+    <text class="tiny" x="346" y="87">Web page</text>
+    <text class="tiny-accent" x="426" y="87">acme.com/refunds</text>
+    <text class="tiny" x="614" y="87" text-anchor="end">~20</text>
+
+    <rect class="box-accent" x="336" y="108" width="288" height="34" rx="4"/>
+    <text class="tiny" x="346" y="129">Document</text>
+    <text class="tiny-accent" x="426" y="129">billing/refunds.md</text>
+    <text class="tiny" x="614" y="129" text-anchor="end">~10</text>
+
+    <rect class="box-accent" x="336" y="150" width="288" height="34" rx="4"/>
+    <text class="tiny" x="346" y="171">Tool output</text>
+    <text class="tiny-accent" x="426" y="171">logs/run-42.txt</text>
+    <text class="tiny" x="614" y="171" text-anchor="end">~10</text>
+
+    <text class="sub-accent" x="480" y="212" text-anchor="middle">~40 tokens, any of it can be read back</text>
+  </g>
+</svg>
