@@ -1,0 +1,6 @@
+{{- /* Shows one image in light mode and another in dark mode.
+     Usage: {{< themed-image light="/images/x-light.png" dark="/images/x-dark.png" alt="..." >}} */ -}}
+<figure class="themed-image">
+  <img class="only-light" src="{{ .Get "light" }}" alt="{{ .Get "alt" }}" loading="lazy">
+  <img class="only-dark" src="{{ .Get "dark" }}" alt="{{ .Get "alt" }}" loading="lazy">
+</figure>

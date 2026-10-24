@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Abdul Baari Davids</title>
-    <link>http://localhost:53601/categories/</link>
+    <link>http://localhost:54948/categories/</link>
     <description>Recent content in Categories on Abdul Baari Davids</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Mar 2024 09:31:13 +0200</lastBuildDate>
-    <atom:link href="http://localhost:53601/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:54948/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Formula One</title>
-      <link>http://localhost:53601/categories/formula-one/</link>
+      <link>http://localhost:54948/categories/formula-one/</link>
       <pubDate>Mon, 04 Mar 2024 09:31:13 +0200</pubDate>
-      <guid>http://localhost:53601/categories/formula-one/</guid>
+      <guid>http://localhost:54948/categories/formula-one/</guid>
       <description></description>
     </item>
   </channel>

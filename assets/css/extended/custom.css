@@ -584,3 +584,20 @@ a:focus-visible {
     font-size: 12px;
     font-weight: 600;
 }
+
+/* Light/dark image pairs (see layouts/shortcodes/themed-image.html) */
+.post-content .themed-image img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.themed-image .only-dark,
+.dark .themed-image .only-light {
+    display: none;
+}
+
+.dark .themed-image .only-dark {
+    display: block;
+}
