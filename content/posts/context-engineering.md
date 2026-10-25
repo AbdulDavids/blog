@@ -12,30 +12,28 @@ tokens. You ask how refunds work on annual plans, and it gets the answer wrong.
 The right page was in there, somewhere in the middle. The model just didn't use
 it.
 
-The instinct is to fix the prompt: add "read the documentation carefully", put
-it in capitals, move it to the end. That rarely helps, because the prompt was
+Your instinct may to just fix the prompt: add "read the documentation carefully", put
+it in capitals, move it to the end, "make no mistakes". That rarely helps, because the prompt was
 never the problem. The problem was what the model could see, how much of it
-there was, and where the right page sat.
+there was, and where the right page sat. That's what we mean by **context engineering**.[^tobi] 
 
-That's the shift people mean by **context engineering**.[^tobi] Prompt
-engineering asks _how should I phrase this?_ Context engineering asks _what can
-the model see right now, and how did it get there?_ One is a writing problem.
-The other is a **systems** problem.
+Prompt engineering asks _how should I phrase this?_ 
 
-I'd go further. An agent is a **computer**, in the hardware sense. The model is
+Context engineering asks _what can the model see right now, and how did it get there?_ 
+
+## An agent is a computer
+
+For this article I'd like us to suppose an agent is a **computer**, in the hardware sense. The model is
 the processor, the context window is RAM, tools are peripherals, files are
 storage, and the harness is the motherboard that connects them.
 
 The idea comes from Andrej Karpathy, who calls it the "LLM OS". I got it from his
-talk [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ&t=620s),
-and if you haven't seen it, watch the whole thing.[^llmos]
+YC talk [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ&t=620s).[^llmos]
 
 I'm going to take the idea literally, because it keeps giving the right
 engineering answer. In that picture, context engineering is **memory
 management**, and memory is where most agents fail. That's most of this post,
-but first, the whole machine.
-
-## An agent is a computer
+but first, lets take a look at the whole machine.
 
 {{< diagram src="llm-os.svg" >}}
 
@@ -62,7 +60,7 @@ badly in another, and the difference was almost never the model.
 
 On every step of the agent loop, the CPU reads **all of RAM** from the start and
 writes only a little. Agents read far more than they write, so like most real
-computers, they're limited by memory, not compute. That's where we start.
+computers, they're **limited by memory,** not compute. That's where we start.
 
 ## RAM is smaller than the spec sheet says
 
@@ -79,7 +77,7 @@ less reliable as input grows, even on simple tasks:[^rot]
 
 - **One similar but irrelevant passage hurts.** A single distractor lowered
   accuracy. Four lowered it further.
-- **Focused beats full.** Given either a 113,000-token conversation history or
+- **Focus over full.** Given either a 113,000-token conversation history or
   only the ~300 tokens that mattered, every model did better with the 300.
 - **Even copying degrades.** Asked to repeat a long word sequence with one odd
   word inserted, every model got worse as the sequence grew.
@@ -155,17 +153,17 @@ are evicted and folded into a running summary. Claude Code does something
 similar when it compacts a long conversation.
 
 A better version is **restorable compression**: drop a web page's content but
-keep its URL, drop a document's contents but keep its path.[^manus]
+keep its URL, or drop a document's contents but keep its path.
 
 {{< diagram src="restorable.svg" >}}
 
 That's a page table. The content is evicted, but its address stays, so the
-model can load it back if it turns out to matter. A summary loses detail and
-can't be reversed. A path costs a few tokens and loses nothing. So before you
+model can load it back if needed. A simple summary loses detail and
+can't be reversed but a path costs a few tokens and loses nothing. So before you
 drop anything from context, check that you're keeping its address. A file path
 is a pointer: ten tokens that stand in for ten thousand.
 
-A good path is also a summary. An agent can probably guess what
+Even then, good path is also a summary. An agent can _probably_ guess what
 `src/billing/refunds.js` does from the name alone, so it can decide whether to
 read the file at all without opening it. A file called `utils2.js` tells it
 nothing, so it has to read the whole thing to find out.
@@ -199,14 +197,14 @@ decides what's relevant, and goes deeper. Knowledge bases should copy that.
 
 Progressive disclosure means showing the agent a small summary first and
 letting it ask for more.[^radar] Anthropic's Agent Skills are the cleanest
-example I know of. They load in three levels:[^skills]
+example I know of. They load in three levels:
 
 1. **Metadata.** Every skill's name and one-line description sit in the system
    prompt from the start, so the model knows when a skill might help.
 2. **The skill file.** If a skill looks relevant, the model reads its full
    `SKILL.md`.
 3. **Linked files.** If the skill points to more detail, such as a reference
-   for one specific form, the model reads that only when it needs it.
+   for one specific form, the model reads that only when it needs it.[^skills]
 
 Because of this, the amount of context a skill can bundle is effectively
 unbounded. RAM stays small, and the disk can be as
@@ -214,7 +212,7 @@ big as you like, as long as the hierarchy is good.
 
 ### Fan-out: your knowledge base is a B-tree
 
-Databases store indexes on disk as B-trees: very wide, very shallow trees. Each
+Databases store indexes on disk as [B-trees](https://en.wikipedia.org/wiki/B-tree): very wide, very shallow trees. Each
 node holds many keys, so the tree stays only a few levels deep. That matters
 because every level is another slow disk read.
 
@@ -437,7 +435,7 @@ memory. Context engineering is memory management, and we already know a lot
 about how to do that.
 
 [^tobi]: The term took off after [Tobi Lütke tweeted](https://x.com/tobi/status/1935533422589399127) in June 2025 that he preferred it to prompt engineering, describing it as "the art of providing all the context for the task to be plausibly solvable by the LLM."
-[^llmos]: Karpathy gave [Software Is Changing (Again)](https://www.youtube.com/watch?v=LCEmiRjPEtQ&t=620s) at YC's AI Startup School in June 2025; the link starts at the LLM OS section. He first sketched the idea in late 2023, in his [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) talk. The parts list and diagrams here are my extension of his picture.
+[^llmos]: He first sketched the idea in late 2023, in his [Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) talk. The parts list and diagrams here are my extension of his picture.
 [^langchain]: LangChain, [Context engineering for agents](https://www.langchain.com/blog/context-engineering-for-agents). This covers Claude Code's auto-compaction behaviour at the time of writing and the research on retrieving tool descriptions.
 [^middle]: Liu et al., [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172), 2023.
 [^rot]: Hong, Troynikov and Huber, [Context Rot: How Increasing Input Tokens Impacts LLM Performance](https://www.trychroma.com/research/context-rot), Chroma, July 2025.
