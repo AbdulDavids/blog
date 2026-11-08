@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# List draft posts (draft: true in content/posts) with progress info.
+# Optional front matter: `status:` (e.g. idea, outline, writing, editing, ready)
+# and `notes:` (a one-line reminder of what's left).
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+base="https://abduldavids.co.za/draft"
+rows=""
+
+for f in content/posts/*.md; do
+  fm=$(awk 'NR==1 && /^---/ {h=1; next} h && /^---/ {exit} h {print}' "$f")
+  grep -qE '^draft:[[:space:]]*true' <<<"$fm" || continue
+
+  field() { { grep -E "^$1:" <<<"$fm" || true; } | head -1 | sed -E "s/^$1:[[:space:]]*//; s/^[\"']//; s/[\"'][[:space:]]*$//"; }
+  title=$(field title); status=$(field status); notes=$(field notes); slug=$(field slug)
+  slug=${slug:-$(basename "$f" .md)}
+  words=$(awk 'NR==1 && /^---/ {fm=1; next} fm && /^---/ {fm=0; next} !fm' "$f" | wc -w | tr -d ' ')
+  edited=$(git log -1 --format=%cs -- "$f" 2>/dev/null)
+  git diff --quiet HEAD -- "$f" 2>/dev/null || edited="uncommitted"
+
+  rows+="${status:-—}|${words}|${edited:-new}|${title}|${base}/${slug}/|${notes}"$'\n'
+done
+
+if [[ -z "$rows" ]]; then echo "No drafts."; exit 0; fi
+
+printf '%s' "$rows" | sort -t'|' -k3,3r | awk -F'|' '
+  { printf "\033[1m%s\033[0m\n  %-10s %6s words   last edit %s\n  %s\n", $4, $1, $2, $3, $5
+    if ($6 != "") printf "  note: %s\n", $6
+    print "" }'
