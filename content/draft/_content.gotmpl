@@ -30,6 +30,7 @@
         "path" $slug
         "kind" "page"
         "title" (index $fm "title" | default $slug)
+        "description" (index $fm "description" | default "")
         "params" $params
         "content" (dict "mediaType" "text/markdown" "value" $body)
         "build" (dict "list" "never")

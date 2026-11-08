@@ -1,0 +1,26 @@
+{{- /* Draft previews (see content/draft/_content.gotmpl) get a banner above the title. */ -}}
+{{- if .Params.draftPreview }}
+<div class="draft-banner" role="note">
+  <span class="draft-pill">Draft</span>
+  <span class="draft-banner-text">This post isn't finished yet. Please don't share it around.</span>
+</div>
+{{- end }}
+{{- if (.Param "ShowBreadCrumbs") -}}
+<div class="breadcrumbs">
+    {{- $url := replace .Parent.Permalink (printf "%s" site.Home.Permalink) "" }}
+    {{- $lang_url := strings.TrimPrefix (printf "%s/" .Lang) $url -}}
+
+    <a href="{{ "" | absLangURL }}">{{ i18n "home" | default "Home" }}</a>
+    {{- $scratch := newScratch }}
+    {{- range $index, $element := split $lang_url "/" }}
+
+    {{- $scratch.Add "path" (printf "%s/" $element )}}
+    {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
+
+    {{- if (and ($bc_pg) (gt (len . ) 0))}}
+    {{- print "&nbsp;»&nbsp;" | safeHTML -}}<a href="{{ $bc_pg.Permalink }}">{{ $bc_pg.Name }}</a>
+    {{- end }}
+
+    {{- end -}}
+</div>
+{{- end -}}

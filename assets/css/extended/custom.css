@@ -705,3 +705,30 @@ a:focus-visible {
     .post-content .photo-carousel-track img { height: 320px; }
     .post-content .photo-single.is-portrait img { max-height: 440px; }
 }
+
+/* Draft preview banner (see layouts/partials/breadcrumbs.html) */
+.draft-banner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding: 10px 14px;
+    border: 1px dashed color-mix(in srgb, var(--accent) 60%, var(--theme));
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--accent) 8%, var(--theme));
+    font-family: var(--sans);
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.draft-pill {
+    flex: 0 0 auto;
+    padding: 4px 14px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--theme);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
