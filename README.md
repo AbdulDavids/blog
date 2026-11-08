@@ -89,6 +89,6 @@ This project is not licensed at all, do whatever you want haha.
 If you have any questions, suggestions, or feedback, feel free to reach out to me:
 
 - Email: abdulbaaridavids04-at-gmail-dot-com
-- Twitter: [@abdulbdavids](https://twitter.com/abdulbdavids)
+- Twitter: [@davidsdotcom](https://twitter.com/davidsdotcom)
 
 Thank you for visiting my blog! Happy reading and contributing!

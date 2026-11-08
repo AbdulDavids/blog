@@ -21,7 +21,7 @@ params:
   author: Abdul Baari Davids
   # author: ["Me", "You"] # multiple authors
   social:
-    twitter: abdulbdavids # twitter:site handle on social cards
+    twitter: davidsdotcom # twitter:site handle on social cards
   DateFormat: "January 2, 2006"
   defaultTheme: auto # auto follows device, or dark, light
   disableThemeToggle: false
@@ -69,7 +69,7 @@ params:
 
   socialIcons:
     - name: x
-      url: "https://twitter.com/abdulbdavids"
+      url: "https://twitter.com/davidsdotcom"
     - name: github
       url: "https://github.com/AbdulDavids"
     - name: linkedin
