@@ -155,6 +155,10 @@ the-gang.webp | the gang
 
 Most of us were in the same position: new city, no friends there yet, and eight weeks to fill outside of work. That makes it very easy to say yes to plans. Someone would suggest dinner in the group chat, and by the end of the night half the cohort would be at the table.
 
+We also had a meme channel on Discord, and at one point the seniors set us a challenge to come up with the best meme. I sometimes think we took that challenge more seriously than our project.
+
+Then there were the games nights, and there were tons of them. Not video games, but actual in-person games like [Imposter](https://imposter.app/how-to-play-imposter-game/), where everyone gets the same secret word except one person, who has to bluff their way through the clues without getting caught.
+
 Outside the office we did team dinners, a trip to Gold Reef City and a lot of general goofing around.
 
 {{< photos carousel=true >}}
@@ -176,6 +180,8 @@ flight-home-cape-town-group.webp | flight home
 {{< /photos >}}
 
 ### Conclusion
+
+It wasn't all dinners and games. Bootcamp was hard, and there were plenty of tears along the way from how difficult it got. 10/10, I loved the challenge.
 
 The final demo was hectic, and like every demo before it, it came with a lot of constructive feedback. I wouldn't change it for the world though. Our seniors go to insane lengths to prepare us for the real world, and you can feel it by the end.
 
