@@ -30,7 +30,7 @@ I first heard about Entelect at a jobs fair, where I got chatting to a few Entel
 
 In the first week of January I flew up from Cape Town to Johannesburg, where I'd spend the next eight weeks. Entelect paid for the flights and the accommodation for the whole stay.
 
-### Onboarding
+## Onboarding
 
 Day zero was a small welcome ceremony at a convention centre in Melrose. The whole intake was in one room for the first time, everyone a bit awkward and trying to remember names. We did the induction, got walked through how the eight weeks would run, and then got our welcome packs:
 
@@ -43,7 +43,7 @@ The pack had a laptop, some Entelect merch and a notebook. The laptop was the bi
 
 Something else from day one stuck with me. We weren't called grads, juniors or interns. We were Entelectuals, the same title as everyone else in the building. Yes, that's really what we call ourselves, and no, it doesn't take long to get used to.
 
-### Joburg
+## Moving to Joburg
 
 I'd never lived in Joburg before, or anywhere other than home for longer than a holiday. The accommodation was pretty nice, and my room had a window full of trees, which I didn't expect from a city:
 
@@ -68,7 +68,7 @@ melrose-arch-morning.webp | Melrose Arch in the morning
 melrose-arch-square-night.webp | Melrose Arch square at night
 {{< /photos >}}
 
-### The office
+## Entelect HQ
 
 I'd actually been to the Joburg office once before. In May 2025 Entelect flew me up for my interview. Walking back in a year later as a software engineer, and not a nervous candidate, was a pretty cool moment:
 
@@ -93,7 +93,7 @@ office-cafe-croissant.webp | Wednesday croissant
 
 Engage is a cool part of the week. You grab a croissant, sit down, and listen to someone talk about what they work on. As a new person, it's a quick way to find out who does what, and who to ask when you get stuck later.
 
-### Project
+## Growth isn't optional, but sleep definitely was
 
 Ok, let's talk about the actual work. The day after the welcome we were split into groups, and each group worked on one project for the full eight weeks. Eight weeks is long enough that you stop treating it like an assignment. You make design decisions, you live with them, and you rewrite the parts that turn out wrong.
 
@@ -145,7 +145,7 @@ pasta-and-snack-packs.webp | groceries
 
 Cooking for yourself every night is its own bootcamp. I got very good at gourmetifying noodles.
 
-### Social
+## The best part
 
 This was the best part. There were 75 of us from universities across South Africa. We were split into different groups for the project, but everyone became close anyway. The Cape Town squad especially, although we adopted a few Joburgers along the way.
 
@@ -159,7 +159,7 @@ We also had a meme channel on Discord, and at one point the seniors set us a cha
 
 Then there were the games nights, and there were tons of them. Not video games, but actual in-person games like [Imposter](https://imposter.app/how-to-play-imposter-game/), where everyone gets the same secret word except one person, who has to bluff their way through the clues without getting caught.
 
-Outside the office we did team dinners, a trip to Gold Reef City and a lot of general goofing around.
+Outside the office we did team dinners, a trip to Gold Reef City[^goldreef] and a lot of general goofing around.
 
 {{< photos carousel=true >}}
 team-dinner.webp | team dinner
@@ -179,11 +179,13 @@ lobby-selfie-with-luggage.webp | lobby with luggage
 flight-home-cape-town-group.webp | flight home
 {{< /photos >}}
 
-### Conclusion
+## The lesson learnt
 
 It wasn't all dinners and games. Bootcamp was hard, and there were plenty of tears along the way from how difficult it got. 10/10, I loved the challenge.
 
 The final demo was hectic, and like every demo before it, it came with a lot of constructive feedback. I wouldn't change it for the world though. Our seniors go to insane lengths to prepare us for the real world, and you can feel it by the end.
+
+That's the lesson I took home: growth isn't optional. Sleep was, but growth wasn't.
 
 There's no offer at the end like with an internship, because we were full-time employees from day one. The bootcamp is there to get you ready for client work. Most of us were placed at clients straight after. Some others in our cohort spent a bit of time on TFO[^tfo] (the bench) first, upskilling for their placements.
 
@@ -194,4 +196,5 @@ If you want to apply, start at the [Entelect graduate programme page](https://cu
 Thanks to Entelect for flying us up and looking after us for eight weeks, to Ahmed and Sas for running the bootcamp, to all the bootcamp presenters and the senior Entelectuals who gave up time every day to teach and mentor us, and to my group for being super cool.
 
 [^spring]: Spring didn't want us opening a transaction by hand on its shared `EntityManager`. It wants to manage transactions itself through `@Transactional`, so it throws an `IllegalStateException` the moment you try. The fix was one annotation. Finding it took an afternoon.
+[^goldreef]: We went the day before our first big demo.
 [^tfo]: TFO stands for The First Order.
