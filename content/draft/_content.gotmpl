@@ -33,7 +33,7 @@
         "description" (index $fm "description" | default "")
         "params" $params
         "content" (dict "mediaType" "text/markdown" "value" $body)
-        "build" (dict "list" "never")
+        "build" (dict "list" "never" "render" "always" "publishResources" true)
         "sitemap" (dict "disable" true)
       -}}
       {{- with index $fm "date" -}}
