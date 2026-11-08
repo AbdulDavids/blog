@@ -26,9 +26,9 @@ _Disclaimer:_
 
 > I'm keeping the details of the programme vague on purpose. Most of the fun was walking in without knowing what was coming, and I don't want to spoil that for the next batch. I'll stick to what it was like to be there.
 
-This one is about the Entelect bootcamp, which I did at the start of 2026. Entelect wasn't new to me. I did the [Entelect Challenge](https://challenge.entelect.co.za/) in 2025 and visited their Cape Town office for it. I also met some Entelectuals at a jobs fair, applied online afterwards, and ended up here.
+I first heard about Entelect at a jobs fair, where I got chatting to a few Entelectuals. I applied online afterwards, and that's how I ended up at their bootcamp at the start of 2026.
 
-I flew up from Cape Town in the first week of January and stayed in Johannesburg for eight weeks. Entelect paid for the flights and the accommodation for the whole stay.
+In the first week of January I flew up from Cape Town to Johannesburg, where I'd spend the next eight weeks. Entelect paid for the flights and the accommodation for the whole stay.
 
 ### Onboarding
 
@@ -70,7 +70,7 @@ melrose-arch-square-night.webp | Melrose Arch square at night
 
 ### The office
 
-I'd actually been to the Joburg office once before, in May 2025, for my interview. Walking back in a year later as a software engineer, and not a nervous candidate, was a pretty cool moment:
+I'd actually been to the Joburg office once before. In May 2025 Entelect flew me up for my interview. Walking back in a year later as a software engineer, and not a nervous candidate, was a pretty cool moment:
 
 {{< photos >}}
 office-building-looking-up.webp | the office building from below
