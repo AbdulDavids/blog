@@ -1,0 +1,47 @@
+{{- /* A row of photos side by side, or a swipeable carousel.
+     One image per line: "file.webp | alt text". Paths are relative to the page's photoDir param.
+     Rows give each photo a width proportional to its aspect ratio, so every photo in the row
+     shares one height and nothing is cropped.
+     Usage:
+       {{< photos >}}
+       a.webp | Alt for a
+       b.webp | Alt for b
+       {{< /photos >}}
+       {{< photos carousel=true >}} ... {{< /photos >}}  */ -}}
+{{- $dir := .Page.Params.photoDir | default "" -}}
+{{- $c := .Get "carousel" -}}
+{{- $carousel := or (eq $c true) (eq $c "true") -}}
+{{- $items := slice -}}
+{{- range split (trim .Inner "\n ") "\n" -}}
+  {{- $line := trim . " " -}}
+  {{- if $line -}}
+    {{- $parts := split $line "|" -}}
+    {{- $src := printf "%s%s" $dir (trim (index $parts 0) " ") -}}
+    {{- $alt := "" -}}
+    {{- if gt (len $parts) 1 }}{{ $alt = trim (index $parts 1) " " }}{{ end -}}
+    {{- $cfg := imageConfig (path.Join "static" $src) -}}
+    {{- $items = $items | append (dict "src" $src "alt" $alt "w" $cfg.Width "h" $cfg.Height "ratio" (div (float $cfg.Width) $cfg.Height)) -}}
+  {{- end -}}
+{{- end -}}
+{{- if $carousel -}}
+<figure class="photo-carousel">
+  <div class="photo-carousel-track" tabindex="0">
+    {{- range $items }}
+    <img src="{{ .src }}" alt="{{ .alt }}" width="{{ .w }}" height="{{ .h }}" style="aspect-ratio: {{ .w }} / {{ .h }}" loading="lazy">
+    {{- end }}
+  </div>
+  <button type="button" class="photo-carousel-btn prev" aria-label="Previous photo" disabled>&#8249;</button>
+  <button type="button" class="photo-carousel-btn next" aria-label="Next photo">&#8250;</button>
+</figure>
+{{- else if eq (len $items) 1 -}}
+{{- $i := index $items 0 -}}
+<figure class="photo-single {{ if ge $i.ratio 1.0 }}is-landscape{{ else }}is-portrait{{ end }}">
+  <img src="{{ $i.src }}" alt="{{ $i.alt }}" width="{{ $i.w }}" height="{{ $i.h }}" loading="lazy">
+</figure>
+{{- else -}}
+<figure class="photo-row">
+  {{- range $items }}
+  <img src="{{ .src }}" alt="{{ .alt }}" width="{{ .w }}" height="{{ .h }}" style="flex: {{ .ratio }} 1 0; aspect-ratio: {{ .w }} / {{ .h }}" loading="lazy">
+  {{- end }}
+</figure>
+{{- end -}}

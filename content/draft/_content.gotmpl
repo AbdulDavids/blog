@@ -1,0 +1,44 @@
+{{- /* Draft previews.
+     Every post in content/posts marked `draft: true` is published at /draft/<file>/ so it can be
+     shared before it's finished. The copy is kept out of every list (home, /posts/, tags, RSS,
+     search), out of the sitemap, and is marked noindex through PaperMod's robotsNoIndex param.
+     Remove `draft: true` from the post to publish it normally. */ -}}
+{{- range os.ReadDir "content/posts" -}}
+  {{- if and (not .IsDir) (strings.HasSuffix .Name ".md") -}}
+    {{- $raw := os.ReadFile (printf "content/posts/%s" .Name) -}}
+    {{- $fm := dict -}}
+    {{- $body := "" -}}
+    {{- with findRESubmatch `(?s)\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\z` $raw 1 -}}
+      {{- $fm = transform.Unmarshal (dict "format" "yaml") (index . 0 1) -}}
+      {{- $body = index . 0 2 -}}
+    {{- else -}}
+      {{- with findRESubmatch `(?s)\A\+\+\+\r?\n(.*?)\r?\n\+\+\+\r?\n?(.*)\z` $raw 1 -}}
+        {{- $fm = transform.Unmarshal (dict "format" "toml") (index . 0 1) -}}
+        {{- $body = index . 0 2 -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if eq (index $fm "draft") true -}}
+      {{- $slug := index $fm "slug" | default (strings.TrimSuffix ".md" .Name) -}}
+      {{- $params := dict -}}
+      {{- range $k, $v := $fm -}}
+        {{- if not (in (slice "draft" "title" "date" "tags" "categories" "series" "slug" "url" "aliases" "build" "sitemap") $k) -}}
+          {{- $params = merge $params (dict $k $v) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $params = merge $params (dict "draftPreview" true "robotsNoIndex" true "ShowBreadCrumbs" false "searchHidden" true) -}}
+      {{- $page := dict
+        "path" $slug
+        "kind" "page"
+        "title" (index $fm "title" | default $slug)
+        "params" $params
+        "content" (dict "mediaType" "text/markdown" "value" $body)
+        "build" (dict "list" "never")
+        "sitemap" (dict "disable" true)
+      -}}
+      {{- with index $fm "date" -}}
+        {{- $page = merge $page (dict "dates" (dict "date" (time.AsTime .))) -}}
+      {{- end -}}
+      {{- $.AddPage $page -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

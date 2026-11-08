@@ -72,3 +72,32 @@
     });
   })();
 </script>
+<script>
+  // Photo carousels: each arrow click jumps a full view of photos; arrows hide at the ends.
+  document.querySelectorAll('.photo-carousel').forEach(function (c) {
+    var track = c.querySelector('.photo-carousel-track');
+    var prev = c.querySelector('.prev');
+    var next = c.querySelector('.next');
+
+    function update() {
+      var max = track.scrollWidth - track.clientWidth;
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = track.scrollLeft >= max - 2;
+    }
+
+    function go(dir) {
+      track.scrollBy({ left: dir * track.clientWidth * 0.9 });
+    }
+
+    prev.addEventListener('click', function () { go(-1); });
+    next.addEventListener('click', function () { go(1); });
+    track.addEventListener('scroll', function () { window.requestAnimationFrame(update); }, { passive: true });
+    track.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); go(-1); }
+      if (e.key === 'ArrowRight') { e.preventDefault(); go(1); }
+    });
+    window.addEventListener('resize', update);
+    track.querySelectorAll('img').forEach(function (s) { s.addEventListener('load', update); });
+    update();
+  });
+</script>

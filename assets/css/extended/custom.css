@@ -601,3 +601,107 @@ a:focus-visible {
 .dark .themed-image .only-dark {
     display: block;
 }
+
+/* Photo rows, singles and carousels (see layouts/shortcodes/photos.html) */
+.post-content .photo-row,
+.post-content .photo-single,
+.post-content .photo-carousel {
+    margin: 2em 0;
+}
+
+.post-content .photo-row img,
+.post-content .photo-single img,
+.post-content .photo-carousel-track img {
+    display: block;
+    margin: 0;
+    border-radius: 8px;
+    background: var(--code-bg);
+}
+
+/* Rows: flex-grow is set inline to each photo's aspect ratio, so all photos share one height */
+.post-content .photo-row {
+    display: flex;
+    gap: 8px;
+}
+
+.post-content .photo-row img {
+    min-width: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Singles: landscape fills the column, portrait is capped in height and centred */
+.post-content .photo-single img {
+    width: 100%;
+    height: auto;
+}
+
+.post-content .photo-single.is-portrait img {
+    width: auto;
+    max-width: 100%;
+    max-height: 560px;
+    margin: 0 auto;
+}
+
+/* Carousel: tall slides at their natural shape, so the track always overflows and scrolls */
+.post-content .photo-carousel {
+    position: relative;
+}
+
+.photo-carousel-track {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+}
+
+.photo-carousel-track::-webkit-scrollbar {
+    display: none;
+}
+
+.post-content .photo-carousel-track img {
+    flex: 0 0 auto;
+    height: 440px;
+    width: auto;
+    max-width: 88%;
+    object-fit: cover;
+    scroll-snap-align: start;
+}
+
+.photo-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--theme) 80%, transparent);
+    backdrop-filter: blur(6px);
+    color: var(--primary);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.photo-carousel-btn:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.photo-carousel-btn.prev { left: 10px; }
+.photo-carousel-btn.next { right: 10px; }
+
+@media (hover: none) {
+    .photo-carousel-btn { display: none; }
+}
+
+@media (max-width: 600px) {
+    .post-content .photo-row { gap: 4px; }
+    .post-content .photo-carousel-track img { height: 320px; }
+    .post-content .photo-single.is-portrait img { max-height: 440px; }
+}
