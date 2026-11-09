@@ -48,7 +48,6 @@ Something else from day one stuck with me. We weren't called grads, juniors or i
 I'd never lived in Joburg before, or anywhere other than home for longer than a holiday. The accommodation was pretty nice, and my room had a window full of trees, which I didn't expect from a city:
 
 {{< photos carousel=true >}}
-accommodation-1.webp | accommodation
 accommodation-2.webp | accommodation
 room-window-dark.webp | room at night
 laptop-on-bed.webp | laptop on the bed
