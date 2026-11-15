@@ -1,0 +1,71 @@
+<svg viewBox="0 0 740 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="orm-save-title">
+  <title id="orm-save-title">On the left, the code holds one Customer object with an id, a name and two Address objects inside it, and calls customerRepository.save(customer). In the middle, the ORM reads the entity mapping, inserts the customer, sets customer_id on each address and inserts both addresses. On the right, the database ends up with a customer table holding one row and an address table holding two rows, each pointing back to the customer through a customer_id foreign key.</title>
+  <g text-anchor="middle">
+    <text class="heading" x="16" y="24" text-anchor="start">Your code</text>
+    <text class="heading" x="266" y="24" text-anchor="start">The ORM</text>
+    <text class="heading" x="496" y="24" text-anchor="start">The database</text>
+
+    <line class="divider" x1="243" y1="12" x2="243" y2="318"/>
+    <line class="divider" x1="473" y1="12" x2="473" y2="318"/>
+
+    <rect class="box-accent" x="16" y="48" width="204" height="232" rx="6"/>
+    <text class="tiny-accent" x="118" y="70">Customer</text>
+    <rect class="box" x="30" y="82" width="176" height="28"/>
+    <text class="tiny" x="118" y="100">id: 1</text>
+    <rect class="box" x="30" y="118" width="176" height="28"/>
+    <text class="tiny" x="118" y="136">name: Sam</text>
+    <text class="sub" x="30" y="166" text-anchor="start">addresses</text>
+    <rect class="box" x="30" y="174" width="176" height="40"/>
+    <text class="tiny" x="118" y="198">Address · 12 Main Rd</text>
+    <rect class="box" x="30" y="222" width="176" height="40"/>
+    <text class="tiny" x="118" y="246">Address · 4 Oak Ave</text>
+    <text class="sub-accent" x="118" y="306">repository.save(customer)</text>
+
+    <line class="line-accent" x1="222" y1="170" x2="258" y2="170"/>
+    <polygon class="head-accent" points="264,170 257,166 257,174"/>
+
+    <rect class="box" x="266" y="56" width="184" height="44"/>
+    <text class="tiny" x="358" y="82">Read the @Entity mapping</text>
+    <line class="line" x1="358" y1="100" x2="358" y2="114"/>
+    <polygon class="head" points="358,120 354,113 362,113"/>
+
+    <rect class="box" x="266" y="120" width="184" height="44"/>
+    <text class="tiny" x="358" y="139">INSERT customer</text>
+    <text class="sub" x="358" y="156">gets id 1</text>
+    <line class="line" x1="358" y1="164" x2="358" y2="178"/>
+    <polygon class="head" points="358,184 354,177 362,177"/>
+
+    <rect class="box" x="266" y="184" width="184" height="44"/>
+    <text class="tiny" x="358" y="203">Set customer_id = 1</text>
+    <text class="sub" x="358" y="220">on each address</text>
+    <line class="line" x1="358" y1="228" x2="358" y2="242"/>
+    <polygon class="head" points="358,248 354,241 362,241"/>
+
+    <rect class="box" x="266" y="248" width="184" height="44"/>
+    <text class="tiny" x="358" y="274">INSERT 2 addresses</text>
+
+    <line class="line-accent" x1="452" y1="170" x2="488" y2="170"/>
+    <polygon class="head-accent" points="494,170 487,166 487,174"/>
+
+    <rect class="box-accent" x="496" y="56" width="200" height="28"/>
+    <text class="tiny-accent" x="596" y="74">customer</text>
+    <rect class="box" x="496" y="84" width="200" height="28"/>
+    <text class="sub" x="596" y="102">id · name</text>
+    <rect class="box" x="496" y="112" width="200" height="28"/>
+    <text class="tiny" x="596" y="130">1 · Sam</text>
+
+    <rect class="box-accent" x="496" y="180" width="200" height="28"/>
+    <text class="tiny-accent" x="596" y="198">address</text>
+    <rect class="box" x="496" y="208" width="200" height="28"/>
+    <text class="sub" x="596" y="226">id · customer_id · street</text>
+    <rect class="box" x="496" y="236" width="200" height="28"/>
+    <text class="tiny" x="596" y="254">1 · 1 · 12 Main Rd</text>
+    <rect class="box" x="496" y="264" width="200" height="28"/>
+    <text class="tiny" x="596" y="282">2 · 1 · 4 Oak Ave</text>
+
+    <path class="line-dash" d="M 702 250 H 714 V 126 H 702"/>
+    <path class="line-dash" d="M 702 278 H 714 V 250"/>
+    <polygon class="head" points="697,126 704,122 704,130"/>
+    <text class="tiny-accent" x="728" y="192">FK</text>
+  </g>
+</svg>

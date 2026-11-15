@@ -129,11 +129,13 @@ public class Customer {
 
 From there it does feel like saving a document. `customerRepository.save(customer)` writes the customer and every address in one call, and the ORM works out the tables, the foreign key and the inserts.
 
+{{< diagram src="orm-save.svg" >}}
+
 Every day, senior Entelectuals came in to teach and mentor us. They do this work for real clients, so the sessions were about how they actually approach problems, and afterwards they'd look at what we were building.
 
 On top of that, our group had a weekly mentor session with a senior Entelectual. Our mentor Sheldon once told me to step back and look at the bigger picture from the client's point of view. They're the person who just wants their life made easier, and a lot of the time the thing that makes it easier is the simpler solution. That has stuck with me since.
 
-The seniors also kept pushing us to ask questions, especially the ones that feel too basic to ask out loud. It's tempting to save those for a quiet Google search later, but someone else in the room is usually wondering the same thing. Entelect's culture page says "everyone teaches, everyone learns", and the seniors treated a basic question with the same care as a hard one.
+The seniors also kept pushing us to ask questions, especially the ones that feel too basic to ask out loud. It's tempting to save those for a quiet Google search later, but someone else in the room is usually wondering the same thing. The seniors treated a basic question with the same care as a hard one.
 
 You learn one thing fast: Entelectuals love saying "it depends". Should we use this pattern? It depends. Is this the right database? It depends. By week two we were saying it too:
 
@@ -211,9 +213,9 @@ The final demo was hectic, and like every demo before it, it came with a lot of 
 
 If I had to boil the eight weeks down to three lessons I'm taking with me into client work, they'd be these:
 
-1. **Ask, ask, ask.** Everyone around you is figuring things out too, and whatever you're stuck on, someone has probably hit it before. A senior fixed our ORM setup in an afternoon that we'd have spent days on. So ask, and ask the questions that feel too basic. Entelect lists being [generous with your knowledge](https://culture.entelect.com/the-dna-of-an-entelectual) as part of its DNA, and that only works if someone asks.
+1. **Ask, ask, ask.** Everyone around you is figuring things out too, and whatever you're stuck on, someone has probably hit it before. So ask, and ask the questions that feel too basic. Most people are happy to share what they know, but they can't help if you don't ask.
 2. **Make mistakes, then learn from every one.** I made a lot of them, and bootcamp was the cheapest place I'll ever get to be wrong. The habit worth keeping is working out why something broke before moving on, because the same mistake costs a lot more once real users are involved.
-3. **Take the feedback, then go ask for more.** Every demo came back with notes, and the only useful thing to do with them is fix what they point at. I don't wait for the next demo anymore. Ask someone to look at your work while it's still easy to change. The same culture page talks about being "always open to new and better ways of doing things", and feedback is how you find them.
+3. **Take the feedback, then go ask for more.** Every demo came back with notes, and the only useful thing to do with them is fix what they point at. I don't wait for the next demo anymore. Ask someone to look at your work while it's still easy to change.
 
 Growth isn't optional. Sleep was, but growth wasn't.
 
