@@ -112,6 +112,23 @@ Nobody could hold the whole project in their head, so we leaned on each other a 
 senior-helping-with-orm.webp | a senior helping my group with our ORM setup
 {{< /photos >}}
 
+Instead of starting from a `customer` table and an `address` table with a foreign key between them, you start from the object you'd want to pass around in your code, a customer that holds its own addresses:
+
+```java
+@Entity
+public class Customer {
+    @Id @GeneratedValue
+    private Long id;
+
+    private String name;
+
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
+    private List<Address> addresses = new ArrayList<>();
+}
+```
+
+From there it does feel like saving a document. `customerRepository.save(customer)` writes the customer and every address in one call, and the ORM works out the tables, the foreign key and the inserts.
+
 Every day, senior Entelectuals came in to teach and mentor us. They do this work for real clients, so the sessions were about how they actually approach problems, and afterwards they'd look at what we were building.
 
 On top of that, our group had a weekly mentor session with a senior Entelectual. Our mentor Sheldon once told me to step back and look at the bigger picture from the client's point of view. They're the person who just wants their life made easier, and a lot of the time the thing that makes it easier is the simpler solution. That has stuck with me since.
