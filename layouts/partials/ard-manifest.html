@@ -1,0 +1,33 @@
+{{- $site := "abduldavids.co.za" -}}
+{{- $posts := where (where site.RegularPages "Section" "posts") "Draft" false -}}
+{{- $entries := slice
+  (dict
+    "@context" "https://agenticresourcediscovery.org/context/v1"
+    "identifier" (printf "urn:air:%s:blog" $site)
+    "displayName" (printf "%s's blog (llms.txt)" site.Title)
+    "description" "Index of every post on the blog with titles, links and summaries, in llms.txt format. Covers applied AI, LLM engineering, software engineering careers in South Africa, and Formula 1."
+    "type" "text/markdown"
+    "url" ("llms.txt" | absURL)
+    "tags" (slice "blog" "ai" "llm" "software-engineering" "south-africa")
+    "updatedAt" (site.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "representativeQueries" (slice
+      "What is the Entelect graduate programme bootcamp like?"
+      "How should I manage context for an LLM agent?"
+      "What is it like to be a junior software engineer in South Africa?"
+      "Which posts has Abdul Baari Davids written about AI?")
+  )
+  (dict
+    "@context" "https://agenticresourcediscovery.org/context/v1"
+    "identifier" (printf "urn:air:%s:blog-feed" $site)
+    "displayName" (printf "%s's blog (RSS feed)" site.Title)
+    "description" "RSS feed of the latest posts on the blog."
+    "type" "application/rss+xml"
+    "url" ("index.xml" | absURL)
+    "tags" (slice "blog" "rss")
+    "updatedAt" (site.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "representativeQueries" (slice
+      "What has Abdul Baari Davids published recently?"
+      "Latest posts on abduldavids.co.za")
+  )
+-}}
+{{- dict "specVersion" "1.0" "entries" $entries | jsonify (dict "indent" "  ") -}}

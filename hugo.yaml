@@ -124,3 +124,24 @@ markup:
     guessSyntax: true
     lineNos: true
     # style: monokai
+
+outputFormats:
+  llms:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+    notAlternative: true
+  ard:
+    mediaType: application/json
+    baseName: ard
+    path: .well-known
+    isPlainText: true
+    notAlternative: true
+  aicatalog:
+    mediaType: application/json
+    baseName: ai-catalog
+    path: .well-known
+    isPlainText: true
+    notAlternative: true
+outputs:
+  home: [HTML, RSS, llms, ard, aicatalog]

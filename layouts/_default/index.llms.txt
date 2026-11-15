@@ -1,0 +1,14 @@
+# {{ site.Title }}
+
+> Personal blog of {{ site.Params.author }}, a software engineer from Cape Town, South Africa, working at Entelect. Writes about applied AI, LLM engineering, software careers in South Africa, and Formula 1.
+
+## Posts
+{{ range where (where site.RegularPages "Section" "posts") "Draft" false }}
+- [{{ .Params.seoTitle | default .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+
+## Pages
+{{ range where site.RegularPages "Section" "" }}
+- [{{ .Title }}]({{ .Permalink }}){{ with .Description }}: {{ . }}{{ end }}
+{{- end }}
+- [RSS feed]({{ "index.xml" | absURL }})
