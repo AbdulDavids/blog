@@ -22,6 +22,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 photoDir: "/entelect-bootcamp/"
+schemaImages: ["/entelect-bootcamp/the-gang.webp", "/entelect-bootcamp/senior-helping-with-orm.webp", "/entelect-bootcamp/team-in-meeting-room.webp"]
 ---
 
 _Disclaimer:_

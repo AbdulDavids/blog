@@ -17,41 +17,25 @@
 }
 </script>
 {{- else if (or .IsPage .IsSection) }}
-{{/* BreadcrumbList */}}
-{{- $url := replace .Parent.Permalink ( printf "%s" site.Home.Permalink) "" }}
-{{- $lang_url := strings.TrimPrefix ( printf "%s/" .Lang) $url }}
-{{- $bc_list := (split $lang_url "/")}}
-
-{{- $scratch := newScratch }}
+{{/* BreadcrumbList: Home first, then each ancestor section, then the page itself */}}
+{{- $crumbs := slice }}
+{{- range .Ancestors.Reverse }}
+  {{- $crumbs = $crumbs | append (dict "name" (cond .IsHome "Home" .Name) "url" .Permalink) }}
+{{- end }}
+{{- $crumbs = $crumbs | append (dict "name" .Name "url" .Permalink) }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-  {{- range $index, $element := $bc_list }}
-
-    {{- $scratch.Add "path" (printf "%s/" $element ) | safeJS }}
-    {{- $bc_pg := site.GetPage ($scratch.Get "path") -}}
-
-    {{- if (and ($bc_pg) (gt (len . ) 0))}}
-    {{- if (and $index)}}, {{end }}
+  {{- range $i, $c := $crumbs }}{{ if $i }},{{ end }}
     {
       "@type": "ListItem",
-      "position": {{ add 1 $index  }},
-      "name": {{ $bc_pg.Name }},
-      "item": {{ $bc_pg.Permalink | safeHTML }}
+      "position": {{ add $i 1 }},
+      "name": {{ $c.name }},
+      "item": {{ $c.url }}
     }
-    {{- end }}
-
   {{- end }}
-  {{- /*  self-page addition  */ -}}
-  {{- if (ge (len $bc_list) 2) }}, {{end }}
-    {
-      "@type": "ListItem",
-      "position": {{len $bc_list}},
-      "name": {{ .Name }},
-      "item": {{ .Permalink | safeHTML }}
-    }
   ]
 }
 </script>
@@ -73,44 +57,28 @@
   "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
-  {{ if .Params.cover.image -}}
-  "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
-    {{- else -}}
-    {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},
-    {{- end}}
-  {{- end -}}
+  {{- $images := slice }}
+  {{- range .Params.schemaImages }}{{ $images = $images | append (. | absURL) }}{{ end }}
+  {{- with .Params.images }}{{ range . }}{{ $images = $images | append (. | absURL) }}{{ end }}{{ else }}{{ $images = $images | append (partialCached "og_image.html" . .RelPermalink) }}{{ end }}
+  "image": {{ $images }},
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
-  {{- with (.Params.author | default site.Params.author) }}
-  "author":
-    {{- if (or (eq (printf "%T" .) "[]string") (eq (printf "%T" .) "[]interface {}")) -}}
-  [{{- range $i, $v := . -}}
-  {{- if $i }}, {{end -}}
-  {
+  {{- $sameAs := slice }}
+  {{- range site.Params.socialIcons }}{{ $sameAs = $sameAs | append .url }}{{ end }}
+  "author": {
     "@type": "Person",
-    "name": {{ $v }}
-  }
-  {{- end }}],
-    {{- else -}}
-  {
-    "@type": "Person",
-    "name": {{ . }}
+    "name": {{ site.Params.author }},
+    "url": {{ "about/" | absURL }},
+    "sameAs": {{ $sameAs }}
   },
-    {{- end -}}
-  {{- end }}
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink | safeHTML }}
   },
   "publisher": {
-    "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
-    "name": {{ site.Title }},
-    "logo": {
-      "@type": "ImageObject",
-      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
-    }
+    "@type": "Person",
+    "name": {{ site.Params.author }},
+    "url": {{ site.BaseURL }}
   }
 }
 </script>
