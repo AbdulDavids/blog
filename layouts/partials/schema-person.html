@@ -1,0 +1,15 @@
+{{- /* Returns the site author as a schema.org Person dict, shared by the home, About and post structured data. */ -}}
+{{- $sameAs := slice }}
+{{- range site.Params.socialIcons }}{{ $sameAs = $sameAs | append .url }}{{ end }}
+{{- return dict
+  "@type" "Person"
+  "@id" (printf "%s#person" ("about/" | absURL))
+  "name" site.Params.author
+  "alternateName" "Abdul Davids"
+  "url" ("about/" | absURL)
+  "image" ("ProfilePic.jpg" | absURL)
+  "jobTitle" "Software Engineer"
+  "worksFor" (dict "@type" "Organization" "name" "Entelect" "url" "https://www.entelect.co.za/")
+  "homeLocation" (dict "@type" "Place" "name" "Cape Town, South Africa")
+  "sameAs" $sameAs
+-}}

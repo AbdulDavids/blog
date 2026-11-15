@@ -1,20 +1,20 @@
 {{ if .IsHome }}
+{{- $person := partial "schema-person.html" . }}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
-  "name": {{ site.Title }},
-  "url": {{ site.Home.Permalink }},
-  "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
-  "thumbnailUrl": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }},
-  "sameAs": [
-    {{- if site.Params.schema.sameAs }}
-      {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
-    {{- else}}
-      {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
-    {{- end}}
-  ]
-}
+{{ dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "@id" (printf "%s#website" site.Home.Permalink)
+  "name" site.Title
+  "alternateName" (slice "Abdul Davids" "abduldavids.co.za")
+  "url" site.Home.Permalink
+  "description" (site.Params.description | plainify)
+  "inLanguage" "en"
+  "publisher" (dict "@id" (index $person "@id"))
+  | jsonify | safeJS }}
+</script>
+<script type="application/ld+json">
+{{ merge (dict "@context" "https://schema.org") $person | jsonify | safeJS }}
 </script>
 {{- else if (or .IsPage .IsSection) }}
 {{/* BreadcrumbList: Home first, then each ancestor section, then the page itself */}}
@@ -39,7 +39,20 @@
   ]
 }
 </script>
-{{- if .IsPage }}
+{{- if .Params.profilePage }}
+{{- $person := partial "schema-person.html" . }}
+<script type="application/ld+json">
+{{ dict
+  "@context" "https://schema.org"
+  "@type" "ProfilePage"
+  "url" .Permalink
+  "name" (.Params.seoTitle | default .Title)
+  "dateCreated" (.PublishDate.Format "2006-01-02T15:04:05-07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+  "mainEntity" (merge $person (dict "description" (.Description | default site.Params.description)))
+  | jsonify | safeJS }}
+</script>
+{{- else if .IsPage }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -63,23 +76,13 @@
   "image": {{ $images }},
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
-  {{- $sameAs := slice }}
-  {{- range site.Params.socialIcons }}{{ $sameAs = $sameAs | append .url }}{{ end }}
-  "author": {
-    "@type": "Person",
-    "name": {{ site.Params.author }},
-    "url": {{ "about/" | absURL }},
-    "sameAs": {{ $sameAs }}
-  },
+  {{- $person := partial "schema-person.html" . }}
+  "author": {{ dict "@type" "Person" "@id" (index $person "@id") "name" $person.name "url" $person.url "sameAs" $person.sameAs | jsonify | safeJS }},
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": {{ .Permalink | safeHTML }}
   },
-  "publisher": {
-    "@type": "Person",
-    "name": {{ site.Params.author }},
-    "url": {{ site.BaseURL }}
-  }
+  "publisher": {{ dict "@type" "Person" "@id" (index $person "@id") "name" $person.name "url" site.Home.Permalink | jsonify | safeJS }}
 }
 </script>
 {{- end }}{{/* .IsPage end */}}

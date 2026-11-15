@@ -4,6 +4,9 @@ date: 2026-10-12
 draft: false
 tags: ["opinion"]
 description: "Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live."
+seoTitle: "AI in the Solution, Not Just the SDLC: Building Software That Uses AI"
+keywords: ["AI in software development", "AI in the SDLC", "building AI products", "LLM applications", "AI hallucinations", "applied AI engineering"]
+schemaImages: ["/google-glue-pizza.webp"]
 ---
 
 In May 2024, Google rolled AI Overviews out to everyone searching in the US.

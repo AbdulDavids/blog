@@ -3,7 +3,9 @@ title: "Treat your prompts like code"
 date: 2026-10-04
 draft: false
 tags: ["opinion"]
-description: "Prompt engineering is testing, not magic phrases. "
+description: "Prompt engineering is testing, not magic phrases. A seven-step process for writing, testing and improving LLM prompts with a dataset and code."
+seoTitle: "Prompt Engineering: Treat Your Prompts Like Code"
+keywords: ["prompt engineering", "LLM prompt testing", "prompt evaluation", "LLM evals", "writing prompts"]
 ---
 
 For a long time, my approach to prompting was basically vibes.[^vibes] I'd write some

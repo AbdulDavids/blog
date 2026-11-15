@@ -5,6 +5,8 @@ draft: false
 tags: ["opinion"]
 showToc: false
 description: "Ten rules I follow when building with AI, covering planning, building, verifying and keeping a codebase healthy."
+seoTitle: "Ten Laws of AI-Augmented Engineering: Rules for Coding with AI"
+keywords: ["AI-assisted coding", "coding with AI", "AI coding rules", "AI software engineering best practices", "AI-augmented engineering"]
 ---
 
 {{< rawhtml >}}

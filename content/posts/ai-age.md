@@ -4,6 +4,8 @@ date: 2025-11-03
 draft: false
 tags: ["opinion"]
 description: "Universities are still teaching recall. They should be teaching how to build. Thoughts from someone stuck in both worlds."
+seoTitle: "Computer Science in the Age of AI: What Universities Should Teach"
+keywords: ["computer science degree", "computer science and AI", "studying computer science in South Africa", "learning to code with AI", "LeetCode", "university vs practical skills"]
 ---
 
 > wrote this on a plane [using freewrite I built for ipad](https://github.com/AbdulDavids/freewrite-ipad). cleaned it up with claude. [original outline here](https://gist.github.com/AbdulDavids/23bb8ddaecbbb16a563d848268ff77c8).

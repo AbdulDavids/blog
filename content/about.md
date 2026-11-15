@@ -1,6 +1,8 @@
 ---
 title: "About"
-Description: "Some information about Abdul Baari"
+Description: "Abdul Baari Davids is a software engineer from Cape Town, South Africa, working at Entelect, with a focus on applied AI, machine learning and cloud computing."
+seoTitle: "About Abdul Baari Davids, Software Engineer in South Africa"
+profilePage: true
 ShowPostNavLinks: true
 disableHLJS: false
 

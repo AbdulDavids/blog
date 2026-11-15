@@ -9,6 +9,9 @@ TocOpen: false
 hidemeta: false
 comments: false
 description: "Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be."
+seoTitle: "Is AI Just Hype? How LLMs Work and Where the Bubble Might Be"
+keywords: ["AI hype", "AI bubble", "how LLMs work", "large language models", "ChatGPT", "artificial intelligence"]
+schemaImages: ["/openai/hype.png"]
 disableShare: false
 disableHLJS: false
 hideSummary: false

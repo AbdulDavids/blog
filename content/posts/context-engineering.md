@@ -4,6 +4,8 @@ date: 2026-10-24
 draft: false
 tags: ["opinion"]
 description: "Your agent had the right page and still got the answer wrong. That's a memory problem, not a prompt problem."
+seoTitle: "Context Engineering for AI Agents Is Memory Management"
+keywords: ["context engineering", "AI agents", "LLM context window", "prompt caching", "agent memory", "knowledge base for AI agents"]
 ---
 
 Say you give an agent your team's documentation. All of it, pasted straight

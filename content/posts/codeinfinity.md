@@ -8,7 +8,10 @@ showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: "My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension for a client, and getting my first real pull request merged."
+description: "My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension, and my first merged pull request."
+seoTitle: "My Software Development Internship at CodeInfinity"
+keywords: ["software engineering internship South Africa", "software developer internship", "student internship South Africa", "CodeInfinity", "Tina4", "ZATech"]
+schemaImages: ["/codeinfinity.jpg"]
 disableShare: false
 disableHLJS: false
 hideSummary: false

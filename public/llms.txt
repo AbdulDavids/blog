@@ -5,19 +5,19 @@
 ## Posts
 
 - [Becoming an Entelectual: The Entelect Graduate Programme Experience](https://abduldavids.co.za/posts/entelect-bootcamp-2026/): What the Entelect graduate programme bootcamp is like: eight weeks in Joburg as a junior software engineer in South Africa, from onboarding to client-ready.
-- [Context engineering is memory management](https://abduldavids.co.za/posts/context-engineering/): Your agent had the right page and still got the answer wrong. That's a memory problem, not a prompt problem.
-- [Ten Laws of AI-Augmented Engineering](https://abduldavids.co.za/posts/ten-ai-rules/): Ten rules I follow when building with AI, covering planning, building, verifying and keeping a codebase healthy.
-- [AI in the solution, not just the SDLC](https://abduldavids.co.za/posts/ai-solution-vs-sdlc/): Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live.
-- [Treat your prompts like code](https://abduldavids.co.za/posts/on-prompting/): Prompt engineering is testing, not magic phrases. 
-- [Computer science in the intelligence age](https://abduldavids.co.za/posts/ai-age/): Universities are still teaching recall. They should be teaching how to build. Thoughts from someone stuck in both worlds.
-- [All aboard the AI hype train!](https://abduldavids.co.za/posts/artificial-intelligence/): Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be.
-- [Ferrari mess-ups 2024](https://abduldavids.co.za/posts/ferrari-2024/): Ferrari's 2024 season, race by race: a promo video with a slow pitstop, Box Box shenanigans, and enough 'we are checking' to fill Maranello's car park.
-- [My Experience as a SDE Intern at Codeinfinity](https://abduldavids.co.za/posts/codeinfinity/): My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension for a client, and getting my first real pull request merged.
-- [An Introduction](https://abduldavids.co.za/posts/hello-there/): An introduction to software engineering
+- [Context Engineering for AI Agents Is Memory Management](https://abduldavids.co.za/posts/context-engineering/): Your agent had the right page and still got the answer wrong. That's a memory problem, not a prompt problem.
+- [Ten Laws of AI-Augmented Engineering: Rules for Coding with AI](https://abduldavids.co.za/posts/ten-ai-rules/): Ten rules I follow when building with AI, covering planning, building, verifying and keeping a codebase healthy.
+- [AI in the Solution, Not Just the SDLC: Building Software That Uses AI](https://abduldavids.co.za/posts/ai-solution-vs-sdlc/): Using AI to build software is not the same as building software that uses AI. The second one is where the real upside is, and where the hard problems live.
+- [Prompt Engineering: Treat Your Prompts Like Code](https://abduldavids.co.za/posts/on-prompting/): Prompt engineering is testing, not magic phrases. A seven-step process for writing, testing and improving LLM prompts with a dataset and code.
+- [Computer Science in the Age of AI: What Universities Should Teach](https://abduldavids.co.za/posts/ai-age/): Universities are still teaching recall. They should be teaching how to build. Thoughts from someone stuck in both worlds.
+- [Is AI Just Hype? How LLMs Work and Where the Bubble Might Be](https://abduldavids.co.za/posts/artificial-intelligence/): Is AI actually revolutionary or just another carriage on the hype train? A look at the hype, how LLMs work, and where the bubble might be.
+- [Ferrari's 2024 F1 Season Mistakes, Race by Race](https://abduldavids.co.za/posts/ferrari-2024/): Ferrari's 2024 season, race by race: a promo video with a slow pitstop, Box Box shenanigans, and enough 'we are checking' to fill Maranello's car park.
+- [My Software Development Internship at CodeInfinity](https://abduldavids.co.za/posts/codeinfinity/): My software development internship at CodeInfinity: learning PHP and Python frameworks, researching a Gmail extension, and my first merged pull request.
+- [What Does a Software Engineer Do? An Introduction](https://abduldavids.co.za/posts/hello-there/): A short introduction to software engineering for anyone thinking about a career in software: what software engineers do and who the job suits.
 
 ## Pages
 
-- [About](https://abduldavids.co.za/about/): Some information about Abdul Baari
+- [About](https://abduldavids.co.za/about/): Abdul Baari Davids is a software engineer from Cape Town, South Africa, working at Entelect, with a focus on applied AI, machine learning and cloud computing.
 - [Projects](https://abduldavids.co.za/projects/): Things I've built, shipped, or at least got working once.
 - [Start-up ideas](https://abduldavids.co.za/startup-ideas/): A collection of (possibly terrible) startup ideas
 - [RSS feed](https://abduldavids.co.za/index.xml)

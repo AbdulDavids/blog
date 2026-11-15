@@ -54,6 +54,9 @@ You don't need to edit these to publish a post. They build from front matter on 
 - **Social card images:** `layouts/partials/og_image.html` renders a 1200×630 card into `public/og/` for each page. Commit the new files in `public/og/`, or social previews on the live site will 404.
 - **Structured data:** `layouts/partials/templates/schema_json.html` outputs:
   - `BlogPosting` on posts, with `headline`, `image`, `datePublished`, `dateModified`, an `author` that has `url` (the About page) and `sameAs` (the `socialIcons` in `hugo.yaml`), and the author as a `Person` publisher.
+  - `WebSite` and `Person` on the home page. The `WebSite` name is what Google shows as the site name in results.
+  - `ProfilePage` on any page with `profilePage: true` in its front matter (the About page). Those pages don't get `BlogPosting`.
+  - All three use the Person from `layouts/partials/schema-person.html` (name, job title, employer, photo, location and social links). Update that file if any of those change.
   - `BreadcrumbList` on posts and sections, always starting at Home, for example Home › Posts › Post title. Google ignores breadcrumbs with fewer than 2 items.
 - **`/llms.txt`:** `layouts/_default/index.llms.txt` lists every published post with its link and description. To change the one-line bio at the top, edit that file.
 - **AI catalog:** `/.well-known/ai-catalog.json` and `/.well-known/ard.json` are both built from `layouts/partials/ard-manifest.html`. They follow the ARD spec (https://agenticresourcediscovery.org/spec/) and keep `specVersion`, which the Lighthouse agent audit requires. The home page links to them with `<link rel="ard">` and `<link rel="ai-catalog">`.

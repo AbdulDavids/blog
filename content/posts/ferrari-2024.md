@@ -9,6 +9,9 @@ hidemeta: false
 comments: false
 summary: "We are checking"
 description: "Ferrari's 2024 season, race by race: a promo video with a slow pitstop, Box Box shenanigans, and enough 'we are checking' to fill Maranello's car park."
+seoTitle: "Ferrari's 2024 F1 Season Mistakes, Race by Race"
+keywords: ["Ferrari 2024", "Ferrari F1 strategy", "Scuderia Ferrari mistakes", "Charles Leclerc", "Formula 1 2024"]
+schemaImages: ["/ferrari.jpg", "/leclerc/suzuka.jpg"]
 disableShare: false
 disableHLJS: false
 hideSummary: false
