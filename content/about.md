@@ -8,8 +8,6 @@ disableHLJS: false
 
 ---
 
-**Abdul Baari Davids** (Abdul Davids) is a South African software engineer and technical writer from Cape Town. Abdul works at [Entelect](https://entelect.co.za/), where most of the work is AI-focused, and writes on this blog about applied AI, LLM engineering, context engineering and software careers in South Africa. Before Entelect, Abdul was a technical writer at [Ritza](https://ritza.co), a software development intern at [CodeInfinity](/posts/codeinfinity), and a co-founder of the web development startup [Cascade](https://www.instagram.com/cascadeweb/).
-
 I was born and raised in Cape Town, South Africa and I’m a software engineer. After working in startups for a bit while studying, I now work at [Entelect](https://entelect.co.za/), where I get to build cool stuff for South Africa. I'm passionate about learning new things and trying out stuff that almost certainly wont work (which you'll find a lot of on this blog).
 
  I'm particularly interested in AI/ML as well as cloud computing and my long term dream is to create a real life [JARVIS](https://en.wikipedia.org/wiki/J.A.R.V.I.S.) from Iron Man, which happens to be the movie that inspired me to pursue software engineering.
