@@ -17,7 +17,7 @@
 
 ## Pages
 
-- [About](https://abduldavids.co.za/about/): Abdul Baari Davids is a software engineer from Cape Town, South Africa, working at Entelect, with a focus on applied AI, machine learning and cloud computing.
+- [About](https://abduldavids.co.za/about/): Abdul Baari Davids is a South African software engineer and technical writer from Cape Town, working at Entelect on applied AI and LLM engineering.
 - [Projects](https://abduldavids.co.za/projects/): Things I've built, shipped, or at least got working once.
 - [Start-up ideas](https://abduldavids.co.za/startup-ideas/): A collection of (possibly terrible) startup ideas
 - [RSS feed](https://abduldavids.co.za/index.xml)

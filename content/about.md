@@ -1,12 +1,14 @@
 ---
 title: "About"
-Description: "Abdul Baari Davids is a software engineer from Cape Town, South Africa, working at Entelect, with a focus on applied AI, machine learning and cloud computing."
+Description: "Abdul Baari Davids is a South African software engineer and technical writer from Cape Town, working at Entelect on applied AI and LLM engineering."
 seoTitle: "About Abdul Baari Davids, Software Engineer in South Africa"
 profilePage: true
 ShowPostNavLinks: true
 disableHLJS: false
 
 ---
+
+**Abdul Baari Davids** (Abdul Davids) is a South African software engineer and technical writer from Cape Town. Abdul works at [Entelect](https://entelect.co.za/), where most of the work is AI-focused, and writes on this blog about applied AI, LLM engineering, context engineering and software careers in South Africa. Before Entelect, Abdul was a technical writer at [Ritza](https://ritza.co), a software development intern at [CodeInfinity](/posts/codeinfinity), and a co-founder of the web development startup [Cascade](https://www.instagram.com/cascadeweb/).
 
 I was born and raised in Cape Town, South Africa and I’m a software engineer. After working in startups for a bit while studying, I now work at [Entelect](https://entelect.co.za/), where I get to build cool stuff for South Africa. I'm passionate about learning new things and trying out stuff that almost certainly wont work (which you'll find a lot of on this blog).
 
