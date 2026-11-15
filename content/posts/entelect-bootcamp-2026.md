@@ -3,7 +3,7 @@ title: 'Becoming an Entelectual'
 date: 2026-11-07T12:00:00+02:00
 tags: ["Internship"]
 
-draft: true
+draft: false
 showToc: false
 TocOpen: false
 hidemeta: false
@@ -12,7 +12,7 @@ description: "Eight weeks in Johannesburg at the Entelect bootcamp: onboarding, 
 disableShare: false
 disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: false
@@ -28,7 +28,7 @@ _Disclaimer:_
 
 I first heard about Entelect at a jobs fair, where I got chatting to a few Entelectuals. I applied online afterwards, and that's how I ended up at their bootcamp at the start of 2026.
 
-In the first week of January I flew up from Cape Town to Johannesburg, where I'd spend the next eight weeks. Entelect paid for the flights and the accommodation for the whole stay.
+In the first week of January I flew up from Cape Town to Johannesburg, where I'd spend the next eight weeks.
 
 ## Onboarding
 
@@ -55,7 +55,7 @@ laptop-on-bed.webp | laptop on the bed
 
 We stayed two to an apartment, each with our own bedroom. After a full day of sessions and group work, my room was the one place I could close the door, call home and switch off for a bit. It also doubled as a workspace on the nights the project didn't finish at the office.
 
-My roommate was a grad from Stellenbosch University, and we ended up helping each other out with pretty much everything, from project bugs to figuring out what to cook. Getting to the office was easy too, because Entelect covered our Ubers.
+My roommate was a grad from Stellies, and we ended up helping each other out with pretty much everything, from project bugs to figuring out what to cook.
 
 Joburg itself took some getting used to. The first thunderstorm was insane. The rain up there is on another level compared to Cape Town, and it shows up out of nowhere. The people made up for it though. Everyone I met was so much friendlier and less cliquey than I'm used to.
 
@@ -69,7 +69,7 @@ melrose-arch-square-night.webp | Melrose Arch square at night
 
 ## Entelect HQ
 
-I'd actually been to the Joburg office once before. In May 2025 Entelect flew me up for my interview. Walking back in a year later as a software engineer, and not a nervous candidate, was a pretty cool moment:
+I'd actually been to the Joburg office once before. In May 2025 I came up for my interview. Walking back in a year later as a software engineer, and not a nervous candidate, was a pretty cool moment:
 
 {{< photos >}}
 office-building-looking-up.webp | the office building from below
@@ -83,7 +83,7 @@ entelect-jhb-office.webp | office sign board
 office-corridor.webp | corridor
 {{< /photos >}}
 
-The coffee at HQ is really good. It's the kind you'd happily pay for, and it's free, so I had a lot of it. On Wednesdays there are croissants too, and they go with Entelect Engage, which is like an in-house podcast hosted by different Entelectuals:
+The coffee at HQ is really good, so I had a lot of it. On Wednesdays there are croissants too, and they go with Entelect Engage, which is like an in-house podcast hosted by different Entelectuals:
 
 {{< photos >}}
 coffee-at-the-window.webp | coffee at the window
@@ -106,9 +106,17 @@ team-in-meeting-room.webp | my group in a meeting room
 
 Most days we'd book one of the meeting rooms, put the Jira board up on the TV and work through it together. With a door and a screen, we could argue about a design out loud without bothering anyone, then split up and build.
 
+Nobody could hold the whole project in their head, so we leaned on each other a lot. Sometimes that wasn't enough, and the team you lean on gets bigger. At one point we were properly stuck setting up an ORM in Java, so we pulled in one of the seniors. They came back with a really cool fix, and a much simpler way of thinking about the problem. We'd been designing the tables first and then fighting to make our Java classes fit them. The senior told us to flip it: design the objects your code actually wants to work with, and let the ORM worry about turning them into rows. Think of it as a document store that happens to sit on top of SQL. Once we looked at it that way, the mapping mostly wrote itself:
+
+{{< photos >}}
+senior-helping-with-orm.webp | a senior helping my group with our ORM setup
+{{< /photos >}}
+
 Every day, senior Entelectuals came in to teach and mentor us. They do this work for real clients, so the sessions were about how they actually approach problems, and afterwards they'd look at what we were building.
 
 On top of that, our group had a weekly mentor session with a senior Entelectual. Our mentor Sheldon once told me to step back and look at the bigger picture from the client's point of view. They're the person who just wants their life made easier, and a lot of the time the thing that makes it easier is the simpler solution. That has stuck with me since.
+
+The seniors also kept pushing us to ask questions, especially the ones that feel too basic to ask out loud. It's tempting to save those for a quiet Google search later, but someone else in the room is usually wondering the same thing. Entelect's culture page says "everyone teaches, everyone learns", and the seniors treated a basic question with the same care as a hard one.
 
 You learn one thing fast: Entelectuals love saying "it depends". Should we use this pattern? It depends. Is this the right database? It depends. By week two we were saying it too:
 
@@ -178,21 +186,27 @@ lobby-selfie-with-luggage.webp | lobby with luggage
 flight-home-cape-town-group.webp | flight home
 {{< /photos >}}
 
-## The lesson learnt
+## The lessons learnt
 
 It wasn't all dinners and games. Bootcamp was hard, and there were plenty of tears along the way from how difficult it got. 10/10, I loved the challenge.
 
 The final demo was hectic, and like every demo before it, it came with a lot of constructive feedback. I wouldn't change it for the world though. Our seniors go to insane lengths to prepare us for the real world, and you can feel it by the end.
 
-That's the lesson I took home: growth isn't optional. Sleep was, but growth wasn't.
+If I had to boil the eight weeks down to three lessons I'm taking with me into client work, they'd be these:
+
+1. **Ask, ask, ask.** Everyone around you is figuring things out too, and whatever you're stuck on, someone has probably hit it before. A senior fixed our ORM setup in an afternoon that we'd have spent days on. So ask, and ask the questions that feel too basic. Entelect lists being [generous with your knowledge](https://culture.entelect.com/the-dna-of-an-entelectual) as part of its DNA, and that only works if someone asks.
+2. **Make mistakes, then learn from every one.** I made a lot of them, and bootcamp was the cheapest place I'll ever get to be wrong. The habit worth keeping is working out why something broke before moving on, because the same mistake costs a lot more once real users are involved.
+3. **Take the feedback, then go ask for more.** Every demo came back with notes, and the only useful thing to do with them is fix what they point at. I don't wait for the next demo anymore. Ask someone to look at your work while it's still easy to change. The same culture page talks about being "always open to new and better ways of doing things", and feedback is how you find them.
+
+Growth isn't optional. Sleep was, but growth wasn't.
 
 There's no offer at the end like with an internship, because we were full-time employees from day one. The bootcamp is there to get you ready for client work. Most of us were placed at clients straight after. Some others in our cohort spent a bit of time on TFO[^tfo] (the bench) first, upskilling for their placements.
 
-If you're in the next cohort: use the mentors as much as you can, bring them problems from your actual project, and say yes to the outings. The dinners are where the cohort turns into friends.
+If you're in the next cohort: use bootcamp as a sandbox and break things, and say yes to the outings. The dinners are where the cohort turns into friends.
 
 If you want to apply, start at the [Entelect graduate programme page](https://culture.entelect.com/graduates). Or [reach out to me](https://www.linkedin.com/in/abduldavids/) if you want a referral or a coffee chat.
 
-Thanks to Entelect for flying us up and looking after us for eight weeks, to Ahmed and Sas for running the bootcamp, to all the bootcamp presenters and the senior Entelectuals who gave up time every day to teach and mentor us, and to my group for being super cool.
+Thanks to Entelect for looking after us for eight weeks, to Ahmed and Sas for running the bootcamp, to all the bootcamp presenters and the senior Entelectuals who gave up time every day to teach and mentor us, and to my group for being super cool.
 
 [^spring]: Spring didn't want us opening a transaction by hand on its shared `EntityManager`. It wants to manage transactions itself through `@Transactional`, so it throws an `IllegalStateException` the moment you try. The fix was one annotation. Finding it took an afternoon.
 [^goldreef]: We went the day before our first big demo.
