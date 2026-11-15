@@ -1,14 +1,16 @@
 ---
 title: 'Becoming an Entelectual'
+seoTitle: 'Becoming an Entelectual: The Entelect Graduate Programme Experience'
 date: 2026-11-15T12:00:00+02:00
 tags: ["Internship"]
+keywords: ["Entelect", "Entelect graduate programme", "Entelect bootcamp", "graduate programme", "software engineer", "software engineer South Africa", "junior software engineer South Africa", "software engineer internship South Africa"]
 
 draft: false
 showToc: false
 TocOpen: false
 hidemeta: false
 comments: false
-description: "Eight weeks in Johannesburg at the Entelect bootcamp: onboarding, a group project, daily mentoring from senior Entelectuals, misadventures, larping, and the people who made it."
+description: "What the Entelect graduate programme bootcamp is like: eight weeks in Joburg as a junior software engineer in South Africa, from onboarding to client-ready."
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -26,7 +28,7 @@ _Disclaimer:_
 
 > I'm keeping the details of the programme vague on purpose. Most of the fun was walking in without knowing what was coming, and I don't want to spoil that for the next batch. I'll stick to what it was like to be there.
 
-I first heard about Entelect at a jobs fair, where I got chatting to a few Entelectuals. I applied online afterwards, and that's how I ended up at their bootcamp at the start of 2026.
+I first heard about Entelect at a jobs fair, where I got chatting to a few Entelectuals. I applied to their graduate programme afterwards, and that's how I ended up at the Entelect bootcamp at the start of 2026 as a junior software engineer.
 
 In the first week of January I flew up from Cape Town to Johannesburg, where I'd spend the next eight weeks.
 
@@ -79,7 +81,7 @@ elevator-mirror-selfie.webp | me in the office elevator
 The office is calm and modern, with long corridors and glass meeting rooms. It looks like the offices in those "day in the life of a software engineer" videos, except this time I was the one working there. There are plenty of hot desks with monitors, so you can sit wherever you want, and the meeting rooms have proper conferencing setups:
 
 {{< photos >}}
-entelect-jhb-office.webp | office sign board
+entelect-jhb-office.webp | Entelect Johannesburg office sign
 office-corridor.webp | corridor
 {{< /photos >}}
 
@@ -219,7 +221,7 @@ If I had to boil the eight weeks down to three lessons I'm taking with me into c
 
 Growth isn't optional. Sleep was, but growth wasn't.
 
-There's no offer at the end like with an internship, because we were full-time employees from day one. The bootcamp is there to get you ready for client work. Most of us were placed at clients straight after. Some others in our cohort spent a bit of time on TFO[^tfo] (the bench) first, upskilling for their placements.
+There's no offer at the end like with a software engineering internship, because we were full-time employees from day one. The bootcamp is there to get you ready for client work. Most of us were placed at clients straight after. Some others in our cohort spent a bit of time on TFO[^tfo] (the bench) first, upskilling for their placements.
 
 If you're in the next cohort: use bootcamp as a sandbox and break things, and say yes to the outings. The dinners are where the cohort turns into friends.
 
