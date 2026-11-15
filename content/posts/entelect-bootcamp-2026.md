@@ -1,6 +1,6 @@
 ---
 title: 'Becoming an Entelectual'
-date: 2026-11-07T12:00:00+02:00
+date: 2026-11-15T12:00:00+02:00
 tags: ["Internship"]
 
 draft: false
